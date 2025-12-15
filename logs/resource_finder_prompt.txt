@@ -7,7 +7,7 @@ RESEARCH TITLE:
 AI->Human Communication: How to?
 
 RESEARCH HYPOTHESIS:
-AI and humans consume information differently; while AI benefits from dense and comprehensive input, humans prefer concise communication. Research is needed to identify and test methods that make AI-to-human communication more effective, especially when conveying large volumes of information, such as research agent outputs, so that humans can efficiently understand and trust AI-generated results.
+Existing AI->Human communication methods are ineffective because AI tends to generate dense, comprehensive outputs while humans prefer concise information; developing new strategies for AI to communicate large volumes of information more effectively to humans will improve human understanding and trust in AI-generated research.
 
 
 RESEARCH DOMAIN:

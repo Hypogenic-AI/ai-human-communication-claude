@@ -1,0 +1,27 @@
+{
+  "faithfulness": {
+    "F_statistic": 0.8349775784753365,
+    "p_value": 0.5449457769222743,
+    "significant": false
+  },
+  "completeness": {
+    "F_statistic": 6.693591202123624,
+    "p_value": 3.2833503247337656e-06,
+    "significant": true
+  },
+  "conciseness": {
+    "F_statistic": 11.631808278867101,
+    "p_value": 1.9027578933338006e-10,
+    "significant": true
+  },
+  "clarity": {
+    "F_statistic": 0.6666666666666664,
+    "p_value": 0.6766962212256791,
+    "significant": false
+  },
+  "overall": {
+    "F_statistic": 3.3300264550264553,
+    "p_value": 0.004353791203170058,
+    "significant": true
+  }
+}

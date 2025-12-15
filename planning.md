@@ -1,206 +1,209 @@
-# Research Plan: AI-to-Human Communication Methods
+# Research Plan: AI-to-Human Communication Strategies
 
 ## Research Question
 
-**How can AI systems communicate large volumes of information to humans more effectively?**
+**How can AI systems communicate large volumes of information more effectively to humans, and which communication strategies improve human understanding compared to traditional dense output?**
 
-Specifically, we investigate: Given the same source content, which communication strategies (dense comprehensive vs. hierarchical/structured vs. adaptive) best enable humans to understand and trust AI-generated information?
+Specifically:
+1. Do progressive disclosure strategies (hierarchical summaries) improve comprehension compared to flat summaries?
+2. Do structured formats (bullet points, sections) outperform prose-style summaries?
+3. Is there an optimal level of conciseness that balances information completeness with cognitive load?
 
 ## Background and Motivation
 
-AI systems like research agents can process thousands of papers, code repositories, and datasets, but their outputs are often overwhelming for humans. A 100-page research report with thousands of lines of code is impractical for human consumption. This creates a fundamental asymmetry:
+AI systems, particularly research agents, generate dense, comprehensive outputs that can overwhelm human readers. While AI benefits from dense information, humans prefer concise, well-structured communication. This mismatch creates a bottleneck in human-AI collaboration, particularly in:
 
-- **AI input preference**: Dense, comprehensive information
-- **Human processing capacity**: Limited cognitive bandwidth, preference for concise, well-structured information
+- Research contexts where agents read many papers and generate lengthy reports
+- Onboarding scenarios where humans need to understand complex AI-generated analysis
+- Decision-making contexts where humans must verify AI conclusions
 
-The gap between AI capability and human comprehension threatens the utility of AI systems. Without effective AI-to-human communication:
-1. Humans cannot verify AI work (trust issue)
-2. Valuable AI insights are missed (utility issue)
-3. Collaboration between humans and AI breaks down (workflow issue)
-
-### Key Insights from Literature Review
-
-From the 11 papers reviewed:
-
-1. **Progressive Disclosure** (Springer & Whittaker, 2018): Simple initial feedback helps users build mental models before complexity
-2. **Cognitive Ergonomics** (CogErgLLM, 2024): Optimize for mental workload, guide attention, facilitate learning
-3. **Multi-Dimensional Quality** (FeedSum, 2024): Three key dimensions - faithfulness, completeness, conciseness
-4. **LLM-as-Evaluator** (Nguyen et al., 2024): LLM evaluation aligns better with human judgment than ROUGE/BERTScore
+The literature identifies several promising approaches:
+1. **Progressive Disclosure** (Springer & Whittaker, 2018): Start simple, reveal complexity progressively
+2. **Cognitive Ergonomics** (CogErgLLM, 2024): Design for reduced mental workload
+3. **Multi-dimensional Optimization** (FeedSum, 2024): Balance faithfulness, completeness, and conciseness
+4. **Human-like Communication** (Human-Like-DPO): Natural conversational style vs. formal AI style
 
 ## Hypothesis Decomposition
 
-**Main Hypothesis**: Different communication strategies vary in effectiveness for human comprehension, and the optimal strategy depends on the tradeoff between information density and cognitive load.
+**H1 (Structure)**: Structured formats (headers, bullets) will receive higher human preference ratings than prose-style summaries for the same content.
 
-### Sub-hypotheses:
+**H2 (Length/Conciseness)**: There is a non-linear relationship between summary length and perceived quality - very short summaries sacrifice completeness, very long ones increase cognitive load.
 
-**H1**: Structured summaries (with hierarchical sections and bullet points) will be preferred over and perform better than dense prose summaries.
+**H3 (Progressive Disclosure)**: Hierarchical summaries (one-sentence TL;DR + paragraph + full) will be preferred over single-length summaries.
 
-**H2**: Progressive disclosure (summary → details on demand) will enable faster comprehension than providing all information upfront.
-
-**H3**: Extreme summarization sacrifices too much information; optimal summaries balance completeness with conciseness.
-
-**H4**: LLM-as-judge evaluation correlates with the three quality dimensions (faithfulness, completeness, conciseness) from FeedSum.
+**H4 (Style)**: Human-like conversational style will be preferred for certain contexts but not others (e.g., casual updates vs. formal research reports).
 
 ## Proposed Methodology
 
-### Approach
+### Approach: Comparative LLM Experiment with LLM-as-Judge Evaluation
 
-We will conduct an **automated experimental study** comparing different AI-to-human communication strategies using:
-1. Real documents from FeedSum dataset (diverse domains)
-2. Real LLM APIs (Claude, GPT-4) to generate different communication formats
-3. LLM-as-judge evaluation for automated quality assessment
-4. Multi-dimensional metrics aligned with human preferences
-
-### Why This Approach?
-
-- **Real LLMs, not simulations**: Ensures findings generalize to actual AI systems
-- **Automated evaluation**: Scalable, reproducible, and (per literature) well-correlated with human judgment
-- **Multi-dimensional metrics**: Captures tradeoffs between completeness and conciseness
-- **Diverse test set**: FeedSum covers 7 domains (news, medical, dialogue, etc.)
+We will use real LLM APIs (GPT-4.1/Claude) to generate summaries using different communication strategies, then evaluate using:
+1. Multi-dimensional LLM-as-judge scoring (faithfulness, completeness, conciseness, clarity)
+2. Automated metrics (ROUGE, BERTScore) for baseline comparison
+3. Pairwise preference rankings between strategies
 
 ### Experimental Steps
 
-#### Experiment 1: Communication Format Comparison
+#### Step 1: Data Selection and Preparation
+- Sample 100 diverse documents from FeedSum test set (covering multiple domains)
+- Extract documents with human reference summaries for ground truth
+- Ensure mix of document lengths and complexity levels
 
-**Goal**: Compare different output formats for the same source content
+#### Step 2: Define Communication Strategies to Test
 
-**Conditions** (4 formats):
-1. **Dense Prose**: Full paragraph summary (baseline)
-2. **Bullet Points**: Key points as bulleted list
-3. **Hierarchical**: Headers with nested bullet points
-4. **Progressive**: One-line summary + expandable details
+**Baseline Strategies:**
+1. **Zero-shot Dense**: Standard LLM summary without formatting constraints
+2. **Zero-shot Concise**: Short summary (1-2 sentences max)
 
-**Procedure**:
-1. Sample 100 diverse documents from FeedSum test set
-2. Generate all 4 formats using Claude/GPT-4 with controlled prompts
-3. Evaluate each format using LLM-as-judge on:
-   - Faithfulness (no hallucination)
-   - Completeness (key info preserved)
-   - Conciseness (no unnecessary verbosity)
-   - Readability (ease of comprehension)
-4. Compute preference rankings
+**Structured Strategies:**
+3. **Bullet Point Summary**: Key points as bullet list
+4. **Structured Sections**: Headers for Context/Key Findings/Implications
+5. **Progressive Hierarchy**:
+   - Level 1: One-sentence TL;DR
+   - Level 2: 3-5 bullet points
+   - Level 3: Detailed paragraph
 
-#### Experiment 2: Length vs. Quality Tradeoff
+**Style Strategies:**
+6. **Formal Technical**: Professional, objective tone
+7. **Conversational**: Natural, engaging tone (informed by Human-Like-DPO)
 
-**Goal**: Find optimal compression ratio for different use cases
+#### Step 3: Generate Summaries Using Real LLM APIs
+- Use GPT-4.1 (or Claude Sonnet 4.5) via API
+- Apply each strategy to all 100 documents
+- Total: 7 strategies x 100 documents = 700 summaries
+- Set temperature=0.3 for consistency, seed for reproducibility
 
-**Conditions** (5 length targets):
-- ~25 words (extreme summary)
-- ~50 words (short summary)
-- ~100 words (medium summary)
-- ~200 words (detailed summary)
-- ~400 words (comprehensive summary)
+#### Step 4: Multi-dimensional LLM Evaluation
+Using a separate LLM call (GPT-4) as evaluator, score each summary on:
+- **Faithfulness** (1-5): No hallucinated or incorrect information
+- **Completeness** (1-5): Captures all key information from source
+- **Conciseness** (1-5): Appropriately brief without unnecessary content
+- **Clarity** (1-5): Easy to understand, well-organized
+- **Overall Quality** (1-5): Holistic assessment
 
-**Procedure**:
-1. Sample 100 documents from FeedSum
-2. Generate summaries at each length target
-3. Evaluate faithfulness, completeness, conciseness at each length
-4. Analyze tradeoff curves
+#### Step 5: Pairwise Preference Comparison
+For a subset (n=50), run pairwise comparisons:
+- Progressive vs. Flat summary
+- Structured vs. Prose
+- Conversational vs. Formal
+Using LLM-as-judge to select preferred option with explanation
 
-#### Experiment 3: Progressive Disclosure Simulation
-
-**Goal**: Test if progressive revelation improves information access
-
-**Conditions**:
-1. **Flat**: All information presented at once
-2. **Two-level**: Summary + one level of detail
-3. **Three-level**: Summary → subsections → full details
-
-**Procedure**:
-1. Sample 50 longer documents (>500 words)
-2. Generate hierarchical summaries at 3 granularity levels
-3. Evaluate whether each level maintains faithfulness
-4. Measure information preservation at each level
+#### Step 6: Statistical Analysis
+- Aggregate scores by strategy
+- Run statistical tests (ANOVA, post-hoc Tukey HSD)
+- Calculate effect sizes
+- Analyze interaction between document type and strategy effectiveness
 
 ### Baselines
 
-1. **Human Reference**: FeedSum provides human-written summaries
-2. **Existing Summarizers**: FeedSum includes outputs from BART, T5, GPT-4-turbo, Mistral
-3. **Simple Truncation**: First N words/sentences of source
+1. **Human Reference**: Gold-standard summaries from FeedSum
+2. **Zero-shot LLM**: Unstructured default summary
+3. **FeedSum Feedback Scores**: Use pre-computed faithfulness/completeness/conciseness scores where available
 
 ### Evaluation Metrics
 
-#### Primary Metrics (LLM-as-Judge)
+**Primary Metrics (LLM-as-Judge):**
+- Faithfulness Score (1-5)
+- Completeness Score (1-5)
+- Conciseness Score (1-5)
+- Clarity Score (1-5)
+- Overall Quality Score (1-5)
 
-1. **Faithfulness Score** (0-1): Does the summary accurately reflect the source?
-   - Prompt: "Rate how faithfully this summary represents the source, with no added or contradicting information"
+**Secondary Metrics (Automated):**
+- ROUGE-1, ROUGE-2, ROUGE-L (vs human reference)
+- BERTScore F1
 
-2. **Completeness Score** (0-1): Are key points included?
-   - Prompt: "Rate how completely this summary captures the essential information"
-
-3. **Conciseness Score** (0-1): Is it appropriately brief?
-   - Prompt: "Rate how concise this summary is - no redundant or unnecessary information"
-
-4. **Readability Score** (0-1): Is it easy to comprehend?
-   - Prompt: "Rate how readable and well-structured this summary is for human comprehension"
-
-#### Secondary Metrics
-
-- Length (word count)
-- Compression ratio (summary length / source length)
-- Key fact coverage (using extracted_keyfacts from FeedSum)
+**Preference Metrics:**
+- Pairwise win rate for each strategy
+- Bradley-Terry ranking model coefficients
 
 ### Statistical Analysis Plan
 
-1. **Comparison tests**: Paired t-tests or Wilcoxon signed-rank tests for within-document comparisons
-2. **Effect sizes**: Cohen's d for practical significance
-3. **Correlation analysis**: Pearson/Spearman for metric relationships
-4. **Multiple comparison correction**: Bonferroni correction for multiple conditions
-5. **Significance level**: α = 0.05
+1. **One-way ANOVA** for each metric across 7 strategies
+2. **Post-hoc Tukey HSD** for pairwise comparisons
+3. **Effect size (Cohen's d)** for meaningful differences
+4. **Pearson correlation** between automated metrics and LLM-judge scores
+5. **Chi-square test** for preference win rates
+6. Significance level: p < 0.05, with Bonferroni correction for multiple comparisons
 
 ## Expected Outcomes
 
-### If H1 is supported:
-- Structured formats (bullets, hierarchical) will have higher readability and similar/better completeness than dense prose
-- Users prefer structured output over paragraphs
+### If Hypotheses Supported:
+- Structured formats (H1): Clarity and Overall scores 0.5+ points higher than prose
+- Conciseness trade-off (H2): U-shaped curve in quality vs. length plot
+- Progressive disclosure (H3): Higher Overall preference in pairwise comparisons (>60%)
+- Style context-dependence (H4): Conversational wins for informal content, formal wins for technical
 
-### If H2 is supported:
-- Progressive disclosure maintains high-level understanding while preserving access to details
-- Multi-level summaries enable efficient information triage
-
-### If H3 is supported:
-- There exists an optimal length range (likely 50-150 words) balancing completeness and conciseness
-- Extreme summarization (<25 words) significantly loses faithfulness/completeness
-
-### If H4 is supported:
-- LLM-as-judge scores will show strong correlation with FeedSum's multi-dimensional feedback
-- Validates using LLM evaluation for AI communication quality
+### If Hypotheses Refuted:
+- No significant difference between strategies would suggest the problem lies elsewhere (e.g., content selection, not presentation)
+- Results would still be valuable for establishing that format/structure have minimal impact
 
 ## Timeline and Milestones
 
 | Phase | Tasks | Estimated Duration |
 |-------|-------|-------------------|
-| Setup | Environment, data loading, API configuration | Complete |
-| Planning | This document | Complete |
-| Experiment 1 | Format comparison | ~60 min |
-| Experiment 2 | Length tradeoffs | ~60 min |
-| Experiment 3 | Progressive disclosure | ~45 min |
-| Analysis | Statistics, visualizations | ~30 min |
-| Documentation | REPORT.md, figures | ~30 min |
+| Setup | Environment, data loading, EDA | 15-20 min |
+| Implementation | Prompts, API calls, evaluation pipeline | 60-90 min |
+| Experimentation | Generate 700 summaries, run evaluations | 60-90 min |
+| Analysis | Statistical tests, visualizations | 30-45 min |
+| Documentation | REPORT.md, README.md | 20-30 min |
 
 ## Potential Challenges
 
-1. **API Rate Limits**: Mitigate by batching requests, caching responses
-2. **Evaluation Variability**: Run multiple evaluation passes, report variance
-3. **Domain Differences**: Analyze results per-domain in FeedSum
-4. **Prompt Sensitivity**: Test multiple prompt variants, document final prompts
+1. **API Rate Limits**: Mitigate with exponential backoff and caching
+2. **Cost Management**: Estimate ~$30-50 for 700 summaries + evaluations; acceptable
+3. **LLM-Judge Reliability**: Validate with subset of human annotations or self-consistency
+4. **Document Diversity**: Ensure FeedSum sample covers multiple domains
 
 ## Success Criteria
 
-1. **Minimum**: Complete all 3 experiments with statistical analysis
-2. **Target**: Clear evidence for/against each hypothesis with effect sizes
-3. **Stretch**: Actionable guidelines for AI-to-human communication design
+1. **Statistical Significance**: At least one strategy shows significant improvement (p < 0.05) over baseline
+2. **Practical Significance**: Effect size (Cohen's d) > 0.3 for top strategies
+3. **Consistency**: Results hold across different document types
+4. **Actionable Insights**: Clear recommendations for AI-to-human communication design
 
 ## Resource Requirements
 
-- **Compute**: CPU sufficient (API-based)
-- **API Budget**: ~$50-100 for ~5000-10000 API calls
-- **Storage**: <1GB for results and cached responses
-- **Time**: ~4-5 hours total execution
+**APIs:**
+- OpenAI API (GPT-4.1) for generation and evaluation
+- OR OpenRouter API for model access
 
-## Reproducibility
+**Python Libraries:**
+- datasets (HuggingFace)
+- openai
+- numpy, pandas
+- scipy (statistics)
+- matplotlib, seaborn (visualization)
+- rouge-score, bert-score
 
-- Random seed: 42 for all sampling
-- All prompts documented in code
-- API model versions recorded (claude-sonnet-4-20250514, gpt-4.1)
-- Results saved as JSON with timestamps
+**Data:**
+- FeedSum test set (~1,400 samples, sample 100)
+- Pre-downloaded in datasets/feedsum/
+
+**Estimated Costs:**
+- Generation: 700 summaries x ~500 tokens avg = 350K tokens input, ~100K output = ~$5
+- Evaluation: 700 x 5 dimensions x ~200 tokens = ~$10
+- Pairwise: 50 x 3 comparisons x ~300 tokens = ~$2
+- Total estimated: ~$17-25
+
+## File Structure
+
+```
+workspace/
+├── planning.md                 # This file
+├── src/
+│   ├── config.py              # API keys, constants
+│   ├── data_loader.py         # Load and sample FeedSum
+│   ├── prompts.py             # All prompt templates
+│   ├── generate_summaries.py  # Generate summaries with strategies
+│   ├── evaluate.py            # LLM-as-judge evaluation
+│   ├── analyze.py             # Statistical analysis
+│   └── utils.py               # Helper functions
+├── results/
+│   ├── summaries/             # Generated summaries by strategy
+│   ├── evaluations/           # Evaluation scores
+│   ├── figures/               # Visualization outputs
+│   └── metrics.json           # Aggregated results
+├── REPORT.md                  # Final research report
+└── README.md                  # Project overview
+```

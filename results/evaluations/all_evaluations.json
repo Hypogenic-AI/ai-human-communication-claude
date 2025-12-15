@@ -1,0 +1,3346 @@
+{
+  "eval_model": "openai/gpt-4.1",
+  "temperature": 0.1,
+  "evaluations": [
+    {
+      "doc_id": "dialogsum-13677",
+      "source": "dialogsum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all statements from the source document without adding or altering information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points from the conversation\u2014including social problems, the role of unemployment, the government's difficulty, and mutual agreement\u2014are included."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise; however, it adds slight elaboration (such as 'Person1 acknowledges the challenge') that could be further condensed."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear and well-organized, making the conversation easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that is faithful, thorough, clear, and mostly concise."
+          },
+          "evaluation_time": 3.5967259407043457
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source conversation without adding any false or unsupported information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points from the conversation\u2014government facing social problems, unemployment as a cause, and the difficulty in handling it\u2014are included."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and contains only relevant information from the source."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to understand and logically organized."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, comprehensive, concise, and clear, effectively capturing the original conversation."
+          },
+          "evaluation_time": 2.7568271160125732
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects all points in the source document without introducing any errors or extra information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points are covered: government's social problems, unemployment as a cause, the difficulty in solving it, and agreement on the challenge."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct, captures the main points, and contains no redundant information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to understand, clearly organized, and logically presents the conversation's sequence."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary\u2014faithful, complete, concise, and clear."
+          },
+          "evaluation_time": 2.919630527496338
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects all points from the conversation without introducing any false or extraneous information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "It captures all key aspects discussed: the presence of social issues, unemployment as a key source, and the difficulty of governments handling it."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and free of unnecessary statements, covering only what was addressed."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically organized, and easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is excellent in faithfully, completely, and clearly capturing the source without any excess."
+          },
+          "evaluation_time": 2.780376434326172
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the dialogue without adding information or distorting the meaning."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All major points from the conversation are captured, including the identification of unemployment as a problem and agreement on its complexity."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and to the point, with no extraneous content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, coherent, and logically organized, making the conversation easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary, effectively covering all required dimensions without flaws."
+          },
+          "evaluation_time": 2.7564454078674316
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all the points from the source, without introducing false information or misrepresenting the speakers\u2019 statements."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "The summary covers all essential aspects discussed: social problems faced by the government, unemployment as a key factor, difficulty in managing unemployment, and consensus between the speakers."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary could be slightly more concise; it includes some repetition (e.g., reiterating the consensus), but does not add unnecessary content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear, logically organized, and easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is a high-quality summary that remains true to the source, is well-written, and conveys all key information clearly and accurately."
+          },
+          "evaluation_time": 4.5912251472473145
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the dialogue without introducing any false information or making unsupported claims."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points\u2014discussion of social problems, unemployment as the main cause, difficulty for governments to handle it, and agreement between speakers\u2014are included."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise, but phrases like 'So basically' and 'it\u2019s a pretty tough problem to solve' add slight informality and could have been more succinct."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear, easy to understand, and logically presents the main points from the conversation."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is excellent, accurately and clearly reflecting the main ideas and their nuances with minor room for tightening language."
+          },
+          "evaluation_time": 2.7925477027893066
+        }
+      }
+    },
+    {
+      "doc_id": "meetingbank-5656",
+      "source": "meetingbank",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source document's facts, covering the council action, the specifics of the bill, the process of community involvement, and the voting outcome without any fabrication."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "It includes all key elements: the confirmation, the bill\u2019s contents, neighborhood scope, community involvement, lack of controversy, gratitude expressed, and the unanimous vote."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is tightly written, covers all important points without unnecessary information or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "It is well-organized and easy to follow, presenting information in logical order using clear, professional language."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This summary is highly effective, accurate, and well-crafted, thoroughly covering all necessary aspects in a concise, clear manner."
+          },
+          "evaluation_time": 2.282266855239868
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects all key facts from the source document without introducing any inaccuracies or unsupported information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the main points: unanimous passage, adoption of new guidelines for Ballard, replacement of old guidelines, and community involvement. However, it omits some specific details such as the mention of the broadened coverage area, the number of community meetings, and the lack of controversy."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and contains no unnecessary content\u2014every element is directly relevant to the core message."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and clearly states the action taken, what was changed, and the role of community input."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is highly effective, capturing the essential aspects with clarity and accuracy, despite missing some finer details."
+          },
+          "evaluation_time": 2.8912768363952637
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source document, capturing facts and key points without distortion or inclusion of false information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential information is included: confirmation of an appointment, details of the council bill, origins and purpose of the new guidelines, community involvement, passage of the bill, and mention of the lack of controversy."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary presents only relevant and necessary information, with no extraneous details or redundancy."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to read, logically structured, and clearly conveys each point without ambiguity."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary excels across all important metrics, offering a faithful, complete, concise, and clear account of the original discussion."
+          },
+          "evaluation_time": 2.714895486831665
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source document, including the council bill, the committee's recommendation, the community engagement, scope changes, and the unanimous vote; no information is fabricated or misrepresented."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points are covered: purpose of the bill, the committee's role, community involvement, expansion of guideline coverage, and the unanimous passage are explicitly and accurately represented."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is focused and omits nonessential procedural details while thoroughly covering the core topics, with no unnecessary repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is logically structured, easy to read, and clearly articulates complex processes like community outreach and council procedure."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary: accurate, full, succinct, and highly readable."
+          },
+          "evaluation_time": 3.72133731842041
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reports all events and decisions from the source without introducing any false or misleading information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential details are present: confirmation of the appointment, summary and passage of the bill, community process, scope of new guidelines, and voting outcome."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "Both the TL;DR and main points are succinct, and the detailed summary avoids unnecessary elaboration while covering all necessary context."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, organizing details logically and presenting information in an easy-to-read, accessible format."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "An excellent summary that is accurate, complete, concise, and easy to understand, reflecting best practices for summarization."
+          },
+          "evaluation_time": 3.856224298477173
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source document, capturing specific actions, the content of the bill, the unanimous vote, and the emphasis on community involvement without introducing inaccuracies or unsupported information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "It captures all the key points: bill details, background on the guidelines, community engagement, unanimous committee/council approval, and the context of smooth passage."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is appropriately succinct, including only relevant details with no extraneous or redundant content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logical, and well-organized, making it easy to understand the process and reasoning behind the bill\u2019s passage."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that meets high standards across all dimensions."
+          },
+          "evaluation_time": 2.8812336921691895
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all the main points from the source without adding or distorting information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all key decisions, community involvement, and outcomes, but omits some minor specific details such as the specific council bill number and exact names of speakers/voters."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and includes only the necessary information for understanding what happened, with no unnecessary detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The main actions and their significance are clearly presented in an easy-to-understand and logically organized manner."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary does an excellent job conveying the essence and main outcomes of the meeting in a clear, concise, and accurate way."
+          },
+          "evaluation_time": 7.826738119125366
+        }
+      }
+    },
+    {
+      "doc_id": "dialogsum-13706",
+      "source": "dialogsum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all facts from the source document without introducing any incorrect or fabricated information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "It includes all key points: the move, introduction, the small friendly town, Karl's background, and reasons for moving."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct, capturing all essential details without unnecessary elaboration or redundancy."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-structured, and easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that faithfully, completely, and clearly captures all main points in a concise manner."
+          },
+          "evaluation_time": 3.7533419132232666
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately depicts the source conversation without adding or changing any facts."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary includes all main points\u2014reason for moving, origin, destination, and meeting the neighbor\u2014but omits the detail about the friendliness of the town and comparison to Chicago's neighborliness."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and free of unnecessary information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, easy to understand, and logically organized."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is highly accurate, clear, and concise, capturing the core content and intent of the original conversation."
+          },
+          "evaluation_time": 3.7713420391082764
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary contains no factual errors or hallucinations; all information is directly supported by the source dialogue."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points are included: names, moving in, town character, origin city, and reasons for moving."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and to the point with no unnecessary repetition or extraneous detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clearly written, with organized bullet points making it easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "Excellent summary; it is faithful, complete, concise, and clear, covering all key points accurately."
+          },
+          "evaluation_time": 3.57362961769104
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all main facts from the source without adding any false information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points are included: introductions, the neighborly nature of the town, contrast with Chicago, and Karl\u2019s reasons for moving."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and avoids unnecessary details or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The information is organized logically and presented in a clear, understandable manner."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary effectively captures the conversation\u2019s key points in a faithful, concise, and well-structured way."
+          },
+          "evaluation_time": 2.5000438690185547
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary closely matches the source content with no fabricated or incorrect details."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All major points\u2014including the motivations for moving, the contrast with Chicago, and the new neighbor\u2019s welcome\u2014are included."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary avoids unnecessary detail and repetition, providing only relevant information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The language is straightforward and the structure (TL;DR, bullets, detailed summary) aids clarity."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This summary is accurate, thorough, concise, and very clear; an excellent representation of the source dialogue."
+          },
+          "evaluation_time": 2.882220983505249
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source dialogue, with no false information or hallucinations."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points are included, such as introductions, regional contrasts, town friendliness, and reasons for moving."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is appropriately brief, capturing all essential points without unnecessary detail or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to understand, logically organized, and clearly written."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "An excellent summary that is wholly accurate, complete, concise, and clear."
+          },
+          "evaluation_time": 2.4852278232574463
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source dialogue and does not introduce any false information or details that aren't present in the original."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points are included: introduction, difference between towns, reason for moving, and affordability of the new place."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary covers all main points efficiently, without unnecessary details or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The writing is natural, logical, and easy to understand, capturing the tone and content clearly."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that is faithful, complete, concise, and clear."
+          },
+          "evaluation_time": 3.247828960418701
+        }
+      }
+    },
+    {
+      "doc_id": "meetingbank-5435",
+      "source": "meetingbank",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is mostly faithful to the source document. However, there is a minor inaccuracy: the summary mentions city staff confirming ongoing efforts to update the senior strategic plan and promising a report in April, which is not explicitly stated in the provided transcript. Otherwise, the summary accurately reflects the main points discussed."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures key elements: the motion for a report, the focus on meal programs and transportation, inspiration from Ruth Ricker, mention of transit changes, council member support, and funding considerations. It omits some of the more personal council member statements and does not reflect every district-specific concern or all named participants, but overall covers the essentials."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids unnecessary repetition or detail. All information included is relevant and contributes to a comprehensive understanding."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, easy to read, and logically organized, making it clear and understandable for readers."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is strong, accurately capturing the core discussion and supporting details. Minor faithfulness and completeness issues prevent it from being perfect, but it is an effective and high-quality summary."
+          },
+          "evaluation_time": 5.04604959487915
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source document without introducing any false or misleading information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the main points: the request for a review of the senior meal program, the focus on costs and transportation, and the 90-day deadline. However, it omits some specific details, such as community and individual motivations (e.g., Ruth Ricker\u2019s story), and mention of specific funding sources (C1/C2) suggested in the discussion."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and free of redundancy, covering all major points without unnecessary elaboration."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-structured, and easy to understand. The information is logically presented."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "Overall, the summary is high quality: it distills the conversation into the key action item and supporting context efficiently and accurately, with only minor omissions that do not detract significantly from understanding."
+          },
+          "evaluation_time": 4.949783086776733
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is mostly faithful but introduces some information not explicitly stated in the source, such as the citywide senior strategic plan update and a comprehensive report expected in April, which were not mentioned in the provided transcript. All other points closely reflect the original discussion."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all major points: the Council's recommendation, the advocacy inspiration, support from members, reference to specific areas, funding suggestions, and transportation challenges. However, the addition about the city updating the senior strategic plan may fill a gap not covered in the provided text, and there could be minor omissions due to truncation."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and covers all major points without redundancy or unnecessary detail. It condenses the discussion into a brief, comprehensive overview."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-structured, and easy to follow. Each bullet articulates a main idea, supporting details, and is logically organized."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a high-quality summary that effectively conveys the main points and details from the discussion. Minor deductions for faithfulness due to inclusion of details about the strategic plan and report timing not in the excerpt provided, but overall it is accurate, clear, and concise."
+          },
+          "evaluation_time": 6.531276226043701
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is highly faithful, accurately presenting the main discussion points and specific motivations. There is a slight inference with 'ongoing strategic planning' and mention of an April update, which isn't fully supported or explicit in the provided (truncated) source, but otherwise no fabrication or major errors."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All major points from the discussion are present: the proposal, personal motivations, transportation/access, broad council support, suggestions for funding sources, and strategic planning are all included."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is compact, with no noticeable redundancy or irrelevant information. Each key point is presented succinctly."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, separating the main topic, key points, and conclusion. Each point is clear and easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary: accurate, thorough, concise, and well-organized. Minor inferences do not detract meaningfully from its utility or precision."
+          },
+          "evaluation_time": 4.646533250808716
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source document, closely tracking the council's discussion, the involvement of the Senior Citizen Advisory Commission, references to funding, transportation, and community input. There are no hallucinated or misstated facts."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all major points: restoring meal programs, transportation challenges, funding considerations, personal/community inspirations, council support, and a 90-day report deadline. It does condense/rephrase rather than explicitly mention every minor comment (such as individual locations mentioned, or the depth of personal anecdotes), but all essential content is reflected."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is appropriately brief, avoids unnecessary repetition, and condenses many viewpoints into clearly organized points without sacrificing information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear, easy to read, and well-structured, with logical progression from the TL;DR to key points and a detailed paragraph."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that is faithful, largely complete, concise, and clear, providing a thorough and readable synthesis of the meeting discussion."
+          },
+          "evaluation_time": 5.533406734466553
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is mostly accurate and sticks to the source, but it introduces a few inferred points not explicitly stated, such as staff reporting on a strategic plan and a 'consolidated plan,' which are not clearly referenced in the provided source."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the central issues, major speakers, motivations, and Council actions. However, it mentions program expansion and more interdepartmental planning than is plainly stated in the source document."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is generally succinct, but a few sentences could be trimmed for brevity, especially those that elaborate on coordination efforts or cite additional mechanisms not in the transcript."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, clear, and easy to follow, accurately presenting the sequence and reasoning within the conversation."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is strong, delivers almost all required information, and is easy to understand. Some minor inferred details reduce faithfulness and completeness slightly, but overall, it effectively summarizes the meeting."
+          },
+          "evaluation_time": 4.568684101104736
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is largely faithful to the source document, capturing the main actions, motivations, and topics discussed. However, it introduces a small piece of information not found in the original: 'city staff said they\u2019ve been looking at everything involving senior services, updating their strategy, and will report back soon with a comprehensive plan.' This isn't explicitly stated in the transcript, so it's a minor overreach."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers main actions (request to the commission, cost/transportation review, report in 90 days), community support, the personal story, and councilmembers\u2019 concerns. It\u2019s missing a mention of the specific hope regarding the C1 and C2 funding for the meal programs, and doesn\u2019t reference every speaker, but otherwise it captures essential points."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "It is well-condensed and does not include unnecessary details or verbatim remarks, sticking to an accessible summary of the discussion."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear, logically organized, and easy for a layperson to understand. It maintains a friendly, narrative style without becoming informal to the point of confusion."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "Overall, the summary is strong\u2014accurate, clear, well-focused, and easy to read. Slight over-interpretation regarding city staff planning keeps it from a perfect score, but otherwise it is a high-quality summary."
+          },
+          "evaluation_time": 5.448972225189209
+        }
+      }
+    },
+    {
+      "doc_id": "pubmed-120253",
+      "source": "pubmed",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the content of the source document, avoiding misinformation or unsupported statements."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all major points, including the importance of synchrony, results from the Carlucci study, mechanisms, and clinical implications, but omits some minor technical detail (e.g., specifics about variable flow features or neural timing mismatches)."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise, but could be tightened slightly by minimizing repetition of consequences and streamlining explanations."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear and logically organized, effectively explaining a complex topic in accessible language."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that accurately and clearly presents the essential information from the source, with only minor lapses in detail and brevity."
+          },
+          "evaluation_time": 3.8659112453460693
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source without introducing false information or omitting key facts relevant to its main point."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary covers the main idea\u2014that trigger dys-synchronies are common and significant\u2014but omits some important details such as the types of dys-synchrony, their causes, and specific study results."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids unnecessary detail or redundancy."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "It is clearly worded and well-organized, making it easy to understand."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "It is a clear and faithful summary of the main point, but lacks detail on the causes and implications identified in the source, making it somewhat incomplete for a technical or expert audience."
+          },
+          "evaluation_time": 3.6093461513519287
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the information in the source document without introducing any incorrect or fabricated facts."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all the major points, including the need for synchronization, frequency and causes of dys-synchrony, its impact, and the need for further research. However, it omits some nuanced details like specific terminology (e.g., machine Ti < neural Ti) and the statement that flow/cycle synchrony was not addressed in the study itself."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and free of unnecessary repetition or verbose explanations, efficiently distilling complex concepts into brief bullet points."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary uses clear language, logical organization, and helpful formatting, making the content easy to read and understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "Overall, the summary is accurate, thorough, concise, and clearly presented, making it an excellent representation of the source document."
+          },
+          "evaluation_time": 3.6055805683135986
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the key points and findings in the source document and does not introduce any new or incorrect information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the main points about patient-ventilator dys-synchrony, its prevalence, contributing factors, and clinical implications. It omits some specific mechanistic details (e.g., effects of machine Ti vs. neural Ti, specifics about flow synchrony), but these are minor omissions for the summary's purpose."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and omits unnecessary detail, focusing only on the most critical points."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is logically organized with clearly labeled sections and uses straightforward language suitable for the intended audience."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary: it is accurate, comprehensive, concise, and easy to follow, meeting all the criteria for a high-quality summary of technical content."
+          },
+          "evaluation_time": 3.572145462036133
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source material, mentioning the key findings, terminology, and mechanisms discussed without introducing incorrect or fabricated information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "It covers the principal points, including the importance of synchrony, the prevalence and types of dys-synchrony, contributory factors, and the impact on patient outcomes. It omits minor technical details, such as precise percentages for specific forms of dys-synchrony, and some nuanced discussion about the physiologic mechanisms."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary strikes a good balance by including major points without unnecessary elaboration or redundancy. Both the TL;DR and bullet points are succinct."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured and uses clear language. The organization into TL;DR, bullets, and a detailed section helps comprehension."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is a high-quality summary that is accurate, comprehensive, concise, and clear. Minor gaps in specificity are outweighed by the overall effectiveness for a general summary."
+          },
+          "evaluation_time": 4.950706243515015
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary remains true to the source, accurately representing all the main points and not introducing any false or unsupported information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key findings, concepts, and study results from the source are clearly captured, including the importance and prevalence of dys-synchrony, its causes, and the study's limitations."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is generally concise and omits extraneous details, though the last sentence appears truncated, which suggests an attempt to be thorough but results in abruptness."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically structured, and uses precise language, making complex technical concepts accessible."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is a high-quality summary that is accurate, well-structured, comprehensive, and clear, only slightly limited by the truncated ending."
+          },
+          "evaluation_time": 6.297715663909912
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source material without introducing factual inaccuracies or hallucinated details."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all main points\u2014purpose of assisted ventilation, the importance of synchrony, summary of the study, causes of dys-synchrony, and key implications\u2014but omits a few more technical specifics (e.g., details like esophageal pressure measurement, 'pressure-volume' profile concepts, and distinctions between pressure/flow-cycled breaths)."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is generally concise and avoids unnecessary detail, though a few sentences are somewhat repetitive or could be tightened up further."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and communicated in clear, straightforward language, making complex clinical concepts very accessible."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "Despite minor omissions, this summary is clear, accurate, and well-tailored for general understanding, successfully conveying core findings and importance."
+          },
+          "evaluation_time": 8.2342848777771
+        }
+      }
+    },
+    {
+      "doc_id": "cnn-293962",
+      "source": "cnn",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is accurate in most details, but it introduces information not explicitly present in the source, such as explicit mention of Clinton Foundation's Saudi donations, which the provided text does not mention."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary includes nearly all key events: the road trip, the Chipotle stop, the Iowa visit, meeting residents, the roundtable at Kirkwood, both supporters and protesters, and the significance of the van. However, some small details or context (e.g. sunglasses making Hillary unrecognizable, the role of the media in reporting her Chipotle visit) are omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is appropriately brief and covers the essential information without unnecessary detail or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-organized, and easy to understand, with a logical flow of information."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a strong, accurate, and clear summary capturing most main points, though minor faithfulness and completeness issues prevent it from being perfect."
+          },
+          "evaluation_time": 3.61765456199646
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the content of the source document without introducing any false information."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "It covers the main points\u2014Clinton's tour in Iowa, use of the 'Scooby' van, campaign stops, and the focus on education and income inequality\u2014but omits colorful details such as specific interactions with residents, the incident at Chipotle, protester reactions, and the extensive media presence."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and free from redundant or unnecessary information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, easy to read, and well-organized."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is accurate, concise, and clear, but misses some specific details and colorful anecdotes that would provide a fuller picture."
+          },
+          "evaluation_time": 3.178239583969116
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is mostly accurate and avoids hallucination, but introduces details about the van's construction ('made in the USA with union labor') and security features (armor plating, Secret Service approval) that are not stated in the source document."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "It covers almost all major events\u2014Clinton\u2019s travel in the 'Scooby' van, stops at Chipotle and the Iowa coffee house, topics of her roundtable, public reactions including supporters and protesters, and the media attention. However, specific minor details (like her interactions with children, the sunglasses anecdote, or what she ordered at Chipotle) are omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary condenses the lengthy article into just the main points without unnecessary elaboration or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, lists events in logical order, and is easy to read and understand."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "It is a strong summary that accurately and clearly captures the main events and facts, but introduces one or two small pieces of information not present in the source, preventing it from achieving a perfect score."
+          },
+          "evaluation_time": 4.21338152885437
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately covers the main events and details from the source document, with no significant false information. One minor inaccuracy is mentioning the Clinton Foundation-Saudi Arabia protest sign, which isn\u2019t clearly in the provided source text, but overall it's highly faithful."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers nearly all essential information, including the route, campaign strategy, public interactions, and symbolic elements of the trip. It omits a few colorful details (like Clinton\u2019s order at Chipotle and some direct quotes), but these are minor."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and well-focused on major points without unnecessary detail or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clearly written, well-structured, and easy to understand, with key points logically organized."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, nearly complete, highly concise, and very clear\u2014making it excellent overall, with only minor room for improvement."
+          },
+          "evaluation_time": 5.891547203063965
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the content of the source document with no factual errors or invented information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most key points are covered\u2014including campaign launch, the 'Scooby' van, stops at local businesses, the roundtable on education, media attention, and protesters\u2014but some details (like specific protest slogans and certain interactions) are summarized or omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids unnecessary detail, especially in the TL;DR and key points. The detailed section is informative but not overly long."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically structured, and easy to follow, with well-organized sections and straightforward language."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is a high-quality summary that is faithful, clear, mostly complete, and concise, suitable for readers seeking a quick yet detailed understanding."
+          },
+          "evaluation_time": 3.5603561401367188
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary largely stays true to the source document and avoids fabrications, but it introduces content near the end about 'Clinton Foundation donations and Republican critiques' that is not present in the provided text."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most of the major events and details\u2014Clinton\u2019s van, stops in Iowa, being unrecognized at Chipotle, interactions with locals, media presence, and protest\u2014are included, but some specific anecdotes and colorful details are omitted."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise, yet it adds a paragraph about Clinton Foundation controversy and competitors that isn't relevant to the provided source, making it very slightly less tight."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-structured, and easy to follow, providing an accessible overview of the events and themes."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "High quality summary that accurately conveys key points and context with minor issues of extraneous content and missing some colorful specifics."
+          },
+          "evaluation_time": 4.023340702056885
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is largely faithful to the source, accurately describing events and focusing on key moments like the van, Chipotle, Iowa stops, and protestors. Slight creative embellishment appears (e.g., 'luxury features' of the van and some tone), but nothing majorly false."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most main points are included: the van, unrecognized Chipotle stop, Iowa coffee shop visit, local interactions, education roundtable, protestors, and media circus. A few details are missing, like the Chipotle order and specifics about media coordination, but core storylines are present."
+          },
+          "conciseness": {
+            "score": 3,
+            "justification": "The summary is somewhat conversational and could be more concise. Some repetition and casual commentary make it a bit longer than necessary, though major redundancies are avoided."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "Very clear, naturally organized, and easy to follow. The flow is logical and helps a reader unfamiliar with the context understand what happened."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is engaging and accurate, covering the major points in a clear, friendly style. Slightly less formal and longer than ideal for some users, but high quality for a conversational recap."
+          },
+          "evaluation_time": 4.012764930725098
+        }
+      }
+    },
+    {
+      "doc_id": "govreport-17809",
+      "source": "govreport",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source document, capturing the structure and key events without introducing factual inaccuracies or unsupported assertions."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers almost all important information, including the training phases, the role of the Ready Aircrew Program, oversight, and the RAND report's review and recommendations. However, minor procedural details and nuance (such as the distinction between primary and secondary missions) are condensed or omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary strikes a balance between detail and brevity, avoiding redundant information while still providing all necessary context about training phases, organizational structure, and the RAND report."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and straightforward, with clear explanations of the sequence of training, program oversight, and the RAND report's findings and subsequent Air Force actions."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is highly effective, providing an accurate, concise, and clear condensation of the source document with no significant omissions or errors."
+          },
+          "evaluation_time": 3.8657867908477783
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 3,
+            "justification": "The summary accurately describes the multi-phase training process and references the RAND report's role, but it introduces information not found in the source (e.g., deficiencies in management, incomplete implementation due to resource constraints, and recommendations being considered closed), which is not stated in the source document."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary covers the general topic and main actors (Air Force, RAND report, Ready Aircrew Program) but omits specific details about the distinct training phases and statutory elements addressed, as well as the content of the RAND recommendations."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and avoids unnecessary details."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to read and clearly organized."
+          },
+          "overall": {
+            "score": 3,
+            "justification": "While concise and clear, the inclusion of information not in the source and lack of key details prevents this summary from being rated higher."
+          },
+          "evaluation_time": 5.283990144729614
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary mostly represents the source document accurately and includes the key processes and findings about pilot training and the RAND report, but there is a slight overstatement regarding 'identifying issues with outdated assumptions'\u2014the source only specifies reviewing and assessing the assumptions rather than declaring them outdated."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers the main training phases, the Ready Aircrew Program, and key findings and actions related to the RAND report. However, it omits some procedural details (e.g., specifics about secondary vs. primary mission training requirements) and does not mention the tables referenced, but all main points are present."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is concise, with each bullet capturing major points without unnecessary detail or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The structure is clean and logical, making the summary very easy to read and understand."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a high-quality summary with minor faithfulness and completeness caveats, but it excels in clarity and conciseness."
+          },
+          "evaluation_time": 4.812150001525879
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the main points, sequence of training phases, the role of the Ready Aircrew Program, RAND\u2019s involvement, and the Air Force\u2019s responses without introducing factual errors or unsupported claims."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all critical elements: the phases of pilot training, the Ready Aircrew Program, the RAND report and statutory elements, identified deficiencies, Air Force responses, and status of recommendations. Some fine details, such as specific statutory language or examples of training events, are missing, but this does not affect the essential points."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is well-focused, reviewing only the main findings, processes, and outcomes with no unnecessary repetition or verbosity."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clearly organized, using headings and bullet points to separate topics logically, making it easy to follow and understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is thorough, accurate, well-structured, and concise; it successfully communicates the original document\u2019s most important information in an accessible format."
+          },
+          "evaluation_time": 44.6265389919281
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary closely follows the facts in the source document and does not introduce any false or unsupported statements."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Covers the main phases of training, RAND's findings, recommendations, and the Air Force's response, but omits some details such as the involvement of specific commands and some granular legislative/statutory context found in the source."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary distills a dense and lengthy source into brief, well-structured sections with clear emphasis on the most important elements without unnecessary verbosity."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, logically structured, and easy to follow, presenting complex information in a clear manner."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "An accurate, readable, and succinct summary that effectively conveys all major elements of the source and demonstrates strong summarization skills."
+          },
+          "evaluation_time": 3.4931671619415283
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is generally accurate and does not introduce false information, but slightly extrapolates on RAND\u2019s findings (e.g., 'persistent deficiencies') which are not explicitly stated in the source excerpt."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers the pilot training phases, role of Air Combat Command, the RAND report\u2019s purpose, findings, and recommendations, but omits some specific details\u2014such as the precise statutory elements addressed and the granular breakdown of roles among subordinate organizations."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and contains no redundant or unnecessary information, appropriately condensing complex material."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The language is clear, and the summary is logically structured, making it easy to follow the main points."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary offers a highly accurate, clear, and concise account of the source, though minor nuances and some specific details are condensed or omitted."
+          },
+          "evaluation_time": 3.937993049621582
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source document, capturing both the process of Air Force pilot training and RAND's review without introducing incorrect facts."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all major stages of training, explains the Ready Aircrew Program, and includes RAND's findings and recommendations. Some minor details, such as specific organizations involved or the exact number of RAND recommendations, are less emphasized or omitted."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is generally concise and avoids redundant detail, though a few conversational elements could be trimmed for even greater brevity."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The conversational tone makes the summary very clear, logical, and easy to understand, with well-marked sections."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is clear, faithful, and covers key information well with only minor omissions and some room for more succinct phrasing."
+          },
+          "evaluation_time": 2.9531259536743164
+        }
+      }
+    },
+    {
+      "doc_id": "meetingbank-5236",
+      "source": "meetingbank",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is mostly faithful to the source, accurately representing the main points regarding the shortfall, its causes, mitigations, and use of reserves; however, it introduces minor extrapolations (e.g., specific reference to the American Rescue Plan, explicit mention of Measure A surplus redirection) that are not present or not detailed in the given portion of the source."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "It captures the critical challenges (pandemic, social unrest, contract costs), the projected vs actual shortfall, mitigation actions, depletion of reserves, and the necessity of future support. It omits a few specifics from the source, such as ongoing accounting adjustments and certain detailed justifications for better-than-expected revenue performance."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is well-edited, avoids redundancy, and delivers the necessary information in a compact format without extraneous detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is logically structured, clearly written, and easy to follow, effectively communicating the financial situation and actions taken."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is high quality: accurate, comprehensive, and clear. Small issues with faithfulness and completeness prevent a perfect score, but it is well above average."
+          },
+          "evaluation_time": 7.280644655227661
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is mostly accurate, capturing the shortfall amount, causes (pandemic and unexpected costs), and use of reserves. However, it inaccurately claims discussion of reallocating surplus funds to infrastructure and awaiting federal aid, which is not substantiated by the source provided."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "Captures the main ideas (shortfall, causes, use of reserves), but omits important supporting details such as the scale of original projections, specific pandemic-related mitigation actions, and additional financial context (e.g., hiring freeze, federal/state grants)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and omits unnecessary or verbose statements."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured and easy to read."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is concise, clear, and mostly faithful, but suffers from a small faithfulness error and a lack of some important context."
+          },
+          "evaluation_time": 6.972071409225464
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately conveys the main points and figures from the source, such as the shortfall amount, the use of reserves, and revenue sources. However, there is new information (like the measure program details and specific references to the American Rescue Plan) that were not clearly stated in the source segment provided, making it slightly less than fully faithful."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "It covers most key elements: causes and size of the shortfall, use of reserves, and mitigation measures. However, it introduces some details that were not in the excerpt, and omits some smaller points (like specifics about ongoing accounting adjustments and pandemic-related grants)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct, distilling complex budget details into a brief set of bullet points without unnecessary elaboration."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "Information is well-organized into clear and distinct bullet points, making the summary accessible and easy to understand."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "A very good summary that conveys major details accurately and in a well-structured fashion, but introduces and omits minor details affecting full faithfulness and completeness."
+          },
+          "evaluation_time": 5.915078401565552
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately reflects the main points and numbers in the source, with no major factual distortions or invented details. However, the Measure A surplus and specific future allocations were not discussed in the provided source segment, so this is a slight overreach."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers nearly all critical aspects: the pandemic\u2019s impacts, the shortfall amount, mitigation strategies, reserve usage, and funds affected. It does not miss significant portions of the source, but includes a point (Measure A allocations) not supported by the visible transcript, so it may slightly overstate completeness."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is concise and avoids unnecessary repetition or irrelevant details, distilling the lengthy discussion into organized key points."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-structured, with logical headings and bullet points, making it easy to follow."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a strong summary: accurate, clear, and concise. Minor deductions are due to the possible inclusion of a Measure A detail not found in the provided transcript segment, but otherwise it is faithful and comprehensive."
+          },
+          "evaluation_time": 9.26309847831726
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary closely reflects the source document, capturing the main facts and events without introducing significant inaccuracies. However, there is a minor note: the summary mentions 'prioritizing critical infrastructure and await federal relief'\u2014while the possibility of using stimulus funds is mentioned in the detailed summary, the idea of active 'prioritization' is less explicit in the source."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary includes most of the key details: the shortfall amount, causes, actions taken, effects on reserves, positive revenue surprises, and mention of a surplus in a measure-specific fund. It omits minor details such as the exact amounts of certain reserves and some nuances about ongoing accounting complexities."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is appropriately brief yet detailed, and all points included are relevant to the main topic. There is no unnecessary repetition or superfluous information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, logical, and easy to read. The structure (TL;DR, key points, detailed summary) adds clarity and makes it accessible."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an accurate, clear, and well-composed summary that captures the most important aspects of the source document. Minor faithfulness/completeness issues do not detract significantly from its quality."
+          },
+          "evaluation_time": 16.85386872291565
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary reflects the points raised in the source, does not introduce false information, and is fully consistent with the original statements."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers the main points (pandemic impact, shortfall, mitigation measures, use of reserves), but truncates the ending and omits some fund-specific details and nuances about ongoing adjustments."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise, omitting speaker chatter and focusing on substance, but is on the lengthier side and could be tightened further without losing meaning."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, logically sequenced, and uses clear language to distill complex fiscal issues for easy understanding."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "Very strong summary; accurate, clear, and mostly complete, only limited by slight truncation and some opportunity for further conciseness."
+          },
+          "evaluation_time": 5.028406858444214
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately reflects the main points of the source document and does not introduce explicit falsehoods, but it adds an interpretation about a particular sales tax measure resulting in surplus funds for infrastructure projects, which is not substantiated in the provided source."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most essential details are captured: the causes and magnitude of the shortfall, corrective actions, use of reserves, and outlook. However, the summary omits some specific accounting complexities, the reserve figures, and the explicit note that final budget numbers may still change slightly."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is conversational and mostly succinct, packaging important details without much redundancy, though it could be trimmed slightly, especially the closing paragraph which repeats earlier points."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clearly written, well-structured, and very easy to follow. Key events and decisions are neatly organized and explained for a non-expert audience."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is easy to read, captures the primary points, and avoids serious misrepresentation, but invents one detail (the surplus sales tax fund use) not in the original document and omits a bit of nuance about final numbers pending further audit."
+          },
+          "evaluation_time": 5.9362804889678955
+        }
+      }
+    },
+    {
+      "doc_id": "mediasum-447224",
+      "source": "mediasum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 3,
+            "justification": "The summary accurately represents the Catholic Church abuse settlement and the Alhambra fire, but includes unrelated international and death penalty stories (Bush, Troy Davis) not found in the provided source document, thus introducing content that is not present (hallucination)."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary covers the essential details of the abuse settlement and the fire, including payout amounts, participant perspectives, and location details. However, it adds fabricated details (Bush, Troy Davis) and does not include some minor direct quotes or the specifics about the court proceedings and Mahony\u2019s reluctance for a public trial."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is appropriately succinct for the two core news items but includes unnecessary coverage of international and unrelated domestic stories, making it somewhat longer than needed."
+          },
+          "clarity": {
+            "score": 4,
+            "justification": "The summary is clear, well-organized, and easy to read, smoothly transitioning between stories and summarizing each item in a logical order. Slight confusion arises due to the inclusion of non-source-based information."
+          },
+          "overall": {
+            "score": 3,
+            "justification": "While the summary is well-written and mostly covers the main points, the inclusion of unrelated or invented news stories reduces both its faithfulness and appropriateness, lowering the overall quality to acceptable."
+          },
+          "evaluation_time": 4.265369892120361
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 2,
+            "justification": "The summary introduces information about Troy Davis and his execution in Georgia, which is not mentioned or even implied in the provided source document. This is a significant factual error (hallucination). The rest of the summary accurately reflects the church settlement."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary captures the main point about the record settlement by the Los Angeles Catholic Archdiocese for sex abuse victims, but omits important details like the number of years in negotiation, Cardinal Mahoney's apology, the context around the civil trials, and victim quotes."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is concise and focused without unnecessary content; however, the erroneous inclusion of unrelated information (Troy Davis) slightly detracts from conciseness and relevance."
+          },
+          "clarity": {
+            "score": 4,
+            "justification": "The summary is easy to read and the structure is clear, but combining two unrelated events without transitioning makes it slightly confusing."
+          },
+          "overall": {
+            "score": 2,
+            "justification": "Major problems with faithfulness and some with completeness due to the fabricated Troy Davis content, making it well below acceptable despite reasonable clarity and conciseness."
+          },
+          "evaluation_time": 3.965752363204956
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 3,
+            "justification": "The summary is mostly accurate about the Los Angeles Archdiocese settlement but introduces details about the Troy Davis case and President Bush\u2019s aid plan, neither of which are found in the provided source document excerpt. These additions are 'hallucinated' and reduce faithfulness."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary captures the main points about the Los Angeles settlement, key figures, Mahony\u2019s apology, and victims\u2019 reactions, but fails to mention the local Alhambra fire and includes off-topic stories from elsewhere (Davis and Bush) not present in the source, detracting from focus on the actual key content."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is brief and well-organized but could have excluded irrelevant material (Davis, Bush) to further improve focus and conciseness."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to understand, uses clear language, and is logically structured into bullet points."
+          },
+          "overall": {
+            "score": 3,
+            "justification": "While readable and clear, the inclusion of unrelated information and omission of a secondary but relevant event (fire) lower the overall quality. The summary meets basic standards but is weakened by faithfulness and completeness issues."
+          },
+          "evaluation_time": 5.327453851699829
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 3,
+            "justification": "While the coverage of the Catholic Church settlement and Alhambra fire is accurate, the summary introduces two topics (President Bush's Middle East initiative and the Troy Davis case) that are not present or mentioned in the provided source document. This constitutes information hallucination."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the main points about the abuse settlement and the fire, well representing the information in the source. However, space used for unrelated topics reduces space for further relevant details from the document."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is generally brief and avoids unnecessary repetition, though conciseness is reduced due to the extra topics not grounded in the source document."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The organization, structure, and language of the summary are clear and easy to follow, with well-separated points and logical flow."
+          },
+          "overall": {
+            "score": 3,
+            "justification": "The summary is well-written and covers key elements from the source, but the introduction of information not present in the document is a significant defect, lowering the overall quality to 'acceptable' rather than 'excellent.'"
+          },
+          "evaluation_time": 3.8177003860473633
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 2,
+            "justification": "The summary contains a major error: it introduces an unrelated Georgia death row case (Troy Davis) that is not mentioned anywhere in the provided source document. This is a clear hallucination and affects faithfulness significantly. The rest of the information about the LA Archdiocese settlement is accurate."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary captures the essential details about the LA Archdiocese settlement, including the amount, number of victims, significance, and some reactions from victims and church leaders. However, it omits minor details (such as the exact nature of new screening programs), and the inclusion of the Troy Davis case means relevant space is given to something not in the original."
+          },
+          "conciseness": {
+            "score": 3,
+            "justification": "The summary mostly avoids redundancy, but the inclusion of the unrelated Georgia/Troy Davis content detracts from the overall conciseness, making it less focused than it should be."
+          },
+          "clarity": {
+            "score": 4,
+            "justification": "The summary is well-organized and easy to follow, with good breakdowns into TL;DR, bullet points, and a detailed summary, though clarity is somewhat undermined by the blend of unrelated topics."
+          },
+          "overall": {
+            "score": 2,
+            "justification": "The summary suffers from a crucial error of fact (inventing/unrelated content), which outweighs its otherwise strong structure and clear organization. It cannot be rated higher due to this major lapse in faithfulness."
+          },
+          "evaluation_time": 5.493187427520752
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately reflects the main events and details of the source. However, it introduces some content (e.g., extended coverage of segments on U.S. diplomacy and the Troy Davis case) that is not fully present or detailed in the provided source excerpt, suggesting slight overreach or minor presumption."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the essential information about the Catholic Church settlement and the Alhambra fire, the two primary news stories in the provided transcript. It references additional topics, which may or may not be fully covered in the truncated original, but the main storylines are present and summarized."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise and avoids excessive detail. However, the enumerated structure and inclusion of additional segments (diplomacy, Troy Davis) push it toward being slightly longer than necessary for a summary of the visible source."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and easy to follow, with clear transitions between stories and well-paraphrased key points."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is of high quality: it is accurate, well-structured, and covers the major events from the source. Slight over-inclusion of information beyond the text provided keeps it from a perfect score."
+          },
+          "evaluation_time": 4.075740098953247
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 2,
+            "justification": "The summary mostly stays faithful regarding the Catholic Church settlement and the fire, but it introduces a major factual error by inventing a third story about Troy Davis and a Georgia death penalty case, which is absent from the provided source document. This is a significant hallucination."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "It covers all main points about the church abuse settlement (amount, number of victims, feelings from both sides, Cardinal Mahony's apology, and post-settlement actions) and includes the essential updates about the fire. However, the summary misleadingly mentions the unrelated Troy Davis story while omitting some minor courtroom details regarding the church settlement."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary flows naturally and efficiently communicates the main stories, but the inclusion of the irrelevant death penalty case adds unnecessary length and reduces overall conciseness."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and very clear, with stories separated logically and easy-to-understand language. Transitions make sense, and explanations are coherent."
+          },
+          "overall": {
+            "score": 3,
+            "justification": "While the summary is clear and covers the major points well, the introduction of fabricated content (the Troy Davis case) is a serious error, affecting faithfulness and overall trustworthiness. Apart from this, it's generally strong in clarity and completeness."
+          },
+          "evaluation_time": 5.644019842147827
+        }
+      }
+    },
+    {
+      "doc_id": "dialogsum-13583",
+      "source": "dialogsum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all major facts from the source without adding or fabricating information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key details are included: check-out time, request for baggage storage, storage conditions, the credit card requirement, and the time constraint."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "While clear and focused, the summary could be slightly shorter, but there is no significant unnecessary content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and easy to follow, clearly outlining the flow of the conversation."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, complete, clear, and concise, making it an excellent representation of the source conversation."
+          },
+          "evaluation_time": 2.2109673023223877
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the main exchange about baggage storage and deposit requirements without adding any false or unsupported information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "It covers the main point about baggage storage and the need for a deposit, but omits the guest's sense of urgency about checkout time and her lighthearted complaint."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is appropriately brief and stays focused on the essential information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-structured, and easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary provides an accurate and concise account of the exchange, with only minor omissions that do not impact overall understanding."
+          },
+          "evaluation_time": 3.1314971446990967
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source dialogue without introducing any false information or misrepresenting the conversation."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points from the dialogue are covered: the impending checkout, Person1's sightseeing plans, baggage storage options, the deposit requirement, and the reminder about limited time."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and omits unnecessary details while still covering every essential part of the conversation."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, easy to follow, and logically organized, making it straightforward to understand the exchange."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "An excellent summary that is faithful, complete, concise, and clear, capturing the essence of the conversation without omissions or unnecessary details."
+          },
+          "evaluation_time": 3.377424478530884
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the content of the conversation, with no false information or hallucinations introduced."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "All main points are included, though some conversational nuances and light humor are omitted; however, all essential details are present."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and contains only relevant information, with no unnecessary content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clearly written, logically structured, and easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, complete, concise, and clear, providing an excellent overview of the conversation."
+          },
+          "evaluation_time": 2.415325880050659
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the conversation, including the guest's wish to store baggage, the requirement for a credit card deposit, and the time constraints, with no added or misleading information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points are included: the checkout timing, desire to store baggage, deposit requirement, the staff's readiness, and the urgency due to limited time."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "Each level of summary is appropriately concise, with no redundant or verbose content; information is presented briefly and efficiently."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summaries (at all levels) are clearly written, well-organized, and immediately understandable."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary excels across all dimensions, demonstrating high quality and appropriateness for the source material."
+          },
+          "evaluation_time": 2.4942548274993896
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source dialogue without adding false information or hallucinations. All statements align with what is expressed in the source document."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "The summary covers all key points: the checkout timing, the baggage storage inquiry, the deposit requirement (specifically a credit card), the guest\u2019s mild inconvenience, and the reminder about limited time."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is generally concise but could be slightly more brief, as some sentences (e.g., mentioning 'polite, informative responses') could be condensed or omitted without losing important details."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically sequenced, and straightforward, making it easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary. It captures all important aspects of the conversation, preserves fidelity, and is clear, with only minor opportunities for greater brevity."
+          },
+          "evaluation_time": 3.4174740314483643
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the dialogue and does not introduce any false information or significant omissions."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points are included: the imminent checkout, the question about storing baggage, the need for a deposit, and the time constraint."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise, though the final sentence ('Basically, it\u2019s a quick chat about...') is somewhat repetitive and could be omitted."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear, well-organized, and easy to read."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is a high-quality summary that delivers an accurate, clear, and mostly concise overview of the conversation."
+          },
+          "evaluation_time": 2.5985097885131836
+        }
+      }
+    },
+    {
+      "doc_id": "dialogsum-12767",
+      "source": "dialogsum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source conversation with no added or false information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key information\u2014Susan's request, the reason for it, John's response, and Susan's closing\u2014are included."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and to the point, with no redundant or irrelevant details."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured and easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, complete, concise, and clear; it fully satisfies the requirements."
+          },
+          "evaluation_time": 3.336970806121826
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the conversation without adding or distorting any facts."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Captures the main points but omits the detail that Susan wanted the memo for her secretary and John's apologetic tone."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "Brief and to the point, with no unnecessary information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "Very clear and easy to understand; the actions of both people are well summarized."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "Excellent summary\u2014faithful, clear, and concise, though it could include a tiny bit more detail for full completeness."
+          },
+          "evaluation_time": 3.5633413791656494
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects all points in the conversation without introducing any incorrect or extraneous information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key elements are included: Susan's inquiry, her intended use for the memo, John's response, and Susan thanking him."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "Each point is stated directly and efficiently, omitting extraneous detail; nothing is redundant or verbose."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, easy to follow, and each sentence clearly conveys its meaning."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "An excellent summary that is entirely accurate, complete, concise, and clear."
+          },
+          "evaluation_time": 3.9110724925994873
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the conversation without introducing any incorrect or invented details."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key elements of the exchange are included: Susan asks John about the memo, John does not know, and Susan thanks him regardless."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and avoids unnecessary details or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, clearly written, and easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary captures the main ideas and important details of the conversation in a clear, faithful, and concise way."
+          },
+          "evaluation_time": 4.806609153747559
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary closely mirrors the source conversation without adding or distorting facts."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key aspects of the interaction\u2014who contacted whom, the topic (office memo), the reason (for secretary), John's response, and Susan's gratitude\u2014are included."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct, especially in the TL;DR and key points sections, with no superfluous detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "Sentences are clear, well-structured, and the flow makes it easy to understand each step of the interaction."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an accurate, complete, concise, and clear summary, fully meeting the criteria for an excellent summary."
+          },
+          "evaluation_time": 3.5210375785827637
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately describes all elements of the conversation without introducing any information not present in the original source."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points are included: who spoke, the memo inquiry, the intended purpose, John's lack of knowledge, and Susan's polite response."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "Slightly more formal and detailed than absolutely necessary for such a brief exchange, but contains no real redundancy."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-structured, and easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, thorough, clear, and only slightly verbose for the short source, delivering excellent overall quality."
+          },
+          "evaluation_time": 4.531365394592285
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source dialogue without introducing any false information or hallucinations."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points are included: Susan's call, the request for the memo, the reason she wants it, John's inability to help, and Susan's thanks."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and omits no critical points while avoiding unnecessary detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, straightforward, and easy to follow. It mirrors the casual tone of the original."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that is faithful, complete, concise, and clear."
+          },
+          "evaluation_time": 3.2590765953063965
+        }
+      }
+    },
+    {
+      "doc_id": "govreport-17668",
+      "source": "govreport",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source document, with no apparent factual errors or hallucinations. All major claims are present in the source, and no false information is introduced."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures nearly all key points: NNSA's role, the importance of Y-12, the challenges faced, plans for the UPF, the phased transition out of Building 9212, and related infrastructure details. Some minor specifics from the source are omitted (such as the detailed four phases of the exit strategy), but all essential information is covered."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is appropriately brief, avoids unnecessary content, and condenses complex information effectively without redundancy."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and easy to understand. It follows a logical flow and uses clear language to describe complex operations and plans."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary with high faithfulness, nearly complete coverage, strong clarity, and good conciseness. It effectively communicates the substance of the source document."
+          },
+          "evaluation_time": 4.117530107498169
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately reflects the main information from the source, but it states a $6.5 billion budget 'by 2025,' which is not explicitly mentioned in the source. The $6.5 billion refers to the approved maximum cost, but the original passage does not specify completion by 2025."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary includes the core actions (modernizing, consolidating, relocating) and motivations (safety, cost, mission needs), but omits several details: issues leading to modernization (inefficiency, safety risks, rising costs), the phased approach, transition to DOE for decommissioning, and historical context behind UPF's cost escalation."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and contains only essential points relevant to the main idea, without unnecessary verbosity."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and clearly states what NNSA is doing, why, and the intended outcomes."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is clear and concise with accurate representation, but omits some significant context and incorrectly specifies a target year, slightly undermining completeness and faithfulness."
+          },
+          "evaluation_time": 5.535849332809448
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately reflects almost all key facts from the source document, but includes minor extrapolations: for example, the mention of HEUMF as the 'central, modern repository' (while accurate, this explicit statement is not made in the provided source text). Nevertheless, no significant false information is included."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all the major points: NNSA's role, reasons for infrastructure upgrades, UPF's cost escalation, exit strategy for Building 9212, and general plans for other related facilities. However, a few relevant process and timeline details (e.g., specifics of the four-phase exit strategy and more context on the cost/scope changes) are only briefly addressed or slightly oversimplified."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids unnecessary repetition or verbosity while presenting all significant information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically organized (in bulleted form), and each point is straightforward and easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is well-structured, mostly complete and accurate, concise, and clearly written\u2014an excellent representation of the source document."
+          },
+          "evaluation_time": 7.40076756477356
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the main facts and events from the source document, without introducing errors or fabrications."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all key themes (NNSA mission, Y-12\u2019s role, issues, UPF project evolution, and the phased upgrades of facilities), but omits some specific details (e.g., details about the four-phase strategy and some numerical estimates)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is efficiently formatted, omitting unnecessary content and redundancy while delivering all core information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "Information is presented in a structured, organized, and easy-to-follow manner with clear divisions between topics."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary, highly accurate, focused, and accessible for readers seeking an overview of the Y-12 modernization efforts."
+          },
+          "evaluation_time": 3.7221808433532715
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary closely follows the factual content of the source document without introducing errors or fabrications."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary includes all major points\u2014NNSA\u2019s mission, the aging infrastructure, cost escalation, phased relocation from Building 9212, and the re-scoped UPF. However, it omits some minor details (e.g., specific phases of the exit strategy, precise operational history, and long-term transfer to DOE Environmental Management)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is tightly written, avoids unnecessary repetition, and appropriately balances detail for clarity without verbosity."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The structure (TL;DR, key points, and expanded summary) and plain language make the summary highly accessible and easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is highly effective, accurate, well-organized, and readable, providing an excellent condensation of the source document."
+          },
+          "evaluation_time": 4.298387050628662
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the main points of the source document without introducing any incorrect or fabricated information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all major themes and events (missions, site roles, deficiencies, modernization plan, UPF costs, and Building 9212 phase-out strategy) but is truncated and omits some details such as the exact four-phase exit strategy, the transition timeline, and subsequent buildings mentioned in the source."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is well-compressed, omitting unnecessary detail while retaining all the core information in a concise manner."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, logically organized, and written in clear and straightforward language."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, concise, and clear, effectively condensing and conveying all key points from the portion of the source addressed."
+          },
+          "evaluation_time": 4.031386375427246
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the core facts of the source document, staying true to the original content without introducing errors or fabrications."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers the main points including NNSA's role, the importance and problems at Y-12, the UPF project's cost escalation, and the phased plan to move out of Building 9212. However, it truncates details about Building 9215 and omits some secondary but relevant specifics."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is generally succinct, using accessible language and dropping technical jargon. Some informal phrasing and minor background explanations could be tightened, but there is little redundant content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The organization is clear, logical, and uses simple language, making complex information easy to understand for a general audience."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a very strong summary that would be appropriate for someone needing the gist quickly. If it captured a few more details from the ending sections, it would be excellent."
+          },
+          "evaluation_time": 3.8307459354400635
+        }
+      }
+    },
+    {
+      "doc_id": "cnn-296834",
+      "source": "cnn",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all factual information from the source material and does not introduce any false details or misrepresentations."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all major aspects: the basic premise, eligibility, the flair/color system, participation statistics, and the ongoing mystery. Some minor technical details (like needing to unlock the button or specifics about desktop access only) are omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and omits redundant or unnecessary details while retaining essential information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clearly written, logically organized, and easy to follow, making the process and context of The Button event understandable."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, complete, concise, and clear, providing an excellent synthesis of the source material's most important points."
+          },
+          "evaluation_time": 2.9616594314575195
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the main facts from the source document without introducing errors or fabrications."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary captures the main idea\u2014what The Button is, how it works, and that nobody knows what happens at zero\u2014but omits notable secondary details, such as eligibility criteria (must have registered before April 1, 2015), flair color details, and one-chance participation."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and includes only core information without redundancy."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear and easy to understand, with the information presented in a logical order."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is faithful, concise, and clear but misses some important secondary details, so it is high quality but not fully comprehensive."
+          },
+          "evaluation_time": 2.994019031524658
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the key facts from the source document without introducing errors or false information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most essential points are captured, including how the button works, eligibility, flair system, social impact, and the unknown outcome. Some minor details (e.g., specifics about unlocking The Button, role of numbered flairs, exact viewing limitations on mobile, and real-time viewer count) are omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids unnecessary repetition or extraneous information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically organized, and uses straightforward language to present the information."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "Despite missing a few granular details, the summary is highly informative, accurate, coherent, and succinct\u2014meeting expectations for a high-quality summary."
+          },
+          "evaluation_time": 3.6142563819885254
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all facts from the source document, does not introduce any errors or new information, and closely follows the source content."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the main points\u2014what The Button is, who can press it, the color-coded flair system, and the ongoing nature of the event. However, some small details (e.g., the precise flair timing interpretation, how to unlock the button, mention of mobile app restrictions) are omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids unnecessary elaboration or repetition, providing all the key information in a brief format."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "It is well-organized, easy to read, uses clear language, and follows a logical structure with separate sections for main topic, key points, and conclusion."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is highly effective at communicating the core aspects of the r/thebutton event, balancing accuracy, coverage, clarity, and brevity in a well-structured format."
+          },
+          "evaluation_time": 3.8172898292541504
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all key aspects of the source, including the rules, the color-coding system, eligibility, and the experiment\u2019s core mystery, with no detectable factual errors or invented details."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points are covered: the timer/button mechanism, eligibility restrictions, flair/color details, and the ongoing mystery about the timer reaching zero."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The tiered summary delivers all necessary information succinctly, avoiding unnecessary repetition or superfluous details."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is structured in three clear tiers (TL;DR, key points, details), uses simple language, and is easy to follow and understand throughout."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, thorough, clear, and concise; it exemplifies best practices for summarizing informational content."
+          },
+          "evaluation_time": 2.444509744644165
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately describes the r/thebutton experiment, the eligibility criteria, the role of the timer, the flairs and their color coding, and states that the outcome of the timer reaching zero is unknown. No false information is introduced."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "All major elements are captured, including the experiment's structure, participation rules, flair colors, ongoing mystery, and user engagement. However, minor details\u2014such as specifics on how to unlock the button, rounding of flair numbers, and on-site UI features\u2014are omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary presents all key information succinctly without redundancy or excessive detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and easy to read, with information logically presented and terminology clearly explained."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "It is an accurate, clear, and comprehensive summary that enables any reader to understand the r/thebutton experiment without extraneous detail."
+          },
+          "evaluation_time": 3.3231067657470703
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source, maintains key facts, and avoids introducing false information or notable errors."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "It covers the key elements: the timer mechanism, eligibility, flair system, user obsession, and ongoing mystery. However, it omits some finer details (such as exact flair color ranges, the method to unlock The Button, and some technicalities about flair assignment)."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise with minimal unnecessary elaboration. It could have trimmed some conversational flourishes for maximum succinctness, but it remains appropriately brief overall."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, explains the event clearly, and uses straightforward language. The structure is logical and easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is faithful, clear, mostly complete, and concise. It effectively conveys the essence and intrigue of 'The Button' event with minor omissions that don\u2019t significantly detract from understanding."
+          },
+          "evaluation_time": 3.450068950653076
+        }
+      }
+    },
+    {
+      "doc_id": "mediasum-451560",
+      "source": "mediasum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately conveys the main points of the source without introducing major factual inaccuracies. However, it elaborates slightly by mentioning 'societal inequality' and 'issues of race in America' near the end, which were not explicitly discussed by Theron (at least within the provided transcript), and references to a Mandela quote tweeted by Obama, which was not found in the excerpt."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers the core topics: the scale of the HIV epidemic, Theron's charity work, the challenges in access to treatment, government and international responses, and the impact on youth. It misses some nuance (e.g., the specifics of funding misconceptions discussed by Theron and some detailed personal anecdotes), but overall includes all key points."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is fairly concise and organizes the main points without unnecessary repetition, though the last sentence referencing the Mandela quote and Obama's tweet could be seen as an extraneous detail not directly captured in the main discussion."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically organized, and easy to follow. Each point flows smoothly to the next, encapsulating the overall message of the interview."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is strong and covers the critical elements with accuracy and clarity, though it slightly overextends by including content not strictly present in the transcript and might miss a few specific details. Nevertheless, it represents the interview well."
+          },
+          "evaluation_time": 5.12455677986145
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the points made in the source: Theron's discussion of South Africa's HIV crisis, her charity's focus on youth prevention, and the call for international support."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the main points but omits some specifics, such as the personal motivation behind Theron's work, the scale of the epidemic (statistics), and details about government roles and funding issues."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and avoids unnecessary detail while conveying the central message."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logical, and easy to understand."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is of high quality, accurately and clearly representing the discussion, though it could include a bit more detail for full completeness."
+          },
+          "evaluation_time": 2.6334264278411865
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is mostly accurate and represents the key points of the source. However, it includes statements (such as Theron's concern about rising racism in the US and a direct comparison about the value of lives between Africa and the West) that are not explicitly stated in the source segment provided. These points are implied but not directly voiced in the excerpt."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers almost all main ideas: the HIV epidemic's scale, Theron's charity and focus, treatment gaps, international aid issues, and broader context. However, it omits specific statistics referenced (53% untreated), her personal journey, and some nuances regarding the misconceptions around HIV funding."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is concise, presenting all points in brief bullet statements without unnecessary repetition or verbose language."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-organized into bullet points, and easy to understand."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a strong, informative summary that is clear and mostly faithful with good coverage of essential points. Some minor interpretive additions and omissions of nuanced details prevent a perfect score."
+          },
+          "evaluation_time": 4.688673734664917
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the information from the source document without adding any false or misleading content."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all major points\u2014HIV/AIDS statistics, Theron's charity work, government and international roles, and the context of inequality and racism\u2014but briefly references broader social justice themes that are not very prominent in the given excerpt."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is appropriately brief, avoids redundancy, and includes only relevant information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to read, logically organized, and clearly distinguishes between topics."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary excels across all dimensions, providing an accurate, comprehensive, concise, and clear synthesis of the source material."
+          },
+          "evaluation_time": 4.217862606048584
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the details and themes from the source document without introducing false or misleading information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All major points are captured, including the scope of the epidemic, Theron's motivation and foundation goals, treatment gaps, global aid, and the link to systemic inequities and racism."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and focused, providing only relevant details without superfluous information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear, logically organized with TL;DR, key points, and detailed summary, making the information easy to grasp."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary: accurate, complete, concise, and clear, effectively synthesizing the source interview."
+          },
+          "evaluation_time": 3.442049503326416
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the main points of the source document without introducing false information or factual errors."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all core themes: the scope of HIV in South Africa, Theron's charity, the impact on children, progress and obstacles, issues of funding, and connections to racism. It does truncate at the very end and could include more about specifics on the interview's initial discussion of race, but all major points are present."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is proportional to the source\u2019s length and avoids redundancy, but could be slightly more concise in some of its explanations (e.g., the last paragraph could be condensed)."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well structured, logically organized, and easy to read, with clear delineation of the conversation\u2019s major segments."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is high quality, covering all main ideas faithfully, clearly, and efficiently. Only very minor improvements are possible in completeness and conciseness."
+          },
+          "evaluation_time": 3.6507461071014404
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary closely follows the original interview content, accurately reflecting statistics, Theron's points about prevention, youth focus, international support, and misconceptions about funding. However, it introduces some content not directly stated in the transcript, such as specific statements about racism (e.g., Theron tying racism directly to the epidemic going unchecked), which don't have explicit support in the provided text."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers the main points: South Africa\u2019s HIV crisis, Theron\u2019s motivation, focus on youth, government efforts, need for international support, and funding misconceptions. Some secondary details and quotes from Theron are omitted, but the gist is well-captured."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is longer than strictly necessary (especially with some conversational repetition and extra commentary), but it is not overly verbose and provides a breezy overview that omits significant tangents."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is extremely easy to understand, well-organized, and presents the issues in a logical, conversational way that would be clear to any reader."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a strong summary that captures key points with minor fidelity and coverage issues. Its clarity and engaging tone increase its effectiveness, but slight overreach and conversational extras keep it from being perfect."
+          },
+          "evaluation_time": 4.77989935874939
+        }
+      }
+    },
+    {
+      "doc_id": "govreport-17676",
+      "source": "govreport",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary closely follows the facts of the source, accurately representing the increase in fatalities and injuries, main contributing factors, and safety technologies. However, there are a few added interpretations, such as stating explicitly that U.S. NCAP does not rate or recommend pedestrian emergency braking (the truncated source leaves this ambiguous), and mentioning the U.S.'s participation in global standards effort, which isn't detailed in the visible source."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most essential points are captured: rising fatality/injury numbers, contributory factors, relevant statistics, safety systems, and comparative regulatory roles. Some specific details from the extended source (e.g., certain NHTSA communications and technology specifics) are omitted, but these are minor."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is efficient and well-trimmed, focusing on the most important aspects without including extraneous or repetitive information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is logically structured, easy to read, and clearly communicates the key points. Technical terms are explained briefly and contextually."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a strong summary: accurate, clear, concise, and mostly complete, with a slight deduction for a small stretch in faithfulness and very minor omissions in detail."
+          },
+          "evaluation_time": 4.75469183921814
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately states that pedestrian fatalities and injuries have increased since 2008, which is well-supported by the source. However, the claim that federal safety programs do not 'currently require or test pedestrian crash avoidance or mitigation technologies' is not directly substantiated or clearly stated in the provided document segment, making this aspect somewhat unfaithful."
+          },
+          "completeness": {
+            "score": 2,
+            "justification": "The summary omits many important details from the source, such as contributing factors, locations and timing of fatalities, recent technology developments, and NCAP/NHTSA's role and rating system. It mainly captures the trend of increased fatalities and a point about regulatory testing."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is very brief and contains no unnecessary content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to read, straightforward, and well-organized."
+          },
+          "overall": {
+            "score": 3,
+            "justification": "The summary clearly expresses a main trend and is concise and clear, but it lacks coverage of critical points from the source, impacting its completeness and overall quality."
+          },
+          "evaluation_time": 3.5382888317108154
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is generally accurate and does not introduce major factual errors, but it mentions that NCAP does not include pedestrian safety tests, which is not explicitly stated in the source document provided (the truncation may hide this, but from what's given, this detail is not found)."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers the main points such as trends in fatalities, contributing factors, safety features, and relevant programs. However, it omits some specifics (like data on injuries, NHTSA's communication of ratings, and detailed descriptions of vehicle safety rating processes) and includes one point not clearly present in the source."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct, omitting unnecessary details while capturing major themes and distinctions (e.g., active vs passive safety features)."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, uses clear language, and separates information logically into bullet points."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a strong, high-quality summary that is clear and concise and captures the main points of the source. Minor issues in faithfulness and completeness (possible overstatement or missing detail on NCAP) prevent a perfect score."
+          },
+          "evaluation_time": 3.6645028591156006
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately conveys the information presented in the source document, with no significant inaccuracies or added information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all the main points, including trends, risk factors, safety features, policy context, and international comparison, but omits a few minor details (e.g., exact injury numbers for some years, specific references to appendices, some technological details)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids unnecessary detail, distilling the lengthy source into clear, manageable sections."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, logically organized, and uses clear language, making the material easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is a high-quality summary that accurately and clearly represents the original content, with all major points included and well-organized presentation."
+          },
+          "evaluation_time": 3.516521453857422
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents facts from the source without introducing errors or unsupported claims."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most key points are included, such as increased fatalities, behaviors, technology developments, and current gaps in U.S. safety regulations. However, some detail (such as NHTSA safety ratings explanation and statistics on injury numbers) is truncated or glossed over."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "All sections are succinct, with clear separation between summary levels. No unnecessary information is included."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "Organization is excellent, distinguishing between TL;DR, key points, and detailed summary. The text is clear and logically structured."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "Summary demonstrates strong faithfulness, completeness, conciseness, and clarity, making it highly effective for its intended purpose."
+          },
+          "evaluation_time": 3.7008347511291504
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all factual information from the source without introducing any false or misleading statements."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all major points, including trends in fatalities, contributing factors, data limitations, locations and circumstances of fatalities, safety features, and NHTSA programs. It omits minor details such as some specific statistics (e.g., cyclist fatalities) and references to appendices."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary presents all key points efficiently without unnecessary content, maintaining a balance between brevity and detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, easy to follow, and clearly written, using logical progression and appropriate transitions between topics."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that faithfully, concisely, and clearly distills all essential information from the source document."
+          },
+          "evaluation_time": 3.4678215980529785
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is largely accurate but introduces a few minor details and implications not fully supported by the source (such as the U.S. agreeing internationally to consider regulations and remarks about IIHS/AAA using results in awards without direct support from the source excerpt)."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary effectively captures all major points involving trends, causes, locations/timing, vehicle technologies, and U.S./international differences, though it omits some details about data sources, NHTSA's functions, and nuances of technology types."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is clearly written for an informal audience but could be slightly more concise; it contains some conversational language and repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear, logically organized, and easy to understand\u2014well-adapted for a general audience."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is strong, providing clear, accurate, and mostly complete information, with just a few minor fidelity and brevity concerns preventing a perfect score."
+          },
+          "evaluation_time": 3.520613193511963
+        }
+      }
+    },
+    {
+      "doc_id": "mediasum-452866",
+      "source": "mediasum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source document and does not add false or misleading information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most key information\u2014including Thunberg's speech, Trump's attendance, Thomas Cook collapse details, government response, and causes\u2014is present. Some minor details, such as specific quotes from affected tourists and some union commentary, are omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and omits extraneous information while covering all major points."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and easy to follow, presenting separate topics clearly and in logical order."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "A well-balanced summary that is faithful, clear, concise, and covers the essential points, with only minor omissions."
+          },
+          "evaluation_time": 4.121384620666504
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately conveys the major events\u2014the UN climate meeting with Thunberg's criticism, and the Thomas Cook collapse and government criticism\u2014without introducing errors or fabrications."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary captures the main points but omits notable details, such as Thunberg's direct quotes, Trump's brief attendance and avoidance of Thunberg, specifics on government/union reactions, and the scale of evacuation efforts."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and focused on core events, avoiding redundancy or irrelevant content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clearly written and the two topics are presented in a logically organized manner."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is accurate, concise, and clear, but its lack of some important details prevents a perfect score."
+          },
+          "evaluation_time": 3.036581516265869
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the information in the source document and does not introduce any false or misleading details."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all major points in the source, including the UN assembly, Greta Thunberg's speech, Trump's brief appearance, Thomas Cook's collapse, repatriation efforts, layoffs, and contributing factors. Minor details like direct quotes and specific participant identities are omitted, but all critical events and causes are present."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary succinctly covers the main points without including unnecessary information or excessive detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The information is presented in a clear, logical, and easy-to-read bullet-point format."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary provides a clear, concise, and accurate distillation of the original document, making it excellent overall."
+          },
+          "evaluation_time": 4.035566806793213
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source content, with no factual errors or invented details. All information is drawn directly from the source."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary includes the main events and key points, but omits some supporting details such as specific quotes from affected travelers, statements from all relevant officials, and some background context on Thomas Cook\u2019s challenges."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct, focusing on major events and implications without including extraneous information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, clearly separating topics, and the language is direct and easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, comprehensive regarding the main points, concise, and well-structured. Minor detail omissions do not significantly impact its effectiveness."
+          },
+          "evaluation_time": 2.983121395111084
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source document, preserving all major facts and avoiding misrepresentation or hallucination."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "The summary covers all essential aspects: Thunberg's speech, Trump's brief attendance, Thomas Cook's collapse, passenger impact, executive payouts, government response, and contributing factors."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "No superfluous information is present; the structure (TL;DR, bullets, and a detailed paragraph) efficiently condenses the details."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The information is presented logically and clearly, with effective use of sections and unambiguous language."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "An excellent summary that fully meets criteria for accuracy, completeness, conciseness, and clarity."
+          },
+          "evaluation_time": 3.744156837463379
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source material, capturing key events and statements without introducing any factual errors or false information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers most essential points, including the UN General Assembly, Greta Thunberg\u2019s speech and interaction with Trump, the collapse of Thomas Cook, the repatriation effort, and referenced preview of the next story. However, it omits some minor details, such as direct quotes from affected passengers or unions."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary condenses significant information well but is close to being overly detailed, especially in describing the Thomas Cook events. It could be slightly more succinct without losing meaning."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-structured, and logically organized, making it easy to follow and comprehend."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "Overall, this is an excellent summary that accurately, thoroughly, and clearly conveys the most important aspects of the source document."
+          },
+          "evaluation_time": 3.660212516784668
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is almost entirely accurate but includes a fabricated line about Prince Harry and Meghan, which is not present in the source. Otherwise, it fairly reflects the source events and details."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most major points are covered: UN assembly, Greta Thunberg's speech, Trump's behavior, Thomas Cook\u2019s bankruptcy, government response, and affected travelers. Some minor nuanced details (e.g., quotes from union representatives or specific numbers beyond the main 600,000/150,000) are omitted."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise, though there is a friendly tone with a few conversational asides that could be trimmed for pure informational purposes."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear and coherent, with events logically structured and easy to follow. The language is approachable and explanations are well connected."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a good-quality summary capturing the main points clearly and engagingly, with only minor faithfulness and completeness issues regarding the fabricated ending and some omitted minor points."
+          },
+          "evaluation_time": 5.34172797203064
+        }
+      }
+    },
+    {
+      "doc_id": "govreport-17644",
+      "source": "govreport",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is accurate overall but introduces additional legislation (NIH Revitalization Act, ICCVAM Authorization Act, Lautenberg Chemical Safety Act) and describes EPA\u2019s regulatory mandate, none of which appear explicitly in the provided source excerpt; the bulk of the information is correctly represented, but it slightly overextends the scope."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Key points are covered: agency roles, APHIS enforcement of the Animal Welfare Act, NIH\u2019s role under Health Research Extension Act, mechanisms for oversight, consideration of alternatives, and reporting. However, some procedural details (e.g., specifics on facility committee reviews and submission deadlines) and nuances about which animals are covered are missing or generalized."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is compact, covers essential points without redundancy, and avoids excessive detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically structured, and easy to follow, making complex regulatory and organizational relationships understandable."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is well-written, clear, and comprehensive but deducts a point for inclusion of information not explicitly supported by the source document."
+          },
+          "evaluation_time": 4.745912075042725
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the major points of the source without introducing any false information or hallucinations."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "The summary covers the main activities (funding, oversight, regulations, welfare, alternatives) but omits several key details such as the specific roles of APHIS, NIH, the reporting requirements, and distinctions between agencies."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and free of unnecessary or redundant content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The sentence is easy to understand and well-organized, clearly summarizing the key message."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is clear, faithful, and concise, but lacks completeness due to omission of some specific details about agency responsibilities and requirements."
+          },
+          "evaluation_time": 3.7325527667999268
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary accurately represents the main points of the source document for the most part, but introduces two acts (NIH Revitalization Act and ICCVAM Authorization Act) not explicitly mentioned in the provided source text, constituting minor additions."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers nearly all major activities, agencies, legal frameworks, and requirements described in the source. Some procedural details and agency distinctions are condensed or omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary efficiently conveys the content without unnecessary detail or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "Information is clearly structured with bullet points, using plain language and organized thematically for easy understanding."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is well-written, captures the main ideas, and is highly readable, though minor faithfulness/completeness issues prevent a perfect score."
+          },
+          "evaluation_time": 4.447026491165161
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary remains completely faithful to the source document, reflecting all major roles, regulations, and agencies accurately without introducing any false or misleading information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures nearly all key points, including agency roles, legal frameworks, and the promotion of alternatives. Some details, like the specifics of annual reporting deadlines and certain committee roles, are abbreviated or omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary effectively condenses a long, detailed source into clear, essential points without redundant or superfluous content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, broken into clearly labeled sections and bullet points, making it easy to read and understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is clear, faithful, and concise, capturing the central themes and regulatory landscape in a highly readable and informative way, with only minor omissions."
+          },
+          "evaluation_time": 4.697970390319824
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary does not introduce errors or false information; all stated facts align with the source document and do not add fabricated details."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the main points about federal agency roles, animal welfare standards, and legal requirements, but omits certain procedural specifics (e.g., frequency of committee reviews, exact animal species covered), and the detailed reporting requirements."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is well-structured into hierarchical tiers and does not include redundant or extraneous information; it covers necessary details appropriately for each summarization level."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is organized, easy to follow, and uses clear language, with headers and bullet points aiding readability."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is highly effective in representing the source material: it is accurate, clear, and appropriately condensed, with only minor omissions in detailed procedural content."
+          },
+          "evaluation_time": 4.6579883098602295
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately consists of facts directly stated or clearly implied in the source. There is no evidence of fabricated, misleading, or false information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures the major agencies, regulations, and requirements, as well as the scope of activities. Some minor procedural and reporting details from the source (e.g., the exact date for annual report submission) are omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary condenses a complex and detailed source into a much briefer form without adding unnecessary explanations or redundancies."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, uses straightforward language, and logically structures information, making it easy to follow."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is a high-quality summary: it is accurate, focused on core points, omits extraneous details, and is clear and well-organized."
+          },
+          "evaluation_time": 4.993902206420898
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 4,
+            "justification": "The summary is largely accurate and represents the main points from the source, but introduces minor details (e.g., 'monkeys' instead of 'nonhuman primates', and explicilty naming ICCVAM and its details) that are not verbatim in the provided source. It does not hallucinate significant facts."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "Most key information is present, including the roles of agencies, the Animal Welfare Act, requirements for animal welfare, and training. However, certain procedural details (such as specifics of retrospective annual reporting or precise regulatory language) are summarized or omitted."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is condensed and to the point, omitting extraneous detail and focusing on main messages for a non-expert audience."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is friendly, well-structured, and very easy to read, presenting complex regulatory information clearly for a layperson."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "This is a well-above-average summary: clear, concise, and mostly accurate, though it lacks some precision and slightly simplifies or adds details. It would be highly useful for general understanding but not for a technical or legal context."
+          },
+          "evaluation_time": 4.9721667766571045
+        }
+      }
+    },
+    {
+      "doc_id": "mediasum-449868",
+      "source": "mediasum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the main points and details of the source document without introducing any false information or significant distortions."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All critical aspects are included: Cameron's plea, bank preparations, economic/political uncertainty, nationalist sentiment, youth voting, and international implications."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise and avoids unnecessary repetition, though it could possibly condense a bit further without losing content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clearly written, well-organized, and easy to follow, with smooth transitions between major points."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary offers an accurate, thorough, and readable account of the source document, capturing all essential elements succinctly and clearly."
+          },
+          "evaluation_time": 2.8957316875457764
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the main events and concerns discussed in the source document without introducing inaccuracies or false details."
+          },
+          "completeness": {
+            "score": 3,
+            "justification": "It covers the main points\u2014Cameron's plea, economic/political uncertainty, bank preparations, and nationalist sentiment\u2014but omits some notable details such as the contingency plans by Scottish banks, reference to voting age, and international implications."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and omits any unnecessary or redundant information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The sentence is logically structured, clearly presenting the main facts without ambiguity."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is accurate, clear, and concise, but lacks a few secondary yet relevant details for full completeness."
+          },
+          "evaluation_time": 5.450247764587402
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary closely follows the source document with no factual errors or invented content."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers all major points such as Cameron's plea, bank actions, contingency plans, market concerns, nationalist sentiment, and global significance, but omits minor details like the specific mention of currency arguments (i.e., the debate between Cameron and Alex Salmond) and voting age."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids redundancy while capturing the main points."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, uses bullet points for readability, and presents information clearly."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This summary is accurate, clear, focused, and covers all essential content, making it highly effective."
+          },
+          "evaluation_time": 5.533679962158203
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the information in the source document without introducing any new or incorrect information."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures nearly all the essential points: Cameron's plea, financial sector preparations, issues around currency and military assets, market anxiety, and nationalist sentiment. However, it does not mention the voting age or international implications raised in the discussion (e.g., reference to Spain and Ukraine)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and free of unnecessary content, conveying the critical information in a brief format."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, logically structured, and easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is highly effective, faithful, concise, and clear, only missing a minor detail or two for full completeness."
+          },
+          "evaluation_time": 3.2538914680480957
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the facts and statements provided in the source document, without introducing any false or misleading information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "The summary covers all significant points: Cameron's appeal, economic and banking concerns, government unpreparedness, nationalist sentiment, and international implications."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "While generally concise, the detailed summary stretches towards the upper limit of length by restating some points, but there is little truly redundant content."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-written, structured logically (TL;DR, bullets, then details), and easy to comprehend."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is highly faithful, thorough, clear, and mostly concise, making it an excellent encapsulation of the original document."
+          },
+          "evaluation_time": 4.844234943389893
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source material without introducing false information or factual inaccuracies."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "It covers all key points: Cameron's plea, nationalist sentiment, economic concerns (bank actions and market fears), unresolved political issues, lack of contingency planning, youth voting, and international implications."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "While generally concise, the summary could be a bit shorter and still convey the main points; some sentences are slightly verbose."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is logically structured, flows well, and is easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary, capturing all important aspects of the source, remaining accurate, clear, and mostly concise."
+          },
+          "evaluation_time": 2.995840549468994
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the key points in the source without introducing any false information or major distortions."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All important ideas from the source are captured, including David Cameron's plea, economic concerns, banking contingency plans, market reactions, the passion for independence, youth voting, and the international context."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly tight and avoids redundancy, but contains a little informal phrasing and narrative flourish that could be trimmed for even greater brevity."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, well-organized, and easy to understand, with logical flow and explanation of complex issues."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is faithful, comprehensive, and clear, with only minor opportunities for more concise phrasing."
+          },
+          "evaluation_time": 4.007545709609985
+        }
+      }
+    },
+    {
+      "doc_id": "dialogsum-12859",
+      "source": "dialogsum",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the conversation without introducing false information or misrepresenting the speakers\u2019 positions."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All central points are covered, including both Person2\u2019s traditional expectations, Person1\u2019s challenge and preference, mention of the news report, and the conclusion about Person2 going home alone."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary covers everything succinctly, avoiding unnecessary repetition or excessive detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, easy to read, and flows logically, making the dynamic and point of view of each participant clear."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary: faithful, complete, concise, and highly readable, reflecting all important aspects of the conversation."
+          },
+          "evaluation_time": 2.921553373336792
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately captures the main contrast in opinions between the two friends without inventing or omitting facts."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary covers the central themes\u2014traditional vs. equal partnership expectations\u2014but omits some specific examples (e.g., household chores, the statistic about women's opinions, and the playful ending with the dog)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and does not include any unnecessary detail."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The wording is clear and the contrast in viewpoints is easy to understand."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "It's a strong summary that captures the essence and does so with clarity and brevity, but misses a few notable supporting details from the conversation."
+          },
+          "evaluation_time": 4.54584264755249
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary faithfully represents the conversation, accurately depicting the attitudes, statements, and interactions between Person1 and Person2 without adding or distorting facts."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key points are included: Person1\u2019s encouragement, Person2\u2019s views on women and chores, Person1\u2019s criticism and preferences, and the closing remarks regarding their different perspectives and Person2\u2019s solitary evening."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary conveys all essential information in a succinct manner, avoiding unnecessary repetitions or minor dialogue details."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "It is clearly organized, with each summary bullet logically following the conversation's flow. The language is straightforward and easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary: accurate, complete, concise, and clear, reflecting the main ideas and tone of the source dialogue."
+          },
+          "evaluation_time": 3.224309206008911
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the conversation without introducing any false information or mischaracterizing the speakers' viewpoints."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all main points, major perspectives, and the outcome of the interaction, but omits some minor details (such as the mention of the dog Rusty and specific stats like the '40 percent' figure)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct, conveying the essential ideas without unnecessary elaboration or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically structured, and easy to follow, with main points broken out in a way that aids understanding."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary effectively and efficiently conveys the main ideas, opinions expressed, and the implication of the dialogue, making it an excellent representation of the source material."
+          },
+          "evaluation_time": 3.535496950149536
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the characters' conversation and stays true to their exchange, with no invented or incorrect information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points are captured: the differing viewpoints, the specific desires of Person2, Person1's challenge and statistics, and the humorous ending."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief yet thorough, avoiding unnecessary repetition or tangents while covering all key aspects."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized, with clear language and logical progression. It\u2019s easy to understand how the conversation unfolds."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is a strong, accurate, and clear representation of the source document, fulfilling all key criteria effectively."
+          },
+          "evaluation_time": 3.4819040298461914
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately outlines the conversation, including both participants' perspectives and the central theme of gender roles, without adding or distorting facts."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all the main ideas and themes\u2014expectations for partners, traditional versus egalitarian roles, and social change. However, some specific points from the dialogue (like the mention of Rusty or Person 2's direct daily activities) are omitted."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is clear and focused, but includes slightly more generalization and thematic framing than necessary for a brief summary, potentially reducing conciseness."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-organized and written in clear language, making the conversation\u2019s themes easy to understand."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is well-written, accurate, and clear, though it leans toward exposition rather than strict summarization, missing a few small dialogue details."
+          },
+          "evaluation_time": 3.844578504562378
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source conversation, with no invented content or significant distortions."
+          },
+          "completeness": {
+            "score": 4,
+            "justification": "The summary captures all major points and dynamics, including specific attitudes and the reference to the statistics, but skips a few minor conversational details."
+          },
+          "conciseness": {
+            "score": 4,
+            "justification": "The summary is mostly concise but includes a few extra flourishes (like 'Sure! Here\u2019s how I\u2019d explain...') and slightly more detail than strictly needed."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, logically organized, and written in an easy-to-understand, conversational style."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary\u2014faithful, comprehensive, clear, and engaging. Only very minor opportunities for brevity prevent a perfect score across the board."
+          },
+          "evaluation_time": 4.219858407974243
+        }
+      }
+    },
+    {
+      "doc_id": "wikihow-1087540",
+      "source": "wikihow",
+      "strategies": {
+        "dense_prose": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately mirrors all facts from the source document and does not add any incorrect or extraneous information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points are present: the ability to sort by three criteria and the mechanism (clicking headers to sort the list)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and avoids unnecessary elaboration while fully capturing the source's meaning."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very easy to understand and the information is presented in a clear, logical sequence."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is faithful, complete, concise, and clear, making it excellent in quality."
+          },
+          "evaluation_time": 3.2939465045928955
+        },
+        "concise": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the source content without introducing any errors or false information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All key details from the source are included: the sorting criteria (Name/Number, Content, Time) and the method (clicking headers)."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and avoids redundancy while retaining all necessary information."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, direct, and well-structured, making it easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that is faithful, complete, concise, and clear."
+          },
+          "evaluation_time": 2.9392342567443848
+        },
+        "bullet_points": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the source content without introducing any false information or interpretations."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential details from the source are included, such as sorting options and the procedure for sorting."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and to the point, with no unnecessary or redundant statements."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is very clear, well-structured, and easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that is accurate, complete, concise, and clear."
+          },
+          "evaluation_time": 2.070420980453491
+        },
+        "structured_sections": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects all details from the source document without introducing any false or misleading information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points, such as sorting criteria and the action (clicking headers), are included."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is brief and excludes unnecessary information while covering all main points."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The organization is clear, with headings and bullet points that make the information easy to understand."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is faithful, comprehensive, concise, and clear, providing an excellent encapsulation of the source document."
+          },
+          "evaluation_time": 2.143223524093628
+        },
+        "progressive_hierarchy": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents all elements of the source document without introducing any false or extraneous information."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "It captures every key detail from the source, including all sorting criteria and the method of sorting by clicking the headers."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary is succinct and contains no unnecessary repetition or verbose explanations."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is clear, straightforward, and logically structured for easy understanding."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "This is an excellent summary that is accurate, complete, concise, and clear."
+          },
+          "evaluation_time": 2.772791862487793
+        },
+        "formal_technical": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately represents the original information without adding or distorting facts."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "All essential points (sorting by Name/Number, Content, Time, and using column headers) are clearly included."
+          },
+          "conciseness": {
+            "score": 5,
+            "justification": "The summary gets straight to the point without unnecessary detail or repetition."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is well-structured, clear, and easily understood."
+          },
+          "overall": {
+            "score": 5,
+            "justification": "The summary is accurate, complete, concise, and clear, making it excellent overall."
+          },
+          "evaluation_time": 2.4425337314605713
+        },
+        "conversational": {
+          "faithfulness": {
+            "score": 5,
+            "justification": "The summary accurately reflects the original document without introducing any false information or misrepresentations."
+          },
+          "completeness": {
+            "score": 5,
+            "justification": "It covers all key points: sorting by name/number, content, and time, and the action of clicking headers."
+          },
+          "conciseness": {
+            "score": 3,
+            "justification": "The summary adds conversational and subjective touches ('Super handy if you're trying to find something specific!') which, while friendly, are not strictly necessary."
+          },
+          "clarity": {
+            "score": 5,
+            "justification": "The summary is easy to understand, organizes information logically, and explains how sorting is done."
+          },
+          "overall": {
+            "score": 4,
+            "justification": "The summary is accurate, clear, and complete, but loses a point on conciseness due to slight verbosity and informal tone."
+          },
+          "evaluation_time": 3.0617334842681885
+        }
+      }
+    }
+  ]
+}

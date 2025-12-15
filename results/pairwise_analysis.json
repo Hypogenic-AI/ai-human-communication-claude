@@ -1,0 +1,26 @@
+{
+  "dense_prose_vs_bullet_points": {
+    "A_wins": 2,
+    "B_wins": 18,
+    "ties": 0,
+    "total": 20,
+    "A_win_rate": 0.1,
+    "B_win_rate": 0.9
+  },
+  "dense_prose_vs_progressive_hierarchy": {
+    "A_wins": 1,
+    "B_wins": 19,
+    "ties": 0,
+    "total": 20,
+    "A_win_rate": 0.05,
+    "B_win_rate": 0.95
+  },
+  "formal_technical_vs_conversational": {
+    "A_wins": 16,
+    "B_wins": 4,
+    "ties": 0,
+    "total": 20,
+    "A_win_rate": 0.8,
+    "B_win_rate": 0.2
+  }
+}

@@ -1,13 +1,10 @@
 Resource finding phase completed successfully.
 
-Timestamp: 2025-12-14T18:30:35-06:00
+Timestamp: 2025-12-14T22:22:00-06:00
 
 Research Topic: AI->Human Communication: How to?
 
-Hypothesis: AI and humans consume information differently; while AI benefits from dense
-and comprehensive input, humans prefer concise communication. Research is needed to
-identify and test methods that make AI-to-human communication more effective, especially
-when conveying large volumes of information, such as research agent outputs.
+Hypothesis: Existing AI->Human communication methods are ineffective because AI tends to generate dense, comprehensive outputs while humans prefer concise information; developing new strategies for AI to communicate large volumes of information more effectively to humans will improve human understanding and trust in AI-generated research.
 
 Resources Gathered:
 - Papers downloaded: 11
@@ -23,14 +20,14 @@ Key Deliverables:
 - code/README.md: Repository documentation with usage examples
 
 Datasets Summary:
-1. FeedSum (125K samples) - Multi-dimensional feedback for summarization
-2. CNN/DailyMail (11.5K test) - Standard news summarization benchmark
-3. Human-Like-DPO (10.9K samples) - Human-like vs formal response preferences
+1. FeedSum (125K train + 1.4K test samples, 164MB) - Multi-dimensional feedback for summarization
+2. CNN/DailyMail (11.5K test samples, 30MB) - Standard news summarization benchmark
+3. Human-Like-DPO (10.9K samples, 15MB) - Human-like vs formal response preferences
 
 Code Repositories:
-1. SumLLM - Summarization training with LLM references
-2. llm-summarization-evaluation - Document summarization pipeline
-3. saga-llm-evaluation - Comprehensive evaluation metrics (G-Eval, SelfCheck)
+1. SumLLM (github.com/yixinL7/SumLLM) - Summarization training with LLM references
+2. llm-summarization-evaluation (github.com/haythemtellili/llm-summarization-evaluation) - Document summarization pipeline
+3. saga-llm-evaluation (github.com/Sagacify/saga-llm-evaluation) - Comprehensive evaluation metrics (G-Eval, SelfCheck)
 
 Recommendations for Experiments:
 1. Test progressive disclosure approaches (simple first, then detailed)

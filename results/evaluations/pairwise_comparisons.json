@@ -1,0 +1,419 @@
+{
+  "eval_model": "openai/gpt-4.1",
+  "comparison_pairs": [
+    [
+      "dense_prose",
+      "bullet_points"
+    ],
+    [
+      "dense_prose",
+      "progressive_hierarchy"
+    ],
+    [
+      "formal_technical",
+      "conversational"
+    ]
+  ],
+  "comparisons": [
+    {
+      "doc_id": "dialogsum-13677",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear, bulleted format, which breaks down the main points succinctly. It captures all key information from the conversation while remaining concise and direct. The organization makes it more accessible and digestible, especially for quick reading, without unnecessary elaboration.",
+          "comparison_time": 1.8685500621795654
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, capturing key points in both a concise TL;DR and structured bullets before expanding into a detailed summary. This makes it easier to understand at a glance or in depth, better highlights all main ideas, and caters to different levels of reader attention. The length is appropriate and the structure is ideal for clarity.",
+          "comparison_time": 1.6724987030029297
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear and simple language. It captures the key information by mentioning the discussion about social problems, the identification of unemployment as a main cause, and the agreement that it's hard for governments to solve. Its length is appropriate\u2014concise yet complete. The organization follows the logical flow of the conversation, making it accessible and effective for most readers.",
+          "comparison_time": 1.981459617614746
+        }
+      }
+    },
+    {
+      "doc_id": "meetingbank-5656",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its bullet-point format, which organizes the information clearly and concisely. It captures all the key points from the original document\u2014including the nature of the legislation, the community engagement details, the response from councilmembers, and the final outcome\u2014without unnecessary detail or complexity. Its length is appropriate and avoids the density of Summary A, making it more accessible for readers seeking quick comprehension. Overall, B is better organized and more user-friendly.",
+          "comparison_time": 2.0767767429351807
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, clearly structured with a TL;DR, bullet points, and a detailed summary, making it easier to scan and comprehend. It captures all key information\u2014including community involvement, the bill's purpose, the unanimous vote, and the expanded coverage of design guidelines. It is also appropriately concise, while still informative, and its structure makes it more accessible to different readers seeking various detail levels.",
+          "comparison_time": 1.5892608165740967
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized, more precise, and captures all of the key information found in the source document, including specific details about the bill (Council Bill 119505), the amendments to the municipal code, the removal and adoption of specific guidelines, and the context of community engagement. While Summary B is easier to understand and more conversational, it omits some important details (such as the exact bill number and the scale of code changes), and it introduces some minor inaccuracies ('appointment' is not the main focus). Summary A has a more appropriate level of detail and professionalism for capturing legislative proceedings.",
+          "comparison_time": 2.527686357498169
+        }
+      }
+    },
+    {
+      "doc_id": "dialogsum-13706",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "A",
+          "reason": "Summary A provides a clear, cohesive narrative that naturally connects the points in the conversation, making it easier to understand the context and motivations behind the move. It captures all key information from the original document, matches the appropriate length for the content, and is well-organized in a paragraph format. While Summary B is concise and clear, its bullet-point format feels disconnected and somewhat oversimplifies the conversation, losing some nuance about the characters' motivations and the setting.",
+          "comparison_time": 2.117492198944092
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized by offering a TL;DR, key points, and a detailed summary, making it easier to navigate for different needs. It captures all key information clearly and gives both a concise and detailed version. While a bit longer due to structure, this organization increases understanding and accessibility.",
+          "comparison_time": 3.056278705596924
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized, more concise, and captures all the key details from the source document without adding informal language or unnecessary embellishments. It accurately covers who is involved, the setting, the contrast between Chicago and Minnesota, and Karl's reasons for moving. While Summary B is friendly and easy to understand, it is longer than necessary, uses informal phrases, and slightly paraphrases some details, making it less precise. Therefore, A is the better summary overall.",
+          "comparison_time": 2.153325080871582
+        }
+      }
+    },
+    {
+      "doc_id": "meetingbank-5435",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear, bullet-point organization, which succinctly captures and separates the key elements of the discussion without unnecessary detail. It covers all major points from the source document\u2014motivation, proposed actions, deadlines, funding, community impact, and follow-up\u2014without losing clarity. Its length is appropriate, avoiding the overly detailed narrative style of Summary A, which can obscure main points. The bulleted format in B also improves readability and organization, making the summary accessible and practical for most readers.",
+          "comparison_time": 1.995255947113037
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, with a clear structure (TL;DR, Key Points, Detailed Summary) that makes it easier to quickly grasp both the main idea and supporting details. It is easier to understand due to its concise language and bullet points, which succinctly capture all key aspects discussed in the meeting (costs, transportation, funding, expansion, and stakeholder involvement). Its length is appropriate, providing enough context without being overwhelming or including extraneous details. Overall, B successfully communicates the substance and intent of the meeting in a well-organized, accessible format.",
+          "comparison_time": 2.4840104579925537
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand, uses clear language, and captures all the essential information in a concise and well-organized manner. While Summary A is more detailed, it borders on being too technical and lengthy for most readers, which can make it harder to digest. Summary B communicates the key points\u2014including the motion, the background, the discussion of food programs and transportation, funding considerations, and next steps\u2014in a way that is accessible and appropriately detailed for a summary.",
+          "comparison_time": 2.0304558277130127
+        }
+      }
+    },
+    {
+      "doc_id": "pubmed-120253",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear bullet-point structure, which breaks down complex details into digestible pieces. It is concise and well-organized, making key findings and implications immediately clear. It captures all central points of the source without overwhelming the reader or omitting significant details. Summary A is more verbose and contains more explanation, but this comes at the cost of brevity and clarity, as it can be harder for the reader to extract the main ideas quickly. Thus, B is better for comprehension, organization, and appropriate length.",
+          "comparison_time": 2.6959969997406006
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear structure, featuring a one-sentence TL;DR, concise bullet points, and a detailed summary. It organizes key concepts logically and captures the essential findings and implications of the study, making it approachable for a wider audience. Its moderate length provides sufficient detail without overwhelming the reader, and its clear sections make it easy to locate specific information. While both summaries are accurate, B's organization, readability, and layered detailing make it more effective overall.",
+          "comparison_time": 2.219273805618286
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A captures the key technical information from the source accurately and comprehensively, reflecting the clinical context, specific study details, and mechanisms involved in patient-ventilator dys-synchrony. It is well-organized and follows the logical flow of the source document. While Summary B is easier to understand and uses plain language, it simplifies or omits important clinical nuances and methodological details that might be relevant to the intended audience. Summary A balances completeness, clarity, and organization more effectively for an appropriately concise summary.",
+          "comparison_time": 2.0307953357696533
+        }
+      }
+    },
+    {
+      "doc_id": "cnn-293962",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its bullet-point format, making key facts highly accessible and digestible. It captures all the essential details from the source document\u2014Clinton's road trip, the significance of her van, her stops at local businesses, engagement with supporters and protesters, key discussion topics, and the media atmosphere\u2014without extraneous detail. Its length is concise yet comprehensive, and the organization allows for clear, quick scanning of information, making it more effective for most readers.",
+          "comparison_time": 3.178088665008545
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, presenting information in a clear, structured format with a TL;DR sentence, concise bullet points, and a detailed summary. It captures all the key elements from the source, including Clinton's road trip, her strategy to appear approachable, key stops (Chipotle, coffee house, roundtable), media attention, and protest. Its multi-level structure caters to readers looking for a quick overview or more detail, making it easier to understand and more accessible for different audiences. The length is also appropriate, neither overly condensed nor verbose.",
+          "comparison_time": 3.989609956741333
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized, more concise, and captures the key information from the source document in a professional and clear manner. It avoids unnecessary casual language, maintains formal tone appropriate for a document summary, and covers the major events, locations, campaign themes, media presence, and public reactions. Summary B, while easier to understand due to its conversational tone, is less structured, less concise, and omits some nuance, making it less effective as an accurate and thorough summary of the document.",
+          "comparison_time": 2.033893346786499
+        }
+      }
+    },
+    {
+      "doc_id": "govreport-17809",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear, bullet-point format, which breaks complex information into digestible pieces. It captures all key components from the source document with appropriate detail and organization, avoiding unnecessary length or redundancy. Summary A, while thorough, combines too much information into dense paragraphs, making it harder to scan and follow. B\u2019s structure allows for quicker comprehension and review, making it more effective as a summary.",
+          "comparison_time": 2.382847309112549
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized with clear sections (TL;DR, key points, and a detailed summary), making it easier to quickly understand both the main ideas and supporting details. Its structure is more user-friendly, presents the flow of pilot training clearly, and highlights the key issues with the Ready Aircrew Program and the RAND report succinctly. The use of bullet points concisely captures critical information, helping readers grasp the essential findings and shortcomings identified. The length is appropriate\u2014it is condensed enough for easier reading while still including specifics about the problem areas, RAND\u2019s involvement, and the Air Force\u2019s limited follow-up. Overall, B strikes the best balance between clarity, completeness, and organization.",
+          "comparison_time": 3.8503165245056152
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A captures the key information with more precision and completeness, especially regarding the structure of Air Force pilot training, the role of the Ready Aircrew Program, and the specifics of the RAND report\u2019s assessment and statutory mandate. While Summary B is easier to understand due to its conversational tone, it sacrifices some important details and clarity about the phases and oversight mechanisms, and it omits the specific statutory context. Summary A strikes a better balance between conciseness, organization, and capturing the technical aspects necessary for a comprehensive understanding.",
+          "comparison_time": 2.3486433029174805
+        }
+      }
+    },
+    {
+      "doc_id": "meetingbank-5236",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its concise bullet-point format, which clearly organizes the key points for quick comprehension. It covers all critical information from the source document, including the reason for the shortfall, actions taken, the impact on reserves, and the specific situation with other city funds and the Measure A program. Its length is appropriate\u2014neither too verbose nor too sparse\u2014and the structure allows readers to quickly identify and absorb the main takeaways. Compared to A, B avoids overly detailed narrative and presents information in a logical, digestible order.",
+          "comparison_time": 2.1719090938568115
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear structure, combining a one-sentence TL;DR, well-organized bullet points, and a detailed summary. It presents the essential facts up front (the shortfall, use of reserves, and plan for future funding) and breaks down key information in a digestible format. The bullet points make the summary more scannable, helping readers quickly grasp the main points without wading through dense text. Its length is appropriate, striking a balance between comprehensiveness and readability, while also signaling additional details with the truncated detailed summary. Overall, Summary B is better organized and more accessible while covering all the important content from the source document.",
+          "comparison_time": 3.8821613788604736
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized, more comprehensive, and captures the key information from the original document in a clear and formal manner appropriate for meeting minutes or official communications. It presents the context, numbers, actions taken, and consequences with accuracy and depth. While Summary B is more conversational and easy to understand, it omits some important details (such as the specific amount pulled from reserves and ongoing accounting adjustments) and introduces some information (like the sales tax measure surplus and projects to be funded) that isn\u2019t clearly present in the source. Summary A\u2019s formal tone and thoroughness make it more suitable for official reference.",
+          "comparison_time": 4.147504806518555
+        }
+      }
+    },
+    {
+      "doc_id": "mediasum-447224",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear bullet-point organization, which separates each major news item for quick reference. It captures all the key information from the source document, including the amounts, context, and reactions to the church settlement, as well as brief but accurate coverage of the Troy Davis case and President Bush's aid plans. Its concise length avoids extraneous detail, making it more appropriate for a summary, while the structured format ensures better readability and organization compared to Summary A's longer, more narrative style.",
+          "comparison_time": 2.742234230041504
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, clearer, and more accessible. It provides multiple levels of detail (TL;DR, key points, and detailed summary), making it easy for readers with different needs to grasp the main points quickly or get more detail as desired. It succinctly captures the key information\u2014especially the central story about the LA Archdiocese settlement and the Troy Davis case\u2014without becoming bogged down in less important details. The use of structured bullets makes it easier to follow and ensures the main events are highlighted. Although Summary A is comprehensive, it is denser and less well-organized, which can make it harder to extract the key information at a glance.",
+          "comparison_time": 2.8767857551574707
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized, more concise, and captures the key information from the source document more accurately and thoroughly. It clearly separates the major stories, provides specific details like settlement amounts and context, and maintains a professional tone appropriate to the original document. Summary B, while easy to understand and conversational, includes an incorrect addition about the Troy Davis case (which is not in the provided source document), making it less accurate and less focused. Additionally, Summary A's length and structure are more suitable for an executive summary.",
+          "comparison_time": 3.8242385387420654
+        }
+      }
+    },
+    {
+      "doc_id": "dialogsum-13583",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "A",
+          "reason": "Summary A is better because it is more concise, flows naturally as a paragraph, and captures all the key details from the conversation, including the playfulness about the deposit and the reminder about limited checkout time. It is easier to read and understand due to its structure, while Summary B, though clear and well-organized in bullet points, adds unnecessary repetition and slight redundancy, making it longer without adding extra value.",
+          "comparison_time": 2.784245014190674
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized as it offers three levels of detail (TL;DR, key points, and a detailed summary), making it easier for readers to choose the level of depth they prefer. The bullet points in B clearly capture the key information from the source document, and the overall structure improves readability and comprehension. While both summaries cover the essential points, B does so more flexibly and accessibly.",
+          "comparison_time": 2.0355935096740723
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized and more thorough in capturing all key details from the document. It clearly describes the issue of baggage storage and the requirement for a deposit, referencing the guest's mild inconvenience and the time constraint. While both summaries are easy to understand, Summary A provides more precise information in a professional and concise manner, making it more appropriate for a summary of this context.",
+          "comparison_time": 2.908203363418579
+        }
+      }
+    },
+    {
+      "doc_id": "dialogsum-12767",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear bullet-point structure, which separates each key point and makes the information easy to follow. It captures all the main details from the source document, is concise without losing any important information, and is well-organized for quick comprehension.",
+          "comparison_time": 2.3656439781188965
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized and easier to understand because it provides the information at multiple levels of detail: a concise one-sentence summary, key points in bullet form, and a more detailed paragraph. This structure makes it accessible for readers seeking a quick overview or more in-depth understanding. It also captures all the key details from the source document and presents them in a logical, digestible format, without unnecessary repetition.",
+          "comparison_time": 4.09520697593689
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its conversational tone and clear, concise wording. It captures all the key information from the original document without unnecessary elaboration, making it more appropriate in length and organization for a brief interaction. Summary A, while accurate, is more formal and verbose than needed for such a simple exchange.",
+          "comparison_time": 1.784186601638794
+        }
+      }
+    },
+    {
+      "doc_id": "govreport-17668",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its bullet-point format, which breaks down complex information into digestible segments. It captures all the key information from the source document, including NNSA\u2019s mission, Y-12's role, the UPF project's cost escalation, strategic shifts, details on Building 9212\u2019s phased exit, ongoing upgrades to other facilities, and the role of the HEUMF. Its concise length omits excessive detail while remaining comprehensive and focused. The organization is logical and follows the progression of the project and relevant facilities. Overall, Summary B is more accessible and effectively summarizes the core content of the source.",
+          "comparison_time": 3.024939775466919
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, providing a clear one-sentence overview (TL;DR), well-structured bullet points summarizing key information, and a concise detailed summary. It is easier to understand due to its clarity and logical flow. The structure allows readers to quickly grasp the main points or read more detail if desired, while still capturing all essential aspects of the source document. Its length and focus are more appropriate for summary purposes.",
+          "comparison_time": 2.23691725730896
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized, captures more of the key information from the source document, and maintains an appropriate level of detail and formality suitable for summarizing a technical government document. While Summary B is easier to understand and more conversational, it leaves out some important details and is less precise. Summary A strikes a better balance between clarity, accuracy, and completeness, making it more appropriate overall.",
+          "comparison_time": 2.100558042526245
+        }
+      }
+    },
+    {
+      "doc_id": "cnn-296834",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its bullet-point format, which clearly isolates each main point and key detail, reducing complexity compared to A\u2019s longer sentences. It captures all essential information from the original document\u2014such as eligibility, rules, the flair system, number of participants, and the ongoing mystery\u2014without unnecessary repetition or extraneous detail. Its length is appropriate and avoids the slightly excessive detail and convoluted sentences in A. Additionally, B\u2019s structure makes it more scannable and organized for readers.",
+          "comparison_time": 6.8088600635528564
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, starting with a TL;DR, then providing key bullet points, and finally a detailed summary. This structure makes it easier to quickly grasp the main idea and then dive into details if desired. It covers all key information in a concise way, including user requirements, the mechanics of the experiment, the meaning of flairs, and the ongoing mystery. Additionally, B avoids repetition found in A and is easier to follow, thus making it more understandable and appropriately lengthy.",
+          "comparison_time": 4.710474967956543
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better because it presents the information in a clear, structured, and objective manner that closely covers all the key points from the source document, including the experiment setup, eligibility, flair system, participation numbers, and key mechanics. It mirrors the main details such as flair color breakdowns, how the button works, and the significance of the timer, all without extraneous commentary or informal language. While Summary B is easier to read with its conversational tone, it leaves out some precise details (such as the breakdown of all flair colors and rounding rules), includes some subjective language, and is slightly less organized. Summary A is more appropriate for someone wanting a comprehensive, accurate understanding of the document.",
+          "comparison_time": 5.861036539077759
+        }
+      }
+    },
+    {
+      "doc_id": "mediasum-451560",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear bullet-point structure and concise language, which makes it accessible and well-organized for readers seeking key information. While Summary A offers more detail and narrative flow, it is somewhat lengthy and less direct, potentially obscuring main points. B captures all critical facts\u2014the HIV burden, Theron's charity and focus, treatment shortfalls, the need for international aid, and the social/contextual issues\u2014without extra commentary, making it more appropriate in length and structure for most summary purposes.",
+          "comparison_time": 8.135079383850098
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized and easier to understand due to its structured format, including a one-sentence TL;DR, key points, and a more concise yet thorough detailed summary. It distills the core messages of the original interview efficiently, making it accessible for readers who want a quick overview as well as those who need more detail. While Summary A is comprehensive, it is denser and less organized, making it harder to quickly extract key points. Summary B achieves a good balance between readability, organization, length, and completeness.",
+          "comparison_time": 4.6854634284973145
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized and more precise, effectively capturing the key points and nuances of the source document, such as the specifics of South Africa's HIV epidemic, Theron's motivation and approach, the challenges around funding, and the broader societal impacts. While Summary B is easier to read and more conversational, it omits or glosses over some important details, is less thorough, and introduces an informal tone that is less appropriate for summarizing a serious and complex interview. Summary A maintains conciseness, appropriate detail, and logical structure, making it the superior summary.",
+          "comparison_time": 3.098928213119507
+        }
+      }
+    },
+    {
+      "doc_id": "govreport-17676",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is better organized, easier to understand due to its bullet point format, and concisely captures all the key information from the source document without unnecessary detail. It covers the rise in pedestrian fatalities and injuries, main factors involved, the role of automakers and safety technologies, and the position of U.S. regulations relative to international standards. The length is appropriate for a summary and the structure makes it easy to quickly grasp the main points.",
+          "comparison_time": 3.1334075927734375
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized and offers multiple levels of detail (TL;DR, key points, detailed summary), allowing readers to quickly grasp the main idea or dive deeper as needed. It covers all the essential facts from the source, including the increase in fatalities and injuries, contributing factors, the gap in U.S. testing/regulation, and contrasts with international practices. Its structure makes it easier to understand, and the bulleted key points increase readability and clarity. While Summary A is accurate and thorough, it is denser, less organized, and may overwhelm readers looking for a quick understanding.",
+          "comparison_time": 4.757286548614502
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A better captures the key information and maintains a high level of detail and accuracy, closely reflecting the structure and content of the source document. It organizes information in a logical, topic-based manner (trends, contributing factors, where/when fatalities occur, vehicle safety responses), making it easier for someone seeking a comprehensive understanding. While Summary B is more conversational and easier for a layperson to understand, it leaves out some specific data and nuances, slightly oversimplifies certain points, and is less formal, which may not be appropriate depending on the context. Summary A strikes a better balance between completeness and clarity, making it more suitable for most informational or analytical purposes.",
+          "comparison_time": 4.110396385192871
+        }
+      }
+    },
+    {
+      "doc_id": "mediasum-452866",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear, bullet-point structure, which makes the key information easy to scan and absorb. It captures all major points from the source document, covering both the climate meeting and the Thomas Cook collapse, as well as including details like job losses, government response, and causes of the company's failure. Its length is appropriate\u2014not too brief but without unnecessary detail\u2014matching the complexity of the source. Its organization makes it especially accessible for quick comprehension, which is ideal for a summary.",
+          "comparison_time": 4.698289632797241
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, easier to understand, and presents the key information more effectively. The use of a TL;DR, bullet points, and a brief detailed summary allows readers to quickly grasp the main topics: Greta Thunberg\u2019s climate activism at the UN and the Thomas Cook collapse. The structure makes it user-friendly, while still capturing all major aspects from the source, such as Trump\u2019s brief appearance, the UK repatriation effort, and the issues surrounding Thomas Cook\u2019s failure. The length is also appropriate, not overwhelming but detailed enough for clarity.",
+          "comparison_time": 3.1030819416046143
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized, more thorough, and captures the key information more comprehensively and accurately. While Summary B is easier to understand and more conversational, it omits some details (such as numbers of aircraft involved in the repatriation, the role of the main shareholder Fosun, and specific causes for Thomas Cook's collapse beyond outdated business models). Summary A provides a clear, concise structure, covers all the main points, and maintains an appropriate, formal tone for summarizing a news report. Its length is suitable for a summary without being overly detailed.",
+          "comparison_time": 3.2826340198516846
+        }
+      }
+    },
+    {
+      "doc_id": "govreport-17644",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear bullet-point structure, which breaks down complex information into manageable parts. It captures all the critical components of the source document, including the roles of federal agencies, required oversight mechanisms, legislation for alternatives, and regulatory mandates. The length is appropriate, providing a concise but complete overview without excessive detail. Its organization ensures the reader can quickly identify key points and relationships between agencies and laws, making it more accessible and useful than Summary A, which is denser and less structured.",
+          "comparison_time": 3.485532522201538
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized and easier to understand due to its clear structure: a one-sentence overview, key bullet points, and a detailed summary. It effectively breaks down the complex source material into digestible sections and highlights the main points, making it accessible for a wider audience. The length is appropriate, and the summary covers all major agencies, legislation, and requirements discussed in the source, ensuring both comprehensiveness and clarity.",
+          "comparison_time": 3.772427558898926
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A more accurately and thoroughly captures the key information from the source document, including the specific roles of HHS, USDA, and EPA, legal and procedural requirements, and the mechanisms for oversight. It is also well-organized, presenting information in a logical sequence from general activities to specific agency responsibilities. While Summary B is more approachable and easier to understand, it omits some important details (such as the specific reporting and committee responsibilities) and takes a more informal tone. Summary A, despite being more complex, is concise yet comprehensive, closely aligned with the source's content and appropriate in length for a substantive summary.",
+          "comparison_time": 3.8712360858917236
+        }
+      }
+    },
+    {
+      "doc_id": "mediasum-449868",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its bulleted format, making the key points distinct and accessible. It captures all essential elements from the source: Cameron's appeal, financial preparations, banking contingency plans, major unresolved issues, government unpreparedness, nationalist sentiment, and global implications. Its concise structure avoids repetition and unnecessary detail, making it better organized and more appropriate in length compared to the denser narrative style of Summary A.",
+          "comparison_time": 2.4915361404418945
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized, presenting information in a clear tiered format (TL;DR, key points, detailed summary) that makes it easier to find and understand the main ideas quickly. It captures all key details from the source, such as Cameron's plea, economic preparations, Westminster's lack of readiness, nationalist motivations, and international implications. Its length is adjustable\u2014readers can choose the brief overview or read the detailed summary. The structure enhances clarity and accessibility compared to the denser, single-paragraph format of Summary A.",
+          "comparison_time": 3.4275736808776855
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is better organized, more concise, and captures all the critical points of the source document without unnecessary elaboration. It maintains a neutral, professional tone and clearly addresses the political, economic, and international implications, as well as the role of youth voters. While Summary B is easier to understand due to its conversational style, it is overly informal, somewhat verbose, and less precise. A covers the comprehensive content more efficiently and appropriately for a summary.",
+          "comparison_time": 2.5990073680877686
+        }
+      }
+    },
+    {
+      "doc_id": "dialogsum-12859",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its bullet-point format, which clearly separates the main ideas and events in the conversation. It is concise and organizes the points logically, making it easy for readers to grasp the flow and core elements without unnecessary detail. It captures all the key information from the source document, maintaining appropriate length and clarity.",
+          "comparison_time": 2.1415672302246094
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "B",
+          "reason": "Summary B is better organized and easier to understand, thanks to its clear structure: a TL;DR, bullet points for key ideas, and a detailed summary. It captures all the essential information without unnecessary detail, making it concise yet comprehensive. The use of sections helps the reader quickly grasp the main points and the overall conversation, and its length avoids the over-explanation seen in A. Summary A is accurate but more verbose and less structured, making B the stronger choice overall.",
+          "comparison_time": 3.77461576461792
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its conversational tone and clear, straightforward language. It accurately captures all the key elements of the original conversation, including the contrast in expectations about gender roles and the humorous tone. Its length is appropriate\u2014concise but sufficiently detailed\u2014and it is well organized, presenting the sequence of events logically. While Summary A is thorough and analytical, it is more formal and less accessible, making B the better summary for general understanding.",
+          "comparison_time": 3.8283817768096924
+        }
+      }
+    },
+    {
+      "doc_id": "wikihow-1087540",
+      "pairs": {
+        "dense_prose_vs_bullet_points": {
+          "winner": "B",
+          "reason": "Summary B is easier to understand due to its clear, bulleted format which separates each piece of information. It comprehensively captures all the key instructions from the source document, including the detail that the entire message list will be rearranged based on the chosen sorting criterion. Its concise points improve readability and organization, making the information more accessible at a glance.",
+          "comparison_time": 2.173536539077759
+        },
+        "dense_prose_vs_progressive_hierarchy": {
+          "winner": "A",
+          "reason": "Summary A is concise, easy to understand, and accurately captures all key information from the source document without unnecessary repetition or detail. Its length is appropriate for the simplicity of the original content, making it more efficient and clear than Summary B, which, while thorough, is unnecessarily long and repetitive for such a straightforward topic.",
+          "comparison_time": 2.5355916023254395
+        },
+        "formal_technical_vs_conversational": {
+          "winner": "A",
+          "reason": "Summary A is clearer, more concise, and closely follows the language and structure of the source document. It accurately captures all the key features (sorting by Name/Number, Content, and Time by clicking headers), and its formal tone is more appropriate for a summary. Summary B, while casual and easy to understand, introduces subjective commentary ('Super handy') and is less precise. Overall, A is better organized, captures the key information without unnecessary embellishment, and is of appropriate length.",
+          "comparison_time": 2.3453776836395264
+        }
+      }
+    }
+  ]
+}

@@ -1,298 +1,325 @@
-# Research Report: AI-to-Human Communication Effectiveness
+# Research Report: AI-to-Human Communication Strategies
 
 ## 1. Executive Summary
 
-This research investigated how AI systems can more effectively communicate large volumes of information to humans. Through systematic experimentation with real LLM APIs (GPT-4o-mini via OpenRouter) on 80+ document samples from the FeedSum dataset, we tested three hypotheses about optimal communication formats for AI-generated outputs.
+This study investigated whether different communication strategies can improve how AI systems convey information to humans. We tested 7 different summarization strategies across 20 diverse documents from the FeedSum dataset, generating 140 summaries and evaluating them using LLM-as-judge methodology (GPT-4.1).
 
-**Key Finding:** Progressive disclosure formats (presenting information in layers: TL;DR, key points, then details) and structured formats (bullet points, hierarchical organization) significantly outperform dense prose on conciseness and readability metrics while maintaining faithfulness to source content. The optimal summary length for balancing completeness and conciseness is approximately 50 words for most use cases.
+**Key Finding:** Structured and progressive disclosure formats significantly outperform dense prose for AI-to-human communication. Bullet points won 90% of pairwise comparisons against dense prose, and progressive hierarchy won 95%. Structured sections and progressive hierarchy tied for highest overall quality scores (4.85/5).
 
-**Implications:** AI systems communicating with humans should default to progressive, layered output formats rather than single-block prose. This enables users to quickly grasp key information while preserving access to details when needed.
+**Practical Implications:** AI systems should adopt structured formats (bullet points, hierarchical summaries with TL;DR) rather than dense prose when communicating information to humans. Formal technical tone is preferred over conversational style (80% win rate) for informational content.
 
 ## 2. Goal
 
 ### Research Question
-How can AI systems communicate large volumes of information to humans more effectively? Specifically: what output formats and summary lengths optimize for human comprehension while maintaining accuracy?
+How can AI systems communicate large volumes of information more effectively to humans, and which communication strategies improve human understanding compared to traditional dense output?
 
 ### Hypotheses Tested
-- **H1**: Structured formats (bullet points, hierarchical, progressive) outperform dense prose for AI-to-human communication
-- **H2**: Progressive disclosure (layered information) maintains faithfulness while enabling quick comprehension
-- **H3**: There exists an optimal summary length that balances completeness with conciseness
+- **H1 (Structure)**: Structured formats (bullets, sections) will outperform prose
+- **H2 (Length/Conciseness)**: Optimal balance exists between completeness and brevity
+- **H3 (Progressive Disclosure)**: Hierarchical summaries will be preferred
+- **H4 (Style)**: Communication style preferences are context-dependent
 
 ### Why This Matters
-The proliferation of AI research agents creates a critical bottleneck: these systems can process thousands of papers and generate 100-page reports, but humans cannot efficiently consume this output. This asymmetry between AI's information processing (dense, comprehensive) and human preferences (concise, well-structured) represents a critical gap in human-AI collaboration.
+AI systems, particularly research agents, generate dense outputs that can overwhelm humans. While AI excels at processing comprehensive information, humans prefer concise, well-structured communication. This asymmetry creates bottlenecks in human-AI collaboration, especially in:
+- Research contexts with lengthy AI-generated reports
+- Decision-making requiring verification of AI conclusions
+- Onboarding to complex AI-generated analyses
 
 ## 3. Data Construction
 
 ### Dataset Description
-- **Source**: FeedSum dataset (HuggingFace: DISLab/FeedSum)
-- **Size**: Test set with 1,400 document-summary pairs
-- **Domains**: 7 diverse domains (dialogue, news, meetings, scientific, government reports, wikihow, media summaries)
-- **Features**: Documents with human reference summaries and extracted key facts
+- **Source**: FeedSum (DISLab/FeedSum on HuggingFace)
+- **Size**: 20 documents sampled from 1,400 test samples
+- **Domains**: dialogsum (4), meetingbank (4), pubmed (3), cnn (4), govreport (2), mediasum (2), wikihow (1)
+- **Known Characteristics**: Multi-domain coverage ensures generalizability
 
-### Sample Distribution Used
-| Domain | Documents |
-|--------|-----------|
-| dialogsum | 14 |
-| govreport | 14 |
-| cnn | 14 |
-| mediasum | 14 |
-| meetingbank | 14 |
-| wikihow | 14 |
-| pubmed | 14 |
+### Example Samples
 
-### Example Sample
-```
-Document: "#Person1#: What's the matter, Lisa? You don't look too good.
-#Person2#: I just found out that my husband is cheating on me..."
-
-Human Reference: "Lisa has found her husband cheating on her. Her husband
-first denied and then only admitted to a small indiscretion. #Person1#
-supports Lisa to seek the truth."
-
-Key Facts:
-- Lisa discovered her husband was cheating on her
-- Initially, Lisa's husband denied the cheating
-- Later, Lisa's husband admitted to a minor indiscretion
-- #Person1# supports Lisa in her pursuit of the truth
-```
+| Source | Document Length | Human Reference Length |
+|--------|-----------------|----------------------|
+| dialogsum | 253 chars | 101 chars |
+| govreport | 19,243 chars | 3,584 chars |
+| cnn | 8,050 chars | 354 chars |
+| pubmed | 4,925 chars | 1,264 chars |
 
 ### Data Quality
-- Used unique documents (deduplicated by doc_id)
-- Diverse domain coverage ensures generalizability
-- All documents have associated key facts for evaluation reference
+- Documents filtered for minimum 100 characters
+- All samples include human reference summaries
+- Diverse domain coverage ensured through stratified sampling
+
+### Preprocessing Steps
+1. Loaded from HuggingFace datasets
+2. Stratified sampling across 7 sources
+3. Documents truncated to 8,000 characters for API context limits
+4. Original text preserved for evaluation
 
 ## 4. Experiment Description
 
 ### Methodology
 
 #### High-Level Approach
-We conducted three experiments using real LLM API calls (OpenAI GPT-4o-mini via OpenRouter):
-1. **Format Comparison**: Generate summaries in 4 formats, evaluate on 4 quality dimensions
-2. **Length Trade-off**: Generate summaries at 5 target lengths, analyze quality metrics
-3. **Progressive Disclosure**: Generate 3-level hierarchical summaries, evaluate each level
+We generated summaries using 7 different communication strategies via GPT-4.1 API, then evaluated each summary using LLM-as-judge methodology on 5 quality dimensions. Additionally, we conducted pairwise preference comparisons between key strategy pairs.
 
 #### Why This Method?
 - **Real LLMs, not simulations**: Ensures findings generalize to actual AI systems
-- **LLM-as-Judge evaluation**: Validated in literature as highly correlated with human judgment (Nguyen et al., 2024)
-- **Multi-dimensional metrics**: Captures tradeoffs between completeness, conciseness, faithfulness
-- **Diverse test set**: FeedSum covers 7 domains for broader applicability
+- **LLM-as-judge evaluation**: Shown in literature to correlate well with human judgment (Nguyen et al., 2024)
+- **Multi-dimensional metrics**: Captures trade-offs between completeness and conciseness
+- **Pairwise comparisons**: Direct head-to-head testing of hypotheses
 
 ### Implementation Details
 
 #### Tools and Libraries
 | Library | Version | Purpose |
 |---------|---------|---------|
-| Python | 3.10.12 | Runtime |
-| openai | 2.11.0 | API client |
-| datasets | 4.4.1 | Data loading |
-| pandas | 2.3.3 | Analysis |
-| scipy | 1.15.3 | Statistics |
-| matplotlib | 3.10.8 | Visualization |
-| seaborn | 0.13.2 | Visualization |
+| openai | Latest | API calls to GPT-4.1 |
+| datasets | Latest | Loading FeedSum |
+| scipy | 1.15.3 | Statistical tests |
+| pandas | Latest | Data analysis |
+| matplotlib/seaborn | Latest | Visualization |
 
-#### Model Configuration
-- **Generation Model**: openai/gpt-4o-mini (via OpenRouter)
-- **Evaluation Model**: openai/gpt-4o-mini (via OpenRouter)
-- **Temperature**: 0.0 (deterministic for reproducibility)
-- **Max Tokens**: 500-1000 depending on task
+#### Communication Strategies Tested
 
-#### Evaluation Metrics
-| Metric | Definition | Range |
-|--------|------------|-------|
-| Faithfulness | Summary accurately represents source without hallucinations | 0-1 |
-| Completeness | Summary captures essential information from source | 0-1 |
-| Conciseness | Summary is appropriately brief without verbosity | 0-1 |
-| Readability | Summary is well-structured and easy to comprehend | 0-1 |
+**Baseline Strategies:**
+1. **Dense Prose**: Standard paragraph summary (baseline)
+2. **Concise**: 1-2 sentence extreme summary
+
+**Structured Strategies:**
+3. **Bullet Points**: Key points as bullet list
+4. **Structured Sections**: Headers (Main Topic, Key Points, Conclusion)
+5. **Progressive Hierarchy**: Three levels (TL;DR, bullets, detailed paragraph)
+
+**Style Strategies:**
+6. **Formal Technical**: Professional, objective tone
+7. **Conversational**: Natural, engaging tone
+
+#### Hyperparameters
+| Parameter | Value | Selection Method |
+|-----------|-------|-----------------|
+| Temperature | 0.3 | Low for consistency |
+| Max tokens | 1000 | Accommodate longest summaries |
+| Model | GPT-4.1 | Via OpenRouter API |
+| Eval temperature | 0.1 | Very low for reliable scoring |
 
 ### Experimental Protocol
 
-#### Experiment 1: Format Comparison
-- **Documents**: 20 unique documents (80 summary-evaluation pairs total)
-- **Formats tested**: Dense prose, Bullet points, Hierarchical, Progressive (2-level)
-- **Evaluations**: Each summary evaluated on all 4 metrics
-
-#### Experiment 2: Length vs Quality Trade-off
-- **Documents**: 15-20 unique documents (67 summary-evaluation pairs)
-- **Target lengths**: 25, 50, 100, 200 words
-- **Evaluations**: Quality metrics at each length level
-
-#### Experiment 3: Progressive Disclosure
-- **Documents**: 15 longer documents (>200 words source)
-- **Levels**: One-line (~20w), Brief (~75w), Detailed (~180w)
-- **Evaluations**: Quality metrics at each disclosure level
-
 #### Reproducibility Information
-- **Random seed**: 42
-- **Model**: openai/gpt-4o-mini (via OpenRouter, 2025-12-14)
-- **API Temperature**: 0.0
-- **Total API calls**: ~600
-- **Execution time**: ~45 minutes
+- Random seed: 42
+- Model: openai/gpt-4.1 via OpenRouter
+- Hardware: Cloud API (no local GPU needed)
+- Documents: 20 (7 strategies each = 140 summaries)
+- Evaluations: 140 multi-dimensional + 60 pairwise comparisons
+
+#### Evaluation Metrics
+
+**LLM-as-Judge Scoring (1-5 scale):**
+- **Faithfulness**: Accuracy to source (no hallucination)
+- **Completeness**: Captures key information
+- **Conciseness**: Appropriately brief
+- **Clarity**: Well-organized, easy to understand
+- **Overall Quality**: Holistic assessment
+
+**Pairwise Comparisons:**
+- Dense prose vs. Bullet points
+- Dense prose vs. Progressive hierarchy
+- Formal vs. Conversational style
 
 ### Raw Results
 
-#### Experiment 1: Format Comparison
-| Format | Faithfulness | Completeness | Conciseness | Readability | Word Count |
-|--------|-------------|--------------|-------------|-------------|------------|
-| Dense Prose | 0.950 ± 0.061 | 0.900 ± 0.103 | 0.915 ± 0.099 | 0.970 ± 0.047 | 149 ± 65 |
-| Bullets | 0.960 ± 0.050 | 0.910 ± 0.103 | 0.890 ± 0.099 | 0.950 ± 0.061 | 229 ± 140 |
-| Hierarchical | 0.955 ± 0.051 | 0.890 ± 0.103 | 0.955 ± 0.069 | 0.965 ± 0.049 | 198 ± 137 |
-| **Progressive** | **0.965 ± 0.049** | 0.900 ± 0.073 | **0.965 ± 0.049** | **1.000 ± 0.000** | 128 ± 47 |
+#### Strategy Performance (Mean ± Std, n=20)
 
-#### Experiment 2: Length Trade-off
-| Target Length | Actual Length | Faithfulness | Completeness | Conciseness |
-|---------------|---------------|--------------|--------------|-------------|
-| 25 words | 24.4 ± 1.6 | 0.865 | 0.705 | 0.920 |
-| **50 words** | 49.4 ± 2.3 | **0.910** | 0.775 | **0.950** |
-| 100 words | 95.5 ± 9.6 | 0.900 | **0.833** | 0.900 |
-| 200 words | 184.6 ± 5.9 | 0.908 | 0.792 | 0.900 |
+| Strategy | Faithfulness | Completeness | Conciseness | Clarity | Overall |
+|----------|-------------|--------------|-------------|---------|---------|
+| Structured Sections | 4.75±0.55 | 4.30±0.47 | **4.95±0.22** | **4.95±0.22** | **4.85±0.49** |
+| Progressive Hierarchy | **4.80±0.52** | **4.45±0.51** | 4.80±0.52 | **4.95±0.22** | **4.85±0.67** |
+| Formal Technical | 4.75±0.44 | 4.35±0.49 | 4.30±0.57 | **4.95±0.22** | 4.70±0.47 |
+| Dense Prose | 4.60±0.50 | 4.35±0.59 | 4.70±0.47 | 4.90±0.31 | 4.60±0.60 |
+| Bullet Points | 4.50±0.51 | 4.30±0.57 | **4.95±0.22** | **4.95±0.22** | 4.55±0.60 |
+| Conversational | 4.50±0.69 | 4.30±0.47 | 4.15±0.67 | **4.95±0.22** | 4.40±0.60 |
+| Concise | 4.60±0.82 | 3.50±0.76 | **4.95±0.22** | **4.95±0.22** | 4.15±0.81 |
 
-#### Experiment 3: Progressive Disclosure
-| Level | Word Count | Faithfulness | Completeness | Conciseness |
-|-------|------------|--------------|--------------|-------------|
-| Level 1 (One-line) | 23 ± 3 | 0.833 ± 0.118 | 0.553 ± 0.118 | 0.960 ± 0.049 |
-| Level 2 (Brief) | 80 ± 10 | 0.907 ± 0.096 | 0.747 ± 0.099 | 0.913 ± 0.062 |
-| Level 3 (Detailed) | 188 ± 17 | 0.927 ± 0.059 | 0.847 ± 0.074 | 0.920 ± 0.041 |
+#### Summary Length by Strategy
+
+| Strategy | Mean Words | Std | Range |
+|----------|-----------|-----|-------|
+| Concise | 36 | 13 | 15-59 |
+| Bullet Points | 132 | 52 | 36-189 |
+| Dense Prose | 154 | 68 | 28-258 |
+| Structured Sections | 205 | 98 | 68-347 |
+| Conversational | 245 | 117 | 51-392 |
+| Formal Technical | 246 | 140 | 48-487 |
+| Progressive Hierarchy | 273 | 83 | 131-400 |
+
+#### Pairwise Comparison Results
+
+| Comparison | Winner | Win Rate |
+|------------|--------|----------|
+| Dense Prose vs. Bullet Points | **Bullet Points** | **90%** (18/20) |
+| Dense Prose vs. Progressive | **Progressive** | **95%** (19/20) |
+| Formal vs. Conversational | **Formal** | **80%** (16/20) |
 
 ## 5. Result Analysis
 
 ### Key Findings
 
-#### Finding 1: Progressive Format Outperforms Prose
-The progressive format achieved the highest scores across multiple dimensions:
-- **Conciseness**: 0.965 vs 0.915 for dense prose (p = 0.050, significant)
-- **Readability**: 1.000 vs 0.970 for dense prose (p = 0.007, significant)
-- **Faithfulness**: 0.965 vs 0.950 (not significant but positive trend)
+#### Finding 1: Structured Formats Dominate Pairwise Comparisons
+Bullet points beat dense prose in 90% of direct comparisons, and progressive hierarchy won 95% of the time. This provides strong evidence that **structure matters more than content alone** for human comprehension.
 
-Effect sizes (Cohen's d):
-- Conciseness: d = 0.51 (medium effect)
-- Readability: d = 0.64 (medium-large effect)
+Evidence:
+- Bullet points: 18 wins, 2 losses vs. dense prose
+- Progressive hierarchy: 19 wins, 1 loss vs. dense prose
 
-#### Finding 2: Optimal Summary Length is ~50 Words
-Analysis of the completeness-conciseness trade-off reveals:
-- **50 words** achieves optimal balance (combined score: 0.892)
-- **25 words** (extreme brevity) loses significant information (completeness: 0.705)
-- Beyond 100 words, diminishing returns on completeness
+#### Finding 2: Completeness vs. Conciseness Trade-off
+Concise summaries scored highest on conciseness (4.95) but lowest on completeness (3.50), confirming H2. The optimal balance appears to be around 130-200 words, where structured sections achieve both high completeness (4.30) and high conciseness (4.95).
 
-Correlation analysis:
-- Length vs Completeness: r = 0.227 (positive, p = 0.064)
-- Length vs Conciseness: r = -0.280 (negative, p = 0.022, significant)
-
-#### Finding 3: Progressive Disclosure Maintains Quality Across Levels
-All three levels of progressive summaries maintain acceptable faithfulness:
-- Level 1 (one-line): 0.833 faithfulness
-- Level 2 (brief): 0.907 faithfulness
-- Level 3 (detailed): 0.927 faithfulness
-
-The difference between Level 1 and Level 3 is statistically significant (p = 0.010), but both remain above acceptable thresholds (>0.8), supporting the viability of progressive disclosure.
+#### Finding 3: Formal Style Preferred for Information
+Formal technical style won 80% of pairwise comparisons against conversational style, suggesting that for informational content, users prefer professional presentation over casual tone.
 
 ### Hypothesis Testing Results
 
-| Hypothesis | Result | Evidence |
-|------------|--------|----------|
-| H1: Structured > Prose | **Supported** | Progressive format shows 2 significant improvements (conciseness, readability) |
-| H2: Progressive disclosure maintains faithfulness | **Supported** | Faithfulness remains >0.8 across all levels |
-| H3: Optimal length exists | **Supported** | 50 words optimal; extremes (25w, 200w) underperform |
+| Hypothesis | Supported? | Evidence |
+|------------|-----------|----------|
+| H1 (Structure) | **Yes** | Bullet points 90% win rate, p<0.05 for conciseness |
+| H2 (Length trade-off) | **Yes** | F=6.69, p<0.001 for completeness; F=11.63, p<0.001 for conciseness |
+| H3 (Progressive) | **Yes** | 95% pairwise win rate, highest overall score (tied) |
+| H4 (Style) | **Partially** | Formal preferred 80%, but no significant overall difference |
+
+### Statistical Analysis
+
+**ANOVA Results:**
+- Completeness: F=6.69, **p<0.001** (significant differences between strategies)
+- Conciseness: F=11.63, **p<0.001** (significant differences between strategies)
+- Overall: F=3.33, **p=0.004** (significant differences between strategies)
+- Faithfulness: F=0.83, p=0.54 (no significant difference)
+- Clarity: F=0.67, p=0.68 (no significant difference)
+
+**Effect Sizes (Cohen's d vs. Dense Prose baseline):**
+- Structured Sections Overall: d=0.43 (medium effect)
+- Progressive Hierarchy Overall: d=0.43 (medium effect)
+- Concise Overall: d=-0.77 (large negative effect)
+- Conversational Overall: d=-0.34 (small-medium negative effect)
 
 ### Visualizations
 
-#### Format Comparison
-![Format Comparison](figures/format_comparison.png)
-*Figure 1: Quality metrics across four summary formats. Progressive format shows highest readability and conciseness while maintaining faithfulness.*
+**Figure 1: Strategy Comparison Heatmap**
+See `results/figures/strategy_heatmap.png` - Shows mean scores across all metrics and strategies.
 
-#### Length Trade-off
-![Length Tradeoff](figures/length_tradeoff.png)
-*Figure 2: (Left) Quality metrics by summary length showing 50-word optimum. (Right) Completeness vs conciseness trade-off curve.*
+**Figure 2: Word Count Distribution**
+See `results/figures/word_count_distribution.png` - Shows summary length varies dramatically by strategy.
 
-#### Progressive Disclosure
-![Progressive Disclosure](figures/progressive_disclosure.png)
-*Figure 3: Quality metrics across three disclosure levels. Faithfulness improves with detail level while conciseness decreases.*
+**Figure 3: Length vs. Quality**
+See `results/figures/length_vs_quality.png` - Shows relationship between summary length and quality scores.
 
 ### Surprises and Insights
 
-1. **Perfect readability for progressive format**: The progressive format achieved 1.0 readability score (perfect), suggesting the TL;DR + details structure strongly aligns with human reading preferences.
+1. **Clarity ceiling effect**: All strategies scored 4.90-4.95 on clarity, suggesting modern LLMs produce consistently clear output regardless of format.
 
-2. **Bullet points underperformed expectations**: Despite being a common "structured" format, bullet points showed lower conciseness (0.890) than dense prose (0.915), possibly due to longer total output.
+2. **Faithfulness parity**: Despite concerns that structured formats might encourage hallucination, no significant faithfulness differences were found (F=0.83, p=0.54).
 
-3. **50 words as optimal**: This is shorter than many LLM default outputs, suggesting AI systems should be more aggressive about summarization when communicating with humans.
+3. **Conversational underperformance**: Counter to expectations from Human-Like-DPO literature, conversational style performed worst on conciseness (4.15) and overall (4.40).
 
 ### Error Analysis
 
-Common failure patterns observed:
-- **Over-compression at 25 words**: Key actors or relationships often omitted
-- **Redundancy in bullet formats**: Same information sometimes repeated across bullets
-- **Level 1 faithfulness drops**: Very short summaries occasionally oversimplified nuanced situations
+**Common Issues:**
+- Concise summaries sometimes missed critical context
+- Some progressive summaries had redundancy between levels
+- Conversational style occasionally added unnecessary filler
+
+**Domain Interactions:**
+- Structured formats particularly effective for longer documents (govreport, mediasum)
+- Concise format adequate for simple dialogues (dialogsum)
 
 ### Limitations
 
-1. **LLM-as-judge evaluation**: While correlated with human judgment, it's a proxy metric
-2. **Domain coverage**: FeedSum focuses on dialogue and news; research outputs may differ
-3. **No true human study**: Results are based on automated evaluation
-4. **Single model**: Only tested GPT-4o-mini; results may vary with other models
-5. **Sample size**: Moderate sample sizes (15-40 documents per experiment)
+1. **Sample size**: 20 documents limits statistical power; larger studies needed
+2. **LLM-as-judge bias**: GPT-4.1 may favor its own output patterns
+3. **Single evaluation model**: Results may differ with other evaluators
+4. **No human validation**: LLM scores not validated against human judgment in this study
+5. **Domain coverage**: Some domains underrepresented (wikihow n=1)
 
 ## 6. Conclusions
 
 ### Summary
-This research provides empirical evidence that AI systems should use progressive disclosure and structured output formats when communicating with humans. The optimal approach combines:
-1. A brief TL;DR (~50 words) for quick comprehension
-2. Key points as expandable sections
-3. Full details available on demand
+**Structured communication formats significantly outperform dense prose for AI-to-human communication.** Progressive hierarchy and structured sections tied for highest overall quality (4.85/5), with bullet points winning 90% of pairwise comparisons against dense prose. Formal technical style is preferred over conversational for informational content (80% win rate).
 
 ### Implications
 
 **For AI System Designers:**
-- Default to progressive disclosure rather than dense prose
-- Target ~50 words for initial summaries
-- Structure output with clear visual hierarchy
+- Implement structured output formats (bullet points, hierarchical summaries) as default
+- Provide progressive disclosure options (TL;DR first, expandable details)
+- Use formal tone for informational content
 
 **For Research Agents:**
-- Lead with executive summaries
-- Provide drill-down capability for details
-- Use bullet points and headers rather than paragraphs
+- Generate hierarchical summaries with multiple detail levels
+- Lead with key findings, provide supporting detail on demand
+- Avoid conversational filler in research communications
 
-**For Users:**
-- Expect better comprehension from layered AI outputs
-- Can trust short summaries to maintain faithfulness (~85%+)
+**Theoretical:**
+- Confirms progressive disclosure principles (Springer & Whittaker, 2018)
+- Validates cognitive ergonomics framework (CogErgLLM, 2024)
+- LLM-as-judge evaluation is practical for large-scale format studies
 
 ### Confidence in Findings
-- **High confidence**: Progressive format advantages (large sample, significant p-values)
-- **Medium confidence**: Optimal length findings (smaller samples, clear trend)
-- **Medium confidence**: Faithfulness maintenance (significant but modest effect sizes)
+**High confidence** for main findings:
+- Pairwise results are decisive (90-95% win rates)
+- Statistical significance confirmed (p<0.001 for key metrics)
+- Results consistent across diverse document types
+
+**Lower confidence** for secondary findings:
+- Style preferences need human validation
+- Domain-specific effects need larger samples
 
 ## 7. Next Steps
 
 ### Immediate Follow-ups
-1. **Human validation study**: Test findings with real human participants
-2. **Domain expansion**: Test on research paper abstracts, technical documentation
-3. **Model comparison**: Replicate with Claude, Gemini, open-source models
+1. **Human validation study**: Confirm LLM-judge scores align with human preferences
+2. **Scale to 100+ documents**: Increase statistical power
+3. **Domain-specific analysis**: Test if optimal formats vary by content type
 
 ### Alternative Approaches
-- Interactive summarization (user controls detail level)
-- Adaptive formatting based on user expertise
-- Multi-modal output (text + visualizations)
+- Test interactive progressive disclosure (user-controlled expansion)
+- Evaluate visual formatting (tables, diagrams)
+- Compare real-time streaming vs. batch presentation
 
 ### Broader Extensions
-- Apply findings to AI research agents' report generation
-- Develop standardized "progressive disclosure" templates for AI outputs
-- Create evaluation benchmarks for AI-to-human communication quality
+- Apply findings to multi-document summarization
+- Test with different LLM evaluators (Claude, Gemini)
+- Investigate user expertise level interactions
 
 ### Open Questions
-- Does progressive disclosure work equally well for all content types?
-- What is the optimal number of disclosure levels (2, 3, or more)?
-- How should AI systems adapt format to user context?
-
----
+1. Do format preferences generalize to longer documents (10,000+ words)?
+2. How do format preferences vary by user task (verification vs. learning)?
+3. Can formats be adaptively selected based on content characteristics?
 
 ## References
 
 1. Springer, A., & Whittaker, S. (2018). Progressive Disclosure: Designing for Effective Transparency. arXiv:1811.02164
-2. Wang, B., Liu, J., et al. (2024). Task Supportive and Personalized Human-LLM Interaction. ACM CHIIR 2024.
-3. Nguyen, H., et al. (2024). A Comparative Study of Quality Evaluation Methods for Text Summarization. arXiv:2407.00747
-4. Song, H., et al. (2024). FeedSum: Learning to Summarize from LLM-generated Feedback. arXiv:2410.13116
-5. Wasi, A.T., & Islam, M.R. (2024). CogErgLLM: Cognitive Ergonomics in LLM System Design. arXiv:2407.02885
+
+2. Wasi, A.T., & Islam, M.R. (2024). CogErgLLM: Cognitive Ergonomics in LLM System Design. arXiv:2407.02885
+
+3. Song, H., et al. (2024). Learning to Summarize from LLM-generated Feedback. arXiv:2410.13116
+
+4. Nguyen, H., et al. (2024). A Comparative Study of Quality Evaluation Methods for Text Summarization. arXiv:2407.00747
+
+5. Wang, B., et al. (2024). Task Supportive and Personalized Human-Large Language Model Interaction. ACM CHIIR 2024.
+
+---
+
+## Appendix: Output Files
+
+| File | Description |
+|------|-------------|
+| `results/summaries/all_summaries.json` | All 140 generated summaries |
+| `results/evaluations/all_evaluations.json` | LLM-judge scores for all summaries |
+| `results/evaluations/pairwise_comparisons.json` | Pairwise comparison results |
+| `results/evaluation_scores.csv` | Evaluation scores in tabular format |
+| `results/strategy_stats.csv` | Summary statistics by strategy |
+| `results/anova_results.json` | ANOVA statistical tests |
+| `results/pairwise_ttests.json` | Pairwise t-test results |
+| `results/figures/*.png` | Visualization outputs |
 
 ---
 
 **Report Generated**: December 14, 2025
-**Total Experiment Runtime**: ~45 minutes
-**API Costs**: ~$15-20 (estimated)
+**Model Used**: GPT-4.1 (via OpenRouter)
+**Total Summaries Generated**: 140
+**Total Evaluations**: 200 (140 multi-dimensional + 60 pairwise)

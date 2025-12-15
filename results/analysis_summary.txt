@@ -1,0 +1,53 @@
+============================================================
+EXPERIMENTAL RESULTS SUMMARY
+============================================================
+
+Dataset: 20 documents, 7 strategies
+Total evaluations: 140
+
+----------------------------------------
+STRATEGY RANKINGS (by Overall Score)
+----------------------------------------
+  structured_sections: 4.85 +/- 0.49
+  progressive_hierarchy: 4.85 +/- 0.67
+  formal_technical: 4.70 +/- 0.47
+  dense_prose: 4.60 +/- 0.60
+  bullet_points: 4.55 +/- 0.60
+  conversational: 4.40 +/- 0.60
+  concise: 4.15 +/- 0.81
+
+----------------------------------------
+ANOVA RESULTS (Strategy Differences)
+----------------------------------------
+  faithfulness: F=0.83, p=0.5449 
+  completeness: F=6.69, p=0.0000 *
+  conciseness: F=11.63, p=0.0000 *
+  clarity: F=0.67, p=0.6767 
+  overall: F=3.33, p=0.0044 *
+
+----------------------------------------
+PAIRWISE COMPARISONS
+----------------------------------------
+  dense_prose vs bullet_points:
+    dense_prose wins: 2 (10.0%)
+    bullet_points wins: 18 (90.0%)
+    Ties: 0
+  dense_prose vs progressive_hierarchy:
+    dense_prose wins: 1 (5.0%)
+    progressive_hierarchy wins: 19 (95.0%)
+    Ties: 0
+  formal_technical vs conversational:
+    formal_technical wins: 16 (80.0%)
+    conversational wins: 4 (20.0%)
+    Ties: 0
+
+----------------------------------------
+SUMMARY LENGTH BY STRATEGY
+----------------------------------------
+  bullet_points: 132 +/- 52 words (range: 36-189)
+  concise: 36 +/- 13 words (range: 15-59)
+  conversational: 245 +/- 117 words (range: 51-392)
+  dense_prose: 154 +/- 68 words (range: 28-258)
+  formal_technical: 246 +/- 140 words (range: 48-487)
+  progressive_hierarchy: 273 +/- 83 words (range: 131-400)
+  structured_sections: 205 +/- 98 words (range: 68-347)
