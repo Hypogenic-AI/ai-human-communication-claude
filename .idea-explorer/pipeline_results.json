@@ -1,0 +1,18 @@
+{
+  "success": false,
+  "stages": {
+    "resource_finder": {
+      "success": false,
+      "completion_marker": null,
+      "outputs": {
+        "papers_dir": "/data/hypogenicai/workspaces/ai-human-communication-claude/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/ai-human-communication-claude/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/ai-human-communication-claude/code"
+      },
+      "log_file": "/data/hypogenicai/workspaces/ai-human-communication-claude/logs/resource_finder_claude.log",
+      "transcript_file": "/data/hypogenicai/workspaces/ai-human-communication-claude/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 316.055052280426
+    }
+  },
+  "work_dir": "/data/hypogenicai/workspaces/ai-human-communication-claude"
+}
