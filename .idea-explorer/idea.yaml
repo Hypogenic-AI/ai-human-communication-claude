@@ -1,44 +1,37 @@
 idea:
   title: 'AI->Human Communication: How to?'
   domain: artificial_intelligence
-  hypothesis: 'AI and humans consume information differently; while AI benefits from
-    dense and comprehensive input, humans prefer concise communication. Research is
-    needed to identify and test methods that make AI-to-human communication more effective,
-    especially when conveying large volumes of information, such as research agent
-    outputs, so that humans can efficiently understand and trust AI-generated results.
+  hypothesis: 'Existing AI->Human communication methods are ineffective because AI
+    tends to generate dense, comprehensive outputs while humans prefer concise information;
+    developing new strategies for AI to communicate large volumes of information more
+    effectively to humans will improve human understanding and trust in AI-generated
+    research.
 
     '
   background:
-    description: 'In the current surge of AI agent developments, it is clear that
-      the human->AI communication is most effective when the human user can clearly
-      articulate their request, but how about AI->Human, especially when there are
-      too much information to show?
-
-      For example with research agents, they read large collections of papers, code,
-      and data, and possibly do some experiments on their own. In existing research
-      agent works, the tendency is to generate thousands of lines of code and possibly
-      a 100-page report. No human being will possibly read all that in details, and
-      to fully trust the AI-produced research work, we need to verify that nothing
-      fishy happens in the middle.
-
-      Imagine a scenario that you are joining some ongoing research project. It is
-      likely not publishable, but there are some progress. How do you quickly onboard
-      with what has been done? Or, you went for a break and want to catch up with
-      the literature you care about (which probably has 100 new papers), how do quickly
-      catch up with all that information?
-
-      These type of problems happens a lot with the AI->Human communication. It may
-      sound like a classic summarization problem, but it actually requires a lot of
-      careful thinking about what are the most effective ways to help human understand
-      a dense source of information
+    description: 'AI and humans consume information differently. AI works best when
+      given dense and comprehensive information with detailed instructions, but humans
+      prefer concise communication. In the current surge of AI agent developments,
+      human-to-AI communication is most effective when the human user can clearly
+      articulate their request, but AI-to-human communication, especially when there
+      is too much information to show, remains a challenge. For example, research
+      agents read large collections of papers, code, and data, and possibly conduct
+      experiments, often generating thousands of lines of code and lengthy reports
+      that are impractical for humans to read in detail. To fully trust AI-produced
+      research work, humans need to verify that nothing problematic occurs in the
+      process. Scenarios such as onboarding to an ongoing research project or catching
+      up with a large influx of new literature highlight the need for effective AI-to-human
+      communication. While this may seem like a classic summarization problem, it
+      requires careful consideration of the most effective ways to help humans understand
+      dense sources of information.
 
       '
   metadata:
     tags: []
     source: IdeaHub
     source_url: https://hypogenic.ai/ideahub/idea/pvnfRgOY9ZAkyShkOLW0
-    idea_id: ai__human_communication__how_t_20251214_181111_476c6aea
-    created_at: '2025-12-14T18:11:11.464611'
+    idea_id: ai__human_communication__how_t_20251214_221958_476c6aea
+    created_at: '2025-12-14T22:19:58.342931'
     status: submitted
     github_repo_name: ai-human-communication-claude
     github_repo_url: https://github.com/Hypogenic-AI/ai-human-communication-claude
