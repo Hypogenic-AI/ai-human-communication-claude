@@ -1,0 +1,482 @@
+[
+  {
+    "doc_id": "dialogsum-13662",
+    "source_domain": "dialogsum",
+    "document_length": 228,
+    "level1_summary": "A tenant is frustrated with their landlord's slow repair response and disputes over who should cover repair costs after a party.",
+    "level1_words": 21,
+    "level1_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.8,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.8, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level2_summary": "A tenant is experiencing issues with their landlord regarding repair costs. Although the landlord is not unwilling to make repairs, he takes a long time to address them, leading to frustration for the tenant. After a recent party resulted in a broken window, the tenant arranged for repairs themselves, but the landlord refused to cover the costs, prompting the tenant to seek advice on how to handle the situation.",
+    "level2_words": 69,
+    "level2_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level3_summary": "In a conversation between a tenant and a representative from the Tenants Advocacy Resource Center, the tenant expresses frustration regarding issues with their landlord. While the landlord is described as generally nice, the tenant highlights a significant problem: the landlord's slow response to repair requests. For instance, it took three months to fix a broken heater upon the tenant's move-in. The tenant recounts a recent birthday party that turned into an all-night event, during which a window was accidentally broken. The tenant arranged for a repair person to fix the window and also addressed a long-standing issue with a broken washing machine, which had been reported to the landlord for over two months. After mailing the rent payment without including the repair costs, the tenant received an angry call from the landlord, who refused to cover the repair expenses. The tenant feels this situation is unfair and seeks advice on how to proceed. The conversation underscores the challenges tenants face regarding timely repairs and communication with landlords.",
+    "level3_words": 167,
+    "level3_eval": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 0.9, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "dialogsum-13181",
+    "source_domain": "dialogsum",
+    "document_length": 337,
+    "level1_summary": "Emily seeks clarification from Susan about her first paycheck in the U.S., particularly regarding various tax deductions and health insurance.",
+    "level1_words": 20,
+    "level1_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.8,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.8, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level2_summary": "Emily seeks clarification from Susan about her first paycheck in the U.S., expressing confusion over various deductions such as FICA, Medicare, and state taxes. Susan explains that FICA is a federal income tax, while Medicare is a program for future assistance, and highlights the differences between federal and state income taxes. Emily appreciates the information and acknowledges the similarities to her experience in the UK before leaving.",
+    "level2_words": 67,
+    "level2_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level3_summary": "In a conversation between Emily and Susan, Emily seeks clarification regarding her first paycheck in the United States. She is confused about various deductions listed on her pay stub, specifically FICA, SUI Y tax, and the separate deductions for Medicare and her health insurance plan. Susan explains that FICA stands for the Federal Insurance Contribution Act, which includes federal income tax, Social Security, and Medicare\u2014programs designed to support individuals after retirement or during periods of inability to work. Emily learns that Medicare is not a health insurance plan she can currently use. Susan further clarifies that there are both federal and state income taxes, with the SUI/SDI tax contributing to unemployment and disability funds at the state level. Emily expresses her willingness to contribute to the small SUI tax and acknowledges the dual income tax system. Susan notes that not all states impose income taxes, as some rely on property or sales taxes instead. Emily feels more informed about her paycheck and thanks Susan for her assistance before leaving the conversation.",
+    "level3_words": 171,
+    "level3_eval": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "dialogsum-12594",
+    "source_domain": "dialogsum",
+    "document_length": 199,
+    "level1_summary": "Sarah and her husband consider moving but find affordable housing options outside the city, despite some necessary repairs.",
+    "level1_words": 18,
+    "level1_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.8,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.8, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level2_summary": "In a conversation about moving, Sarah expresses concerns about affordability, but Person1 suggests looking for cheaper houses farther from the city center. They discuss a recent example of Person1's sister-in-law, who bought a well-maintained 50-year-old house sold by the government after the previous owner passed away. Although the neighborhood can be rough at night, the community is supportive, making it a viable option for those seeking more affordable housing.",
+    "level2_words": 69,
+    "level2_eval": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level3_summary": "In a conversation between two individuals, Person1 inquires if Person2, Sarah, has considered moving. Sarah reveals that she and her husband are currently unable to afford a move. Person1 suggests that while buying a house near their workplace can be costly, there are strategies to find more affordable options, such as purchasing a home farther from the city center. Sarah finds this idea appealing. Person1 shares an example of her sister-in-law and her husband, who recently bought a house in a less central location and are satisfied with their decision. When Sarah asks about the condition of the house, Person1 explains that it was well-maintained by the previous owner, who had no family and whose estate was sold by the government. Although the house is around 50 years old and required some minor repairs, the costs and time involved were manageable. Person1 also mentions that while the neighborhood can be rough at night, the community is supportive, with neighbors looking out for one another, making it a relatively safe environment.",
+    "level3_words": 170,
+    "level3_eval": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 0.9, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "govreport-18291",
+    "source_domain": "govreport",
+    "document_length": 3768,
+    "level1_summary": "The report examines the Department of Defense's FY2020 budget for ground electronic warfare systems aimed at countering threats like IEDs and drones, while addressing congressional oversight and funding challenges.",
+    "level1_words": 29,
+    "level1_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.7,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.7, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "The report examines the Department of Defense's FY2020 budget requests for ground electronic warfare (EW) systems, primarily focused on the Army and Marine Corps. These systems aim to utilize the electromagnetic spectrum to counter threats such as improvised explosive devices (IEDs), unmanned aerial systems (UAS), and enemy communications. Congress faces critical decisions regarding the funding and oversight of these programs, which are essential for maintaining U.S. military capabilities against technologically advanced adversaries like Russia and China.",
+    "level2_words": 76,
+    "level2_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.8,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.8, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level3_summary": "The report examines the Department of Defense's (DOD) FY2020 budget request for ground electronic warfare (EW) systems, focusing on capabilities for the Army and Marine Corps. Ground EW systems aim to utilize the electromagnetic spectrum to achieve three primary effects: defeating Improvised Explosive Devices (IEDs), countering Unmanned Aerial Systems (UAS), and jamming enemy communications and radars. Congress faces decisions on funding and oversight of these programs, balancing counter-IED efforts with the need to address great power competition, particularly against adversaries like Russia and China, who have advanced EW capabilities.\n\nThe report highlights the evolution of EW, noting its significance in modern warfare and the shift from counter-insurgency to high-intensity conflict. Key systems discussed include the Marine Corps' Mobile Electronic Warfare Support System and various counter-UAS technologies, including vehicle-mounted lasers. The report also addresses challenges in funding and tracking EW programs, as well as the potential impact of emerging technologies like artificial intelligence and quantum communications on future EW operations. Overall, the report underscores the need for a strategic balance in EW capabilities to enhance U.S. military effectiveness in contested environments.",
+    "level3_words": 180,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "govreport-17765",
+    "source_domain": "govreport",
+    "document_length": 5409,
+    "level1_summary": "Since the late 1980s, Congress has progressively expanded the Department of Defense's authority to utilize other transactions for innovative research and prototype projects, emphasizing collaboration with non-traditional defense contractors.",
+    "level1_words": 29,
+    "level1_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.6,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.6, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "Since the late 1980s, Congress has gradually expanded the Department of Defense's (DOD) authority to use other transactions for research and prototype projects, aiming to enhance collaboration with non-traditional defense contractors and spur innovation. By 2015, this authority was codified under section 2371b of title 10, U.S. Code, allowing DOD to engage in prototype projects that significantly involve non-traditional companies or meet specific funding conditions. From fiscal years 2016 to 2018, DOD notably increased its use of prototype other transactions, with a significant portion of obligations awarded to consortiums and traditional defense contractors, ultimately totaling $7.2 billion.",
+    "level2_words": 97,
+    "level2_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.7,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.7, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level3_summary": "In the late 1980s, Congress granted the Department of Defense (DOD) the authority to use other transactions (OTs) to enhance research and development efforts. This authority expanded over the years, beginning with the Defense Advanced Research Projects Agency (DARPA) in 1989 for research projects, and later for prototype projects in 1993. By 2015, Congress codified this authority under section 2371b of Title 10, U.S. Code, allowing DOD to engage in innovative business arrangements without the constraints of traditional contracts. Key conditions for using prototype OTs include significant participation from non-traditional defense contractors or non-profit research institutions, cost-sharing, and exceptional circumstances as determined by senior procurement executives.\n\nFrom fiscal years 2016 to 2018, DOD significantly increased its use of prototype OTs, awarding 173 transactions worth $7.2 billion, with a notable focus on engaging non-traditional companies. The Army, DARPA, and the Air Force accounted for the majority of these awards. Agreements officers, tasked with managing these transactions, underwent specialized training and followed established review processes to ensure compliance with statutory requirements. Challenges in data collection and tracking participation in consortiums were identified, prompting DOD to work on improving oversight and reporting mechanisms. Overall, the use of OTs has been encouraged as a means to access innovative technologies from diverse sources.",
+    "level3_words": 208,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "govreport-18026",
+    "source_domain": "govreport",
+    "document_length": 10963,
+    "level1_summary": "The federal criminal process for immigration-related prosecutions involves varied roles and practices among DHS, DOJ, and the judiciary along the southwest border.",
+    "level1_words": 22,
+    "level1_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.6,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.6, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "The report outlines the distinct roles of the Department of Homeland Security (DHS), the Department of Justice (DOJ), and the federal judiciary in immigration-related prosecutions along the southwest border. Following the Attorney General's 2017 and 2018 memoranda, U.S. Attorney's Offices (USAOs) adapted their prosecution practices, leading to a significant increase in immigration-related cases, particularly improper entry prosecutions, which often occur in expedited one-day court proceedings. Variations in local practices and resources among the five southwest border districts influenced the volume and handling of these cases.",
+    "level2_words": 85,
+    "level2_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "level3_summary": "The report outlines the distinct roles of the Department of Homeland Security (DHS), the Department of Justice (DOJ), and the federal judiciary in immigration-related prosecutions, particularly along the southwest border. Immigration-related offenses are defined according to the Attorney General's April 2017 memorandum. The prosecution process varies by location, with U.S. Attorney's Offices (USAOs) coordinating with DHS and federal courts to determine case types and numbers. Prosecutors have significant discretion in deciding which cases to pursue, influenced by training from USAOs and established prosecution priorities.\n\nNotably, \"one-day prosecutions\" for improper entry are prevalent in Arizona, Texas Southern, and Texas Western, where cases can be resolved in a single day. Following directives from the Attorney General, USAOs adjusted their thresholds for accepting cases, leading to increased prosecutions of improper entry and illegal reentry. The report highlights that Border Patrol referrals for prosecution rose significantly, with a doubling of referrals from fiscal year 2017 to 2018.\n\nResource allocation among DOJ, DHS, and the judiciary has shifted to accommodate increased immigration-related prosecutions, impacting other case types and straining existing resources. The report also notes a rise in the number of defendants, primarily Mexican nationals, facing immigration-related charges, and emphasizes the collaborative efforts among various federal agencies to manage the heightened caseload effectively.",
+    "level3_words": 208,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    }
+  },
+  {
+    "doc_id": "govreport-18043",
+    "source_domain": "govreport",
+    "document_length": 3976,
+    "level1_summary": "The March 2019 report highlighted significant deficiencies in HUD's physical inspection process, recommending improvements to enhance health and safety for residents in HUD-assisted properties.",
+    "level1_words": 24,
+    "level1_eval": {
+      "faithfulness": 0.7,
+      "completeness": 0.5,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.7, \"completeness\": 0.5, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "The March 2019 report highlighted significant deficiencies in HUD's physical inspection process and oversight of inspectors, emphasizing the need for improvements to ensure the health and safety of residents in HUD-assisted properties. Key recommendations included conducting a comprehensive review of inspection processes, addressing sampling errors in inspection scores, enhancing inspector training and evaluation, and implementing quality control measures. HUD acknowledged these recommendations and has begun taking steps to address them, although full implementation remains ongoing.",
+    "level2_words": 75,
+    "level2_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "level3_summary": "The March 2019 report highlighted significant deficiencies in the Department of Housing and Urban Development's (HUD) physical inspection process for HUD-assisted properties, emphasizing the need for improvements to ensure resident health and safety. Key areas identified for enhancement included conducting a comprehensive review of the inspection process, incorporating sampling error in inspection frequency and enforcement actions, and improving inspector selection, training, and evaluation. The report noted that the Real Estate Assessment Center (REAC) had not reviewed its inspection process since 2001, leading to concerns about property owners manipulating the scoring system and misrepresenting property conditions.\n\nREAC's shift to a reverse auction model in 2005, allowing smaller firms to conduct inspections, raised questions about the reliability of inspections. The report recommended that REAC resume calculating sampling errors to better identify properties needing enforcement actions. Additionally, weaknesses in inspector training and performance evaluation were noted, with recommendations for establishing formal mechanisms and continuing education requirements.\n\nThe report also addressed HUD's inadequate monitoring of lead paint hazards in low-income housing, urging the establishment of comprehensive performance goals and compliance procedures. HUD agreed with many recommendations and has begun implementing changes, but full compliance and effectiveness remain under evaluation. The report underscored the importance of these improvements to protect vulnerable populations, particularly children, from health risks associated with substandard housing conditions.",
+    "level3_words": 217,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "govreport-18435",
+    "source_domain": "govreport",
+    "document_length": 14776,
+    "level1_summary": "Policymakers are increasingly advocating for enhanced federal financial support for non-degree training programs to address workforce demands and improve economic growth.",
+    "level1_words": 21,
+    "level1_eval": {
+      "faithfulness": 0.7,
+      "completeness": 0.5,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.7, \"completeness\": 0.5, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "In recent years, there has been a growing interest among policymakers and educational institutions in increasing federal financial support for non-degree training and work-based learning programs, such as apprenticeships and certificate courses. Despite the significant demand for skilled workers in jobs that do not require a college degree, most federal financial aid is not accessible to individuals pursuing these non-degree programs. Proposals have emerged to expand eligibility for Pell Grants and other financial assistance to support these educational pathways, addressing concerns about job market returns and program quality.",
+    "level2_words": 88,
+    "level2_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "level3_summary": "In recent years, there has been a growing interest among policymakers, industry stakeholders, and educational institutions in increasing federal financial support for non-degree instructional and work-based learning programs. These programs, which include apprenticeships and professional certifications, cater to individuals beyond high school and do not confer degrees. The demand for workers in skilled jobs that require training but not a degree is increasing, yet most federal financial aid, exceeding $100 billion annually, is inaccessible to many pursuing these non-degree programs.\n\nDespite proposals to expand Pell Grants and other financial support for short-term training, concerns persist regarding the quality and effectiveness of non-degree programs. Critics argue that some do not significantly enhance employment or earnings compared to high school graduates. The report outlines existing federal programs, such as the Workforce Innovation and Opportunity Act (WIOA) and various tax benefits, that provide limited support for non-degree education.\n\nThe report emphasizes the need for better alignment between educational offerings and labor market demands, highlighting the importance of ensuring program quality and addressing potential inequalities in access to these opportunities. It also discusses the role of federal programs in supporting workforce development and the necessity for comprehensive policy approaches to enhance the effectiveness of non-degree educational pathways.",
+    "level3_words": 203,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    }
+  },
+  {
+    "doc_id": "govreport-18434",
+    "source_domain": "govreport",
+    "document_length": 8361,
+    "level1_summary": "Despite significant federal investment in rural broadband infrastructure, low adoption rates driven by socioeconomic factors hinder effective demand and private-sector investment.",
+    "level1_words": 21,
+    "level1_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.7,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.7, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level2_summary": "Congress has long prioritized expanding broadband internet access in rural areas, investing billions through federal subsidies. Despite these efforts, over 20 million Americans still lack access, largely due to lower demand in rural regions, which discourages private investment. Factors such as income, education, and age contribute to lower adoption rates, indicating that merely increasing infrastructure may not suffice; addressing demand-side issues is crucial for effective broadband expansion and utilization in these underserved communities.",
+    "level2_words": 73,
+    "level2_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level3_summary": "Congress has long prioritized broadband access in rural areas, investing billions through federal subsidies, primarily targeting infrastructure development. Despite these efforts, over 20 million Americans still lack broadband access as of 2019. Stakeholders argue that federal spending has not sufficiently addressed local conditions affecting demand, which is often lower in rural areas due to factors like income, education, and age demographics. A 2015 study highlighted that while infrastructure is crucial, increasing demand should also be a focus, as 52% of the rural-urban broadband gap was due to lower adoption rates, not just lack of infrastructure.\n\nRural broadband markets are uneven, with some areas experiencing unmet demand while others see low adoption despite access. Factors such as lower perceived value, affordability, and digital literacy hinder adoption. Small businesses in rural areas often view basic internet as essential but do not utilize high-bandwidth applications, limiting their willingness to pay for improved service. Federal programs like the USDA's Rural Utilities Service and the FCC's Universal Service Fund aim to support broadband expansion, but they often emphasize supply-side solutions over demand stimulation. Congress is urged to consider options to enhance broadband adoption, including revising subsidy programs and promoting digital literacy initiatives to better align supply with actual demand in rural communities.",
+    "level3_words": 207,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    }
+  },
+  {
+    "doc_id": "govreport-18483",
+    "source_domain": "govreport",
+    "document_length": 4775,
+    "level1_summary": "The Trump Administration and Congress are debating border barrier funding and construction, revealing a lack of comprehensive historical data on federal investments.",
+    "level1_words": 22,
+    "level1_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.5,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.5, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "The Trump Administration and Congress are engaged in a contentious debate over the expansion and funding of barriers along the U.S.-Mexico border, highlighting a lack of comprehensive data on federal investments in border security. The historical context of border enforcement, including the establishment of the U.S. Border Patrol in 1924 and various legislative measures since, underscores the evolving nature of border barrier funding and construction, particularly since the enactment of the Illegal Immigration Reform and Immigrant Responsibility Act in 1996. The ongoing discussions reflect broader concerns about immigration enforcement and the effectiveness of existing barriers in deterring illegal crossings.",
+    "level2_words": 99,
+    "level2_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.7,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.7, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level3_summary": "The ongoing debate between Congress and the Trump Administration centers on enhancing and expanding barriers along the U.S.-Mexico border, with funding mechanisms being a critical issue. This discussion has highlighted a lack of comprehensive data on federal investments in border barriers, stemming from evolving appropriations structures and a history of inconsistent funding designations prior to FY2017. The U.S. Border Patrol, established in 1924, has historically focused on border security, with significant legislative milestones including the 1996 Illegal Immigration Reform and Immigrant Responsibility Act, which mandated physical barriers in high illegal entry areas. The Secure Fence Act of 2006 further authorized construction, leading to increased appropriations for border barriers.\n\nUnder the Trump Administration, Executive Order 13767 emphasized immediate construction of a physical wall, and funding requests surged, with Congress appropriating approximately $4.47 billion for border barrier projects during this period. The funding structure evolved post-FY2016, complicating comparisons with earlier years. Key questions remain regarding operational costs, effectiveness of existing barriers, and the implications of the Administration's reprogramming of funds. The southern border spans nearly 2,000 miles, with diverse terrain and ownership, necessitating strategic planning for barrier construction and maintenance.",
+    "level3_words": 188,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "govreport-18103",
+    "source_domain": "govreport",
+    "document_length": 8020,
+    "level1_summary": "The CFO Act of 1990 aimed to reform federal financial management by establishing CFO positions, improving internal controls, and enhancing accountability, leading to significant progress despite ongoing challenges.",
+    "level1_words": 28,
+    "level1_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.7,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.7, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "The Chief Financial Officers Act (CFO Act) of 1990 was enacted to address significant financial management issues within U.S. government agencies, which had previously lost billions due to fraud, waste, and mismanagement. The act established CFO positions in federal agencies, mandated financial reporting and auditing, and aimed to strengthen internal controls and financial management systems. Since its implementation, substantial progress has been made in improving financial accountability and transparency, though challenges remain, particularly in areas like improper payments and outdated financial systems.",
+    "level2_words": 82,
+    "level2_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "level3_summary": "Before the Chief Financial Officers Act (CFO Act) of 1990, U.S. government agencies faced significant financial management issues, resulting in billions lost to fraud, waste, and mismanagement. Key problems included unreliable financial information, weak internal controls, and inefficient financial management systems. The CFO Act aimed to reform these issues by establishing CFO positions in federal agencies, enhancing financial reporting practices, and mandating independent audits of agency financial statements. Since its enactment, substantial progress has been made, including improved internal controls, increased compliance with financial management standards, and the establishment of a centralized financial management workforce structure.\n\nDespite these advancements, challenges remain, such as ongoing internal control weaknesses, improper payments totaling approximately $151 billion, and difficulties in modernizing financial management systems. Recommendations for further enhancements include standardizing CFO responsibilities across agencies, ensuring deputy CFOs have clear roles, and developing comprehensive government-wide financial management plans. The importance of reliable financial information and effective internal controls is emphasized, as they are crucial for accountability and transparency in federal financial management. Continued efforts are necessary to address existing gaps and improve the overall effectiveness of financial management in the federal government.",
+    "level3_words": 187,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "govreport-18235",
+    "source_domain": "govreport",
+    "document_length": 1137,
+    "level1_summary": "In FY2018, the federal government spent $917.8 billion on diverse programs for low-income individuals, primarily in health care and cash aid.",
+    "level1_words": 21,
+    "level1_eval": {
+      "faithfulness": 0.7,
+      "completeness": 0.5,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.7, \"completeness\": 0.5, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "The Congressional Research Service (CRS) provides updates on federal spending for programs aimed at assisting low-income individuals and families. In FY2018, the federal government allocated $917.8 billion for these benefits, marking a 2.2% increase from FY2017. The report highlights that health care accounts for over half of this spending, with Medicaid being a significant contributor, while other categories like cash aid and food assistance also play crucial roles in supporting low-income populations.",
+    "level2_words": 72,
+    "level2_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.7,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.7, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "level3_summary": "The Congressional Research Service (CRS) provides insights into federal spending on programs aimed at low-income individuals and families, with a focus on recent trends and amounts. In FY2018, the federal government allocated $917.8 billion for these benefits, marking a 2.2% increase from FY2017, which was lower than economic growth (5.4%) and nearly equal to inflation (2.3%). The report categorizes spending into eight areas: health care, cash aid, food aid, education, housing, social services, employment and training, and energy assistance. Health care constituted over half of the total spending, primarily due to Medicaid, which accounted for 85% of health care expenditures. The report highlights that mandatory spending dominates low-income assistance programs, with 81% of total spending classified as mandatory. The increase in spending since FY2012 is largely attributed to health care, while spending on other categories has declined since FY2016. Key programs include Medicaid, Supplemental Security Income, and the Supplemental Nutrition Assistance Program (SNAP), which significantly influence overall spending patterns. The report underscores the diversity and complexity of low-income assistance programs, established to address various policy challenges over time.",
+    "level3_words": 178,
+    "level3_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "govreport-17598",
+    "source_domain": "govreport",
+    "document_length": 11015,
+    "level1_summary": "The Interior Department oversees mineral extraction on federal lands through various bureaus, managing leasing, permitting, inspections, and royalty compliance for oil and gas activities.",
+    "level1_words": 24,
+    "level1_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.6,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.6, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "level2_summary": "The Department of the Interior oversees mineral extraction activities on federal lands and waters through various bureaus, including the Bureau of Land Management (BLM) for onshore activities and the Bureau of Ocean Energy Management for offshore operations. The Office of Natural Resources Revenue (ONRR) is responsible for collecting and verifying royalties from oil and gas production, implementing compliance measures, and ensuring accurate reporting. Recent assessments highlight the need for ONRR to improve its compliance goals and case selection processes to enhance the accuracy of royalty payments and better align with its mission.",
+    "level2_words": 92,
+    "level2_eval": {
+      "faithfulness": 0.7,
+      "completeness": 0.6,
+      "conciseness": 0.8,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.7, \"completeness\": 0.6, \"conciseness\": 0.8, \"readability\": 0.9}"
+    },
+    "level3_summary": "The U.S. Department of the Interior oversees mineral extraction activities on federal lands and waters through various bureaus, primarily the Bureau of Land Management (BLM) for onshore activities and the Bureau of Ocean Energy Management for offshore activities. By the end of fiscal year 2016, BLM managed about 41,000 oil and gas leases across 32 states, while the Interior is responsible for leasing approximately 1.71 billion offshore acres. Companies must secure permits to drill after obtaining leases, with strict compliance to environmental regulations. The Office of Natural Resources Revenue (ONRR) manages royalty collections from these operations, requiring companies to submit monthly production and royalty reports.\n\nONRR employs audits, compliance reviews, and data mining to ensure accurate royalty payments, but it lacks a documented case selection process and performance measures to align compliance activities with its goals. Recommendations include establishing an accuracy goal, developing a documented selection process, and tracking state contributions to compliance goals. Although ONRR has made strides in improving its compliance program, its current goals may not fully align with its mission to verify and collect royalties accurately.",
+    "level3_words": 180,
+    "level3_eval": {
+      "faithfulness": 0.8,
+      "completeness": 0.7,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.7, \"conciseness\": 0.9, \"readability\": 0.9}"
+    }
+  },
+  {
+    "doc_id": "cnn-287601",
+    "source_domain": "cnn",
+    "document_length": 673,
+    "level1_summary": "Giovanni Lo Porto, an Italian humanitarian worker abducted in Pakistan, was accidentally killed by a U.S. drone strike in 2015.",
+    "level1_words": 20,
+    "level1_eval": {
+      "faithfulness": 0.7,
+      "completeness": 0.5,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.7, \"completeness\": 0.5, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "level2_summary": "Giovanni Lo Porto, an Italian humanitarian working in Pakistan with the aid organization Welthungerlife, was abducted by armed men in January 2012. Tragically, he was killed two years later in a U.S. drone strike, which was intended to target al Qaeda leaders, including American Warren Weinstein. Lo Porto, remembered for his passion and commitment to helping others, left a profound impact on his family and colleagues, who mourned his loss and the circumstances surrounding it.",
+    "level2_words": 75,
+    "level2_eval": {
+      "faithfulness": 0.9,
+      "completeness": 0.7,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.7, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "level3_summary": "Giovanni Lo Porto, an Italian humanitarian worker from Palermo, dedicated his life to aiding communities in need, particularly in Pakistan after devastating floods in 2010. He was abducted on January 19, 2012, alongside colleague Bernd Muehlenbeck by armed men while working with the German aid organization Welthungerlife. Tragically, two years later, Lo Porto was killed in a U.S. drone strike that targeted al Qaeda operatives, mistakenly resulting in his death alongside American hostage Warren Weinstein. Lo Porto, who had studied Peace and Conflict Studies at London Metropolitan University, was remembered as passionate and committed to humanitarian efforts. His work focused on clean water and sanitation projects, and he was well-liked by colleagues and locals alike. Following his abduction, friends and family campaigned for his release, but he never returned home. Italian officials expressed sorrow over his death, attributing the tragedy to a \"tragic and fatal mistake\" by U.S. forces, while emphasizing that the responsibility lies with the terrorists. His death deeply affected his family and colleagues, leaving them in shock and mourning.",
+    "level3_words": 172,
+    "level3_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    }
+  },
+  {
+    "doc_id": "cnn-287305",
+    "source_domain": "cnn",
+    "document_length": 362,
+    "level1_summary": "NBC's \"A.D. The Bible Continues\" premieres this Sunday, following Jesus' resurrection and the early days of Christianity, as a sequel to the hit miniseries.",
+    "level1_words": 24,
+    "level1_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.7,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.7, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level2_summary": "In 2013, \"The Bible\" achieved record ratings on the History Channel, leading to a sequel miniseries titled \"A.D. The Bible Continues,\" which premieres on NBC just in time for Easter. This new series follows the early days of Christianity after Jesus' resurrection, featuring Juan Pablo Di Pace as Jesus. Additionally, viewers can look forward to other notable shows this week, including the final episodes of \"Mad Men\" and the return of Louis C.K. in \"Louie.\"",
+    "level2_words": 75,
+    "level2_eval": {
+      "faithfulness": 1.0,
+      "completeness": 0.7,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.7, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "level3_summary": "In 2013, the History Channel's miniseries \"The Bible\" achieved record-breaking ratings, prompting NBC to commission a sequel titled \"A.D. The Bible Continues,\" which premieres at 9 p.m. ET on Sunday. This new series, produced by Mark Burnett and Roma Downey, picks up after Jesus' resurrection and explores the early days of Christianity, featuring Juan Pablo Di Pace as Jesus and Greta Scacchi as Mary. The miniseries will air weekly for 12 weeks, coinciding with the Easter season.\n\nAdditionally, Sunday night marks the return of \"Mad Men\" on AMC, as the series approaches its conclusion with the fate of Don Draper and the ensemble cast hanging in the balance. NBC also debuts \"American Odyssey,\" a drama starring Anna Friel as a special forces translator presumed dead, who fights to return home.\n\nOn Thursday, FX brings back Louis C.K.'s acclaimed comedy \"Louie\" for its fifth season, while \"The Comedians,\" featuring Billy Crystal and Josh Gad, offers a meta take on comedy show production. Finally, Netflix launches \"Marvel's Daredevil,\" a dark adaptation of the superhero story, focusing on blind lawyer Matt Murdock's dual life.",
+    "level3_words": 181,
+    "level3_eval": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    }
+  }
+]

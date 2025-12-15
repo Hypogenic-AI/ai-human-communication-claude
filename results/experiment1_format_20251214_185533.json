@@ -1,0 +1,1362 @@
+[
+  {
+    "doc_id": "dialogsum-13269",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "In a conversation between two individuals, Person1 expresses concern about the high roaming charges for calling the UK, while Person2 suggests using a local SIM card as a cost-effective alternative. Person1 is surprised to learn that acquiring a local SIM card is straightforward, requiring a visit to a convenience store, and inquires about the costs involved. Person2 informs them that the SIM card costs 100 RMB, with calls to the UK priced at approximately 10 RMB per minute, prompting Person1 to appreciate the affordability of this option.",
+    "word_count": 87,
+    "doc_word_count": 96,
+    "compression_ratio": 0.90625,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13269",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person1 needs to call the UK but is concerned about roaming charges.  \n- Person2 suggests using a local SIM card as a cost-effective solution.  \n- Person1 is unsure if using a local SIM card is possible.  \n- Person2 confirms that it's easy to obtain a SIM card from a convenience store.  \n- Person1 inquires about the cost of the SIM card and calls.  \n- Person2 informs that the SIM card costs 100 RMB and calls to the UK are 10 RMB per minute.  \n- Person1 finds the cost to be affordable and expresses gratitude.",
+    "word_count": 95,
+    "doc_word_count": 96,
+    "compression_ratio": 0.9895833333333334,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13269",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## Calling the UK\n- Person1 needs to call the UK but is concerned about roaming charges.\n- Person2 suggests using a local SIM card for cheaper rates.\n\n## Local SIM Card\n- Person1 can purchase a local SIM card at a convenience store.\n- The cost is 100 RMB for the SIM card and approximately 10 RMB per minute for calls to the UK.",
+    "word_count": 65,
+    "doc_word_count": 96,
+    "compression_ratio": 0.6770833333333334,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13269",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: Person1 learns about using a local SIM card to make affordable calls to the UK.\n\nDETAILS:\n- Person1 is concerned about high roaming charges for calling the UK.\n- Person2 suggests purchasing a local SIM card from a convenience store.\n- The cost for the SIM card is 100 RMB, with calls to the UK priced at approximately 10 RMB per minute.\n- Person1 finds the cost effective and expresses gratitude for the advice.",
+    "word_count": 75,
+    "doc_word_count": 96,
+    "compression_ratio": 0.78125,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13821",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "In a discussion about initiating a project, Person1 expresses a desire to reconvene on the subject and suggests a timeline for starting work. Person2 proposes a preparatory meeting for that afternoon at 2:00, but Person1 is unavailable at that time and agrees to join at 3:00 instead. They briefly discuss the duration of the project, with Person1 estimating it might take around a year, although they are uncertain about the exact timeline.",
+    "word_count": 72,
+    "doc_word_count": 81,
+    "compression_ratio": 0.8888888888888888,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13821",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person1 wants to discuss the timeline for a project.\n- Person2 suggests a preparatory meeting at 2:00 PM.\n- Person1 cannot attend at 2:00 PM but will join at 3:00 PM.\n- Person2 agrees to start the meeting without Person1.\n- The duration for the project is uncertain, possibly one year.",
+    "word_count": 52,
+    "doc_word_count": 81,
+    "compression_ratio": 0.6419753086419753,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13821",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## Meeting Scheduling\n- Preparatory meeting proposed for this afternoon at 2:00.\n- Person1 cannot attend at 2:00 but will join at 3:00.\n\n## Project Timeline\n- Estimated time to work on the project is approximately one year, though Person1 is uncertain.",
+    "word_count": 42,
+    "doc_word_count": 81,
+    "compression_ratio": 0.5185185185185185,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13821",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The team is planning to initiate work on a project with a preparatory meeting scheduled for this afternoon.\n\nDETAILS:\n- A preparatory meeting is proposed for this afternoon at 2:00.\n- Person1 cannot attend at 2:00 but will join at 3:00.\n- The duration for the project is estimated to be around one year, though Person1 is uncertain.",
+    "word_count": 59,
+    "doc_word_count": 81,
+    "compression_ratio": 0.7283950617283951,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.8,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.8, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13110",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "In a tense exchange, one person insists on leaving, stating that they have made their decision and can no longer remain, while the other pleads for them to stay, emphasizing the importance of their bond and expressing a desire for companionship. Despite the heartfelt request to share life together as inseparable partners, the departing individual firmly rejects the notion of returning, indicating a definitive break in their relationship and a commitment to moving on.",
+    "word_count": 74,
+    "doc_word_count": 81,
+    "compression_ratio": 0.9135802469135802,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13110",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person1 insists on leaving despite Person2's pleas.  \n- Person2 urges Person1 to stay and keep their oath.  \n- Person1 expresses a desire for freedom and the ability to go anywhere.  \n- Person2 requests that Person1 remain by their side as a companion.  \n- Person1 declares they cannot return to Person2's side.",
+    "word_count": 52,
+    "doc_word_count": 81,
+    "compression_ratio": 0.6419753086419753,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13110",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## Conflict of Departure\n- Person1 expresses the need to leave, asserting their decision.\n- Person2 insists that Person1 should stay, emphasizing the importance of their bond.\n\n## Emotional Appeal\n- Person2 requests that Person1 remain by their side as a lifelong companion.\n- Person1 firmly rejects the idea of returning, indicating a definitive break in their relationship.",
+    "word_count": 58,
+    "doc_word_count": 81,
+    "compression_ratio": 0.7160493827160493,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.8,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.8, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13110",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: A conversation reveals a deep conflict between two individuals, where one feels the need to leave while the other desperately wants them to stay.\n\nDETAILS:\n- Person1 expresses a strong desire to leave, indicating a final decision.\n- Person2 pleads for Person1 to remain, emphasizing their emotional bond and companionship.\n- The dialogue highlights the tension between personal freedom and the desire for connection.\n- Person1's resolve to leave suggests a significant change or turning point in their relationship.\n- Person2's insistence on keeping the oath reflects a commitment to their partnership despite the impending separation.",
+    "word_count": 97,
+    "doc_word_count": 81,
+    "compression_ratio": 1.1975308641975309,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13662",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "A tenant is experiencing issues with their landlord regarding repair costs, expressing frustration over the landlord's slow response to necessary repairs, such as a broken heater that took three months to fix. The tenant recounts a recent birthday party that was well-attended by neighbors, during which a window was accidentally broken. After arranging for a repair person to fix the window, the tenant also had the washing machine repaired, which had been a point of contention with the landlord for over two months. However, after mailing the rent without including the repair costs, the landlord called angrily, refusing to cover the expenses, leaving the tenant feeling that this situation is unfair and seeking advice on how to proceed.",
+    "word_count": 118,
+    "doc_word_count": 228,
+    "compression_ratio": 0.5175438596491229,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13662",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person2 is experiencing issues with their house owner regarding repair costs.\n- The house owner is not unwilling to make repairs but takes too long to address them.\n- A broken heater took three months to be fixed after Person2 moved in.\n- Person2 hosted a surprise birthday party, which was well-attended by neighbors.\n- During the party, a living room window was accidentally broken.\n- Person2 arranged for a repair person to fix the window and also the washing machine, which had been reported for over two months.\n- Person2 mailed the rent payment without including repair costs.\n- The house owner reacted angrily, stating he wouldn't cover the repair costs, which Person2 feels is unfair.",
+    "word_count": 118,
+    "doc_word_count": 228,
+    "compression_ratio": 0.5175438596491229,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13662",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## Tenant-Landlord Dispute\n- Tenant is experiencing delays in repair work from the landlord, specifically mentioning a broken heater that took three months to fix.\n- Tenant hosted a surprise birthday party that resulted in a broken window, which they arranged to have repaired.\n- Tenant attempted to address multiple repair issues, including a washing machine that had been reported for over two months, but the landlord refused to cover the repair costs.\n\n## Tenant's Concerns\n- Tenant feels it is unfair for the landlord to deny payment for necessary repairs after delays in addressing previous issues.",
+    "word_count": 97,
+    "doc_word_count": 228,
+    "compression_ratio": 0.42543859649122806,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13662",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: A tenant is frustrated with their landlord's slow response to repair requests and is facing a dispute over repair costs after a recent party.\n\nDETAILS:\n- The tenant's landlord is not unwilling to make repairs but takes an excessively long time to address issues, such as a broken heater that took three months to fix.\n- The tenant recently hosted a surprise birthday party that resulted in accidental damage to a window, prompting them to hire a repair person.\n- The tenant had previously complained about a broken washing machine for over two months before getting it fixed during the same visit as the window repair.\n- After mailing the rent payment without including repair costs, the tenant received an angry call from the landlord refusing to cover the repair expenses.",
+    "word_count": 132,
+    "doc_word_count": 228,
+    "compression_ratio": 0.5789473684210527,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13471",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "At the French Garden Restaurant, a customer arrives and is promptly seated by the host. Shortly after, the waitress approaches to take his order, beginning with a drink selection. The customer opts for a bottle of water and then chooses a tuna fish sandwich accompanied by a bowl of vegetable soup for his meal.",
+    "word_count": 54,
+    "doc_word_count": 90,
+    "compression_ratio": 0.6,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13471",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person1 greets a customer at the French Garden Restaurant and asks how many are in their party.  \n- Person2 indicates they are dining alone.  \n- Person1 shows Person2 to a seat and informs them that a waitress will be with them shortly.  \n- Person3, the waitress, approaches Person2 to take their order.  \n- Person2 expresses readiness to order.  \n- Person3 asks Person2 what they would like to drink.  \n- Person2 inquires about drink options.  \n- Person3 lists available drinks: bottled water, juice, and Coke.  \n- Person2 orders a bottle of water.  \n- Person3 then asks about food preferences.  \n- Person2 orders a tuna fish sandwich and a bowl of vegetable soup.",
+    "word_count": 112,
+    "doc_word_count": 90,
+    "compression_ratio": 1.2444444444444445,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13471",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## Restaurant Interaction\n- Person1 welcomes Person2 to the French Garden Restaurant and seats them.\n- Person3, the waitress, asks Person2 if they would like to order.\n\n## Ordering Process\n- Person2 requests a drink and chooses bottled water.\n- Person2 orders a tuna fish sandwich and a bowl of vegetable soup.",
+    "word_count": 52,
+    "doc_word_count": 90,
+    "compression_ratio": 0.5777777777777777,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13471",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: A customer arrives at the French Garden Restaurant, orders a drink and a meal from the waitress.\n\nDETAILS:\n- The customer is greeted and seated by the host upon arrival.\n- The waitress promptly asks for the customer's order.\n- The customer chooses bottled water to drink.\n- For the meal, the customer orders a tuna fish sandwich and a bowl of vegetable soup.",
+    "word_count": 65,
+    "doc_word_count": 90,
+    "compression_ratio": 0.7222222222222222,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12617",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "In a conversation between two individuals, one inquires about the travel time to downtown, to which the other responds that it takes 15 minutes by car. They discuss the presence of several well-known companies in their neighborhood, including Mitsubishi, HP, and IBM. The first person asks about the office space, confirming that their company occupies both the 6th and 7th floors of the building. Additionally, they learn that their large firm has its own staff restaurant located at the end of the hall.",
+    "word_count": 83,
+    "doc_word_count": 85,
+    "compression_ratio": 0.9764705882352941,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12617",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person1 inquires about the travel time to downtown.  \n- Person2 responds that it takes 15 minutes by car.  \n- Person1 asks about companies in the neighborhood.  \n- Person2 lists Mitsubishi, HP, IBM, and other well-known corporations.  \n- Person1 questions if the 7th floor belongs to their company.  \n- Person2 confirms that their company occupies the 6th and 7th floors.  \n- Person1 asks if there is a staff restaurant.  \n- Person2 confirms there is a staff restaurant at the end of the hall.",
+    "word_count": 83,
+    "doc_word_count": 85,
+    "compression_ratio": 0.9764705882352941,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12617",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## Travel Time to Downtown\n- It takes 15 minutes to drive to downtown.\n\n## Local Companies\n- The neighborhood is home to Mitsubishi, HP, IBM, and other well-known corporations.\n\n## Company Facilities\n- The company occupies the 6th and 7th floors of the building.\n- There is a staff restaurant located at the end of the hall.",
+    "word_count": 58,
+    "doc_word_count": 85,
+    "compression_ratio": 0.6823529411764706,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12617",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The conversation discusses the location, companies, and facilities of a large firm.\n\nDETAILS:\n- The drive to downtown takes approximately 15 minutes.\n- The neighborhood is home to notable companies such as Mitsubishi, HP, and IBM.\n- The firm occupies the 6th and 7th floors of the building.\n- There is a staff restaurant located at the end of the hall.",
+    "word_count": 62,
+    "doc_word_count": 85,
+    "compression_ratio": 0.7294117647058823,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13762",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "Amy shared that her first job after graduating college in 1998 was as a secretary to the General Manager, a position she held for two years before being promoted to Personnel Manager, where she managed all personnel matters. Although she enjoyed working with her colleagues, she found the pay to be inadequate, prompting her to leave after a year to pursue a position in the Sales Department, where she currently works.",
+    "word_count": 71,
+    "doc_word_count": 108,
+    "compression_ratio": 0.6574074074074074,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13762",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Amy's first job was as a secretary to the General Manager after graduating in 1998.\n- She worked as a secretary for two years before being promoted to Personnel Manager.\n- As Personnel Manager, her responsibilities included handling all personnel matters.\n- Amy enjoyed working with her colleagues but found the pay to be inadequate.\n- She stayed in the Personnel Manager position for about a year before leaving to apply for a role in the Sales Department, where she currently works.",
+    "word_count": 83,
+    "doc_word_count": 108,
+    "compression_ratio": 0.7685185185185185,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13762",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## First Job Experience\n- Amy graduated from college in 1998 and worked as a secretary to the General Manager for two years.\n- She was then promoted to Personnel Manager, responsible for all personnel matters.\n\n## Job Satisfaction\n- Amy enjoyed working with her colleagues but found the job to be poorly paid.\n- She left the Personnel Manager position after about a year to apply for a position in the Sales Department, where she currently works.",
+    "word_count": 78,
+    "doc_word_count": 108,
+    "compression_ratio": 0.7222222222222222,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13762",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: Amy's first job was as a secretary, which she held for two years before becoming a Personnel Manager, but she left after a year to pursue a position in the Sales Department.\n\nDETAILS:\n- Amy graduated from college in 1998 and started her career as a secretary to the General Manager.\n- After two years, she was promoted to Personnel Manager, where she handled all personnel matters.\n- Although she enjoyed working with her colleagues, she found the pay to be unsatisfactory.\n- She worked as Personnel Manager for about a year before deciding to apply for a position in the Sales Department, where she currently works.",
+    "word_count": 108,
+    "doc_word_count": 108,
+    "compression_ratio": 1.0,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13181",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "Emily seeks clarification from Susan about her first paycheck in the United States, expressing confusion over various deductions listed on her pay stub, including FICA, SUI, and the separate deductions for Medicare and her health insurance. Susan explains that FICA refers to federal income tax and contributions to Social Security and Medicare, which are intended for future benefits rather than immediate health coverage. She further clarifies that, in addition to federal taxes, there are state income taxes, and the SUI/SDI tax contributes to unemployment and disability funds. Emily learns that not all states impose income taxes, as some rely on property or sales taxes instead. After understanding the deductions, which also include contributions to her health insurance and 401(K), Emily feels more informed and thanks Susan for her assistance before leaving.",
+    "word_count": 131,
+    "doc_word_count": 337,
+    "compression_ratio": 0.3887240356083086,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13181",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person1 has questions about their first paycheck in the U.S.  \n- Person2 invites Person1 to sit down and discuss the paycheck details.  \n- Person1 is confused about deductions labeled FICA, SUI Y tax, Medicare, and health insurance.  \n- Person2 explains that FICA is a federal income tax and includes Social Security and Medicare contributions.  \n- Medicare is not a current health insurance but a program for future support.  \n- State deductions include state income tax and SUI/SDI tax for unemployment and disability funds.  \n- Person1 learns there are both federal and state income taxes, with some states having no income tax.  \n- Person1 finds health insurance and 401(K) deductions understandable.  \n- Person2 acknowledges that deductions reduce net pay, which can be confusing.  \n- Person1 compares the situation to their experience in the UK and thanks Person2 for the help.",
+    "word_count": 140,
+    "doc_word_count": 337,
+    "compression_ratio": 0.41543026706231456,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13181",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## Understanding Paycheck Deductions\n- **Gross Pay**: The total earnings before deductions are applied.\n- **Federal Deductions**: Includes FICA (Federal Insurance Contribution Act), Social Security, and Medicare, which are federal taxes for retirement and disability support.\n- **State Deductions**: Comprises state income tax and SUI/SDI tax, which funds unemployment and disability programs.\n\n## Additional Information\n- **Health Insurance and 401(K)**: Deductions for these are self-explanatory and separate from federal and state taxes.\n- **Variability in State Taxes**: Not all states impose income tax; some rely on property or sales taxes instead.",
+    "word_count": 91,
+    "doc_word_count": 337,
+    "compression_ratio": 0.27002967359050445,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-13181",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: Emily seeks clarification on her paycheck deductions, including federal and state taxes, and health insurance contributions.\n\nDETAILS:\n- Emily's paycheck includes deductions for federal taxes such as FICA, Social Security, and Medicare, which support retirement and disability.\n- State deductions include state income tax and SUI/SDI tax, which contributes to unemployment and disability funds.\n- Not all states impose an income tax; some rely on property or sales taxes instead.\n- Emily finds the deductions for health insurance and her 401(K) understandable and appreciates the explanation.",
+    "word_count": 87,
+    "doc_word_count": 337,
+    "compression_ratio": 0.258160237388724,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12594",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "In a conversation between two friends, Sarah expresses her concerns about the affordability of moving, as she and her husband are currently unable to purchase a house. Person1 suggests that buying a home farther from the city center could be a cost-effective solution, sharing an example of their sister-in-law and her husband who successfully bought a well-maintained 50-year-old house that was sold by the government after the previous owner passed away without a will. Although the house required some minor repairs, it was not in poor condition, and while the neighborhood can be a bit rough at night, the sense of community among the neighbors provides a level of safety.",
+    "word_count": 110,
+    "doc_word_count": 199,
+    "compression_ratio": 0.5527638190954773,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12594",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person1 suggests moving as a topic of conversation with Person2.  \n- Person2 expresses financial constraints preventing them from moving.  \n- Person1 mentions that cheaper housing options exist outside the city center.  \n- Person2 shows interest in the idea of buying a house further away.  \n- Person1 shares an example of their sister-in-law who bought a house in a less central location and is satisfied.  \n- Person2 inquires about the condition of the house.  \n- Person1 explains the house was well-maintained by the previous owner, who had no family to inherit it.  \n- Person2 asks if the house is old.  \n- Person1 confirms the house is about 50 years old, needing minor repairs.  \n- Person2 questions the location's safety.  \n- Person1 notes the area can be rough at night but highlights a supportive neighbor community.",
+    "word_count": 135,
+    "doc_word_count": 199,
+    "compression_ratio": 0.678391959798995,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12594",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## Discussion on Moving\n- Person1 inquires if Person2 has considered moving.\n- Person2 expresses financial constraints preventing a move.\n\n## Housing Options\n- Person1 suggests buying a house farther from the city center to save money.\n- Person1 shares an example of their sister-in-law's successful purchase of a house in a less central location.\n\n## Condition and Age of the House\n- The house was well-maintained by the previous owner, despite being 50 years old.\n- Some minor repairs were needed, but they were manageable in terms of cost and time.\n\n## Neighborhood Safety\n- The area has a reputation for being rough in the evenings, but the community is supportive and looks out for one another.",
+    "word_count": 118,
+    "doc_word_count": 199,
+    "compression_ratio": 0.592964824120603,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12594",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: Sarah and her husband consider moving but face financial constraints, while exploring affordable housing options outside the city.\n\nDETAILS:\n- Buying a house near the city can be expensive, but there are ways to find cheaper alternatives.\n- One option is to purchase a house located further from the city center, which can lead to significant savings.\n- A recent example includes the sister-in-law of Person1, who bought a well-maintained 50-year-old house sold by the government after the previous owner passed away without a will.\n- Although the house needed some minor repairs, the overall condition was good, and the neighborhood has supportive neighbors despite being a bit rough in the evenings.",
+    "word_count": 113,
+    "doc_word_count": 199,
+    "compression_ratio": 0.5678391959798995,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12660",
+    "source_domain": "dialogsum",
+    "format_type": "dense",
+    "summary": "In a conversation about system upgrades, Person1 suggests that Person2 consider enhancing their software by adding a painting program for creating flyers and banners, which Person2 finds appealing. Additionally, Person1 points out the need to update the outdated hardware, recommending a faster processor, a more powerful hard disk, increased memory, and a faster modem. They also discuss the necessity of a CD-ROM drive, as most new software is now distributed on CDs, which Person2 currently lacks. Grateful for the advice, Person2 expresses enthusiasm about the potential upgrades.",
+    "word_count": 87,
+    "doc_word_count": 130,
+    "compression_ratio": 0.6692307692307692,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12660",
+    "source_domain": "dialogsum",
+    "format_type": "bullets",
+    "summary": "- Person1 suggests upgrading the system.\n- Person2 is unsure about the specific needs for the upgrade.\n- Person1 recommends adding a painting program for creating flyers and banners.\n- Person2 sees the value in the painting program.\n- Person1 advises upgrading outdated hardware.\n- Person2 asks how to proceed with the hardware upgrade.\n- Person1 lists necessary upgrades: faster processor, powerful hard disk, more memory, and faster modem.\n- Person1 inquires about the presence of a CD-ROM drive.\n- Person2 confirms they do not have a CD-ROM drive.\n- Person1 suggests adding a CD-ROM drive for compatibility with new software.\n- Person2 appreciates the suggestions.",
+    "word_count": 106,
+    "doc_word_count": 130,
+    "compression_ratio": 0.8153846153846154,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12660",
+    "source_domain": "dialogsum",
+    "format_type": "hierarchical",
+    "summary": "## System Upgrade Discussion\n- Person1 suggests upgrading the system and adding a painting program for creating flyers and banners.\n- Person2 expresses interest but is unsure about the specific needs for the upgrade.\n\n## Hardware Recommendations\n- Person1 advises upgrading hardware due to its outdated status, mentioning the need for a faster processor, more powerful hard disk, increased memory, and a faster modem.\n- Person1 also highlights the necessity of adding a CD-ROM drive, as most new software is distributed on CDs.",
+    "word_count": 83,
+    "doc_word_count": 130,
+    "compression_ratio": 0.6384615384615384,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "dialogsum-12660",
+    "source_domain": "dialogsum",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: Person1 suggests that Person2 upgrade their system by adding software and hardware components for improved functionality.\n\nDETAILS:\n- Person1 recommends adding a painting program to create custom flyers and banners for advertising.\n- An upgrade of hardware is necessary, including a faster processor, more memory, and a more powerful hard disk.\n- Person1 highlights the importance of having a CD-ROM drive, as most new software is distributed on CDs.",
+    "word_count": 70,
+    "doc_word_count": 130,
+    "compression_ratio": 0.5384615384615384,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 1.0,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 1.0, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18291",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "The report examines the Department of Defense's (DOD) funding requests for ground electronic warfare (EW) systems in the FY2020 budget, focusing on their applications within the Army and Marine Corps. Ground EW capabilities are primarily aimed at utilizing the electromagnetic spectrum to achieve three battlefield effects: defeating improvised explosive devices (IEDs), countering unmanned aerial systems (UAS), and jamming enemy communications and radars, with the latter being a legacy from the Cold War. Congress faces critical decisions regarding the approval, modification, or rejection of these proposals, which could significantly influence U.S. military capabilities and funding. The report highlights the evolution of EW in response to modern threats, particularly from technologically advanced adversaries like Russia and China, and emphasizes the need for a balanced approach in developing EW programs that address both counter-IED missions and great power competition. It also discusses the challenges of funding and tracking EW systems due to their classified nature and the complexities of their procurement processes. Emerging technologies, including artificial intelligence and quantum advancements, are poised to transform EW operations, potentially enhancing the effectiveness of U.S. military forces in an increasingly contested electromagnetic environment.",
+    "word_count": 187,
+    "doc_word_count": 3768,
+    "compression_ratio": 0.049628450106157115,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18291",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- The report discusses selected ground electronic warfare (EW) systems funded by the Department of Defense (DOD) in FY2020 for the Army and Marine Corps.\n- Ground EW capabilities aim to utilize the electromagnetic spectrum to achieve three battlefield effects: defeating IEDs, countering UAS, and jamming enemy communications.\n- Congress faces decisions on whether to approve, reject, or modify DOD's ground EW program proposals, which may impact military capabilities and funding.\n- Electronic warfare is defined by DOD as military actions using electromagnetic and directed energy to control the spectrum or attack the enemy.\n- EW is categorized into electronic warfare support, electronic protection, and electronic attack.\n- The U.S. military has focused on EW systems to counter IEDs, particularly during operations in Iraq and Afghanistan.\n- The DOD developed counter-IED technologies, including portable jamming systems for ground forces.\n- The rise of UAS has created new challenges, with adversaries using drones for ISR and attacks.\n- Counter-UAS systems are being developed to detect and neutralize drone threats using various technologies, including lasers.\n- The Army and Marine Corps are both developing counter-UAS systems, with overlapping capabilities raising potential resource allocation concerns.\n- Advances in networking and computing power have made effective communication essential in military operations.\n- The Army's primary communications jammer is the EW tactical vehicle (EWTV), while the Marine Corps employs the CESAS II system for jamming.\n- The post-Cold War era saw a reduced emphasis on EW, but renewed great power competition has led to a focus on strengthening EW capabilities.\n- Russia and China have modernized their EW capabilities, integrating them into broader military strategies.\n- Congress may review the balance of EW capabilities between the Army and Marine Corps, particularly regarding counter-IED and great power competition.\n- Funding for EW systems is complex and often classified, making tracking difficult.\n- The Army and Marine Corps have different funding approaches for EW programs, affecting consistency and technological advancement.\n- Emerging technologies, including AI and new materials, may significantly impact how ground forces conduct EW operations.\n- Quantum technologies could also influence future EW capabilities, though their exact effects remain uncertain.",
+    "word_count": 355,
+    "doc_word_count": 3768,
+    "compression_ratio": 0.09421443736730362,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18291",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Ground Electronic Warfare (EW) Systems\n- The DOD's FY2020 budget includes funding for ground EW systems for the Army and Marine Corps, focusing on defeating IEDs, UAS, and jamming enemy communications.\n- Congress faces decisions on approving, rejecting, or modifying DOD's proposals, which could impact future military capabilities and funding.\n\n## Electronic Warfare Overview\n- EW involves using the electromagnetic spectrum for operations like detection, jamming, and deception against enemy systems.\n- DOD categorizes EW into electronic warfare support, electronic protection, and electronic attack.\n\n## Counter-IED and Counter-UAS Systems\n- Ground EW systems have evolved to address threats from IEDs and drones, with significant investments in countermeasures.\n- The Army and Marine Corps have developed various systems for both mounted and dismounted operations to counter these threats.\n\n## Emerging Threats and Technologies\n- UAS have introduced new challenges, prompting the development of counter-UAS systems capable of detection and interdiction.\n- Advances in laser technology and directed energy systems are being explored for counter-UAS capabilities.\n\n## Communication Disruption\n- Both services have developed jamming systems to disrupt enemy communications, with the Army's EW tactical vehicle and the Marine Corps' CESAS II as key examples.\n- Effective communication disruption is crucial for maintaining battlespace awareness and command capabilities.\n\n## Historical Context and Modernization\n- The shift from Cold War to post-Cold War emphasized counter-insurgency, but recent great power competition has renewed focus on high-end EW capabilities.\n- Russia and China have modernized their EW capabilities, recognizing its importance in contemporary military operations.\n\n## Congressional Oversight and Funding Challenges\n- Congress must balance funding for counter-IED programs with the need to prepare for great power competition.\n- Tracking funding for EW systems is complicated due to classification and the nature of procurement processes.\n\n## Emerging Technologies Impacting EW\n- Advances in electronics, AI, and quantum technologies may transform how EW is conducted, enabling automated decision-making and improved system capabilities.\n- New materials and battery technologies are enhancing the portability and efficiency of EW systems.\n\n## Conclusion\n- The evolving landscape of electronic warfare necessitates ongoing investment and adaptation to ensure U.S. military superiority against technologically advanced adversaries.",
+    "word_count": 355,
+    "doc_word_count": 3768,
+    "compression_ratio": 0.09421443736730362,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18291",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The report examines the Department of Defense's funding requests for ground electronic warfare systems, highlighting their roles in defeating IEDs, UAS, and enemy communications, while addressing congressional oversight and emerging technologies.\n\nDETAILS:\n- Ground electronic warfare systems are crucial for modern military operations, particularly against sophisticated adversaries like Russia and China, focusing on defeating IEDs, countering drones, and jamming enemy communications.\n- Congressional oversight issues include balancing funding between counter-IED efforts and preparing for great power competition, as well as the need for standardization across military branches.\n- The report discusses the evolution of electronic warfare capabilities, particularly in response to the increasing use of drones and the need for advanced counter-UAS systems.\n- Emerging technologies, including artificial intelligence and quantum technologies, are expected to significantly impact the future of electronic warfare, enhancing capabilities in spectrum management and operational effectiveness.",
+    "word_count": 141,
+    "doc_word_count": 3768,
+    "compression_ratio": 0.037420382165605094,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-17765",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "Since the late 1980s, Congress has progressively expanded the Department of Defense's (DOD) authority to utilize other transactions, initially granted to spur research and development beneficial to both commercial entities and the government. This authority was first provided to the Defense Advanced Research Projects Agency (DARPA) in 1989 for research projects, and later extended to military departments and made permanent in 1991. By 2015, this authority was codified under section 2371b of title 10, U.S. Code, allowing DOD to engage in prototype projects that enhance military effectiveness, contingent upon certain conditions such as significant participation from non-traditional defense contractors or cost-sharing arrangements. The DOD's use of prototype other transactions surged from 2016 to 2018, with obligations reaching $7.2 billion and a five-fold increase in the number of transactions awarded. Most of these involved non-traditional companies, and the Army, DARPA, and the Air Force accounted for the majority of the awards. Despite the advantages of flexibility and innovation that these transactions offer, challenges remain in data collection and management oversight, particularly regarding the tracking of consortium projects and the extent of competition among participants. The DOD is actively working to address these issues, including improving data accuracy in its reporting systems and refining its internal review processes for awarding prototype other transactions.",
+    "word_count": 211,
+    "doc_word_count": 5409,
+    "compression_ratio": 0.03900905897578111,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-17765",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- Congress granted the Department of Defense (DOD) authority to use other transactions in the late 1980s, expanding it over time.\n- In 1989, the Defense Advanced Research Projects Agency (DARPA) was authorized to use other transactions for research projects.\n- By 1991, the military departments were allowed to use this authority permanently.\n- In 1993, DARPA was authorized to award other transactions for prototype projects.\n- The authority was expanded to other defense agencies in 1996 and further in 2001 to include follow-on production.\n- DOD's other transaction authority was codified in 2015 under section 2371b of title 10, U.S. Code.\n- DOD defines prototype projects as those addressing proof of concept, models, or novel applications of commercial technologies for defense.\n- DOD must meet at least one of four conditions to use a prototype other transaction, including significant participation from non-traditional defense contractors.\n- DOD can award prototype transactions to traditional contractors under certain conditions, including cost-sharing or exceptional circumstances.\n- Consortiums can be formed to manage prototype projects, often including both traditional and non-traditional companies.\n- Agreements officers, experienced contracting officials, are designated to award other transactions and must complete specific training.\n- DOD has issued guides to assist agreements officers in planning and evaluating prototype transactions.\n- The Competition in Contracting Act does not apply to other transactions, but competition remains a key consideration.\n- DOD's use of prototype other transactions significantly increased from 2016 to 2018, with obligations rising from $1.4 billion to $3.7 billion.\n- The Army, DARPA, and the Air Force accounted for 97% of new awards and obligations during this period.\n- DOD is preparing a report to Congress on its use of other transaction authority, addressing data collection limitations.\n- The Federal Procurement Data System-Next Generation (FPDS-NG) data showed $7.2 billion obligated on prototype transactions from 2016 to 2018.\n- Most prototype transactions involved significant participation from non-traditional companies, with 71% of obligations awarded to five key recipients.\n- Agreements officers used various methods to determine the participation of non-traditional companies in prototype transactions.\n- Award times for prototype transactions varied significantly, ranging from 45 to 370 days.\n- DOD's contracting offices established policies for reviewing prototype transactions before awards, though adherence to these policies varied.\n-",
+    "word_count": 376,
+    "doc_word_count": 5409,
+    "compression_ratio": 0.06951377334072842,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 0.8,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 0.8, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-17765",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Overview of DOD's Other Transaction Authority\n- Congress granted DOD the authority to use other transactions starting in the late 1980s, with significant expansions in 1989, 1991, 1993, 1996, and 2001.\n- The authority allows DOD to engage in prototype projects and follow-on production without traditional competitive procedures under certain conditions.\n\n## Prototype Projects Definition and Conditions\n- DOD defines a prototype project as one that addresses proof of concept, novel applications of technology, or processes relevant to military effectiveness.\n- To utilize prototype other transactions, at least one of four statutory conditions must be met, including participation by non-traditional defense contractors or significant cost-sharing from non-federal sources.\n\n## Awarding and Management of Other Transactions\n- Agreements officers, typically experienced contracting officers, are designated to award other transactions and must complete relevant training.\n- DOD has issued guides to assist agreements officers in planning, evaluating, and awarding prototype other transactions.\n\n## Trends in Use of Prototype Other Transactions\n- DOD significantly increased its use of prototype other transactions from fiscal years 2016 to 2018, with obligations rising from $1.4 billion to $3.7 billion.\n- A majority of these transactions involved non-traditional companies, with significant obligations awarded to consortiums and traditional defense contractors.\n\n## Data Collection and Reporting Challenges\n- DOD is preparing a report on its use of other transaction authority, acknowledging limitations in data collection and tracking, particularly regarding consortium activities.\n- Improvements to data tracking systems, such as FPDS-NG, are being implemented to better differentiate between prototype and production transactions.\n\n## Review and Approval Processes\n- Agreements officers follow established review processes, which include higher-level reviews and legal consultations before awarding transactions.\n- Award times for prototype transactions can vary significantly, influenced by project complexity and prior knowledge of contractors.\n\n## Compliance and Future Actions\n- Instances of non-compliance with review policies were identified, prompting DOD officials to plan corrective actions and improve oversight.\n- DOD is committed to addressing identified issues and enhancing the management of other transactions moving forward.",
+    "word_count": 334,
+    "doc_word_count": 5409,
+    "compression_ratio": 0.06174893695692365,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-17765",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: Congress has progressively expanded the Department of Defense's authority to use other transactions for prototype projects to enhance military capabilities and foster innovation from non-traditional defense contractors.\n\nDETAILS:\n- The authority for other transactions began in the late 1980s and has evolved to include various conditions for participation, particularly emphasizing the involvement of non-traditional defense contractors.\n- DOD's use of prototype other transactions significantly increased from fiscal years 2016 to 2018, with obligations rising from $1.4 billion to $3.7 billion and the number of transactions awarded increasing five-fold.\n- Agreements officers are tasked with overseeing these transactions, requiring specific training and adherence to guidelines that promote competition and innovation while allowing for flexibility in contracting processes.\n- The reporting and data collection on these transactions have faced challenges, prompting DOD to work on improving data accuracy and transparency regarding the involvement of consortiums and non-traditional companies.\n- Recent audits revealed instances of non-compliance with pre-award review processes, leading to commitments from DOD officials to enhance oversight and address identified issues.",
+    "word_count": 171,
+    "doc_word_count": 5409,
+    "compression_ratio": 0.03161397670549085,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18026",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "The document outlines the roles of the Department of Homeland Security (DHS), the Department of Justice (DOJ), and the federal judiciary in the prosecution of immigration-related offenses along the southwest border of the United States, particularly following the Attorney General's memoranda from April 2017 and 2018 which prioritized such prosecutions. It details how the practices of case referrals and prosecutorial discretion vary by location, with U.S. Attorney's Offices (USAOs) coordinating with DHS and federal courts to manage the volume of cases, which include improper entry, illegal reentry, and alien smuggling. The report highlights the significant increase in immigration-related prosecutions, particularly improper entry cases, which were often resolved in one-day court proceedings, and notes that the number of cases filed in fiscal year 2018 surpassed those of previous years. It also discusses the logistical challenges faced by the federal judiciary and other agencies due to the increased caseload, including the need for additional resources, personnel, and courtroom facilities to accommodate the rising number of defendants. Furthermore, the document emphasizes the collaboration among various federal entities, including the reassignment of personnel and the establishment of new processes to handle the influx of cases, while also addressing the impact on public defenders and the strain on judicial resources. Overall, the report provides a comprehensive overview of the federal criminal process for immigration-related offenses, illustrating the complexities and adaptations required in response to changing enforcement priorities.",
+    "word_count": 232,
+    "doc_word_count": 10963,
+    "compression_ratio": 0.021162090668612608,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.7,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.7, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18026",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- DHS, DOJ, and the federal judiciary have distinct roles in immigration-related criminal prosecutions.\n- Immigration-related offenses are defined by the Attorney General's April 2017 memorandum.\n- Prosecution practices for immigration-related offenses vary by location along the southwest border.\n- Individuals are generally prosecuted in the judicial district where the alleged offense occurred.\n- USAOs coordinate with DHS and DOJ to determine case types and numbers for prosecution.\n- Prosecutors have broad discretion in deciding whether to prosecute immigration-related offenses.\n- Border Patrol receives training from USAOs regarding the criminal prosecution process.\n- One-day prosecutions for improper entry occur in Arizona, Texas Southern, and Texas Western districts.\n- The volume of defendants prosecuted daily varies based on Border Patrol apprehensions and capacity.\n- DOJ directives since 2017 have influenced the prioritization of immigration-related prosecutions.\n- USAOs have adjusted thresholds for accepting prosecution referrals for alien smuggling and illegal reentry.\n- Some districts quickly increased improper entry prosecutions by scaling existing systems.\n- New processes were created in districts that previously did not prioritize improper entry cases.\n- Collaborative working groups were formed to address issues related to increased prosecutions.\n- Border Patrol developed phased plans to refer apprehended adults for improper entry prosecution.\n- Coordination among USAOs, DHS, and federal courts is crucial for increasing immigration-related prosecutions.\n- Courts have adjusted schedules and added dockets to accommodate higher volumes of cases.\n- Public defenders have adapted practices to manage increased workloads from immigration-related cases.\n- Improper entry prosecutions are less resource-intensive than felony cases, allowing for quicker processing.\n- The number of improper entry cases filed more than doubled from fiscal year 2017 to 2018.\n- Most improper entry cases in fiscal year 2018 were completed in one-day court proceedings.\n- The majority of defendants in immigration-related cases are Mexican nationals, though other nationalities are increasing.\n- DOJ filed more immigration-related cases in fiscal year 2018 than in the previous four years.\n- The increase in immigration-related prosecutions has strained resources for DOJ, USMS, and federal courts.\n- USMS has faced challenges in judicial security and detention space due to increased prosecutions.\n- Border Patrol has detailed agents to assist with prosecution and judicial security tasks.\n- Federal courts have experienced increased workloads and staffing challenges due to immigration-related cases.\n- EOUSA plans to hire additional AUSAs to support immigration-related prosecutions.\n- Temporary details of attorneys and deputies have been implemented to manage increased caseload",
+    "word_count": 405,
+    "doc_word_count": 10963,
+    "compression_ratio": 0.0369424427620177,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 0.8,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 0.8, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18026",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Federal Criminal Process for Immigration-Related Prosecutions\n- Different roles of DHS, DOJ, and federal judiciary in immigration-related prosecutions.\n- Immigration-related offenses defined by the Attorney General\u2019s April 2017 memorandum.\n\n## Criminal Prosecution Process\n- DHS and DOJ practices for case referrals and prioritization vary by location along the southwest border.\n- USAOs coordinate with DHS and DOJ to determine case types and numbers for prosecution.\n\n### One-Day Prosecutions\n- DOJ prosecutes improper entry cases in Arizona, Texas Southern, and Texas Western, generally lasting one day or less.\n- Volume of prosecutions varies based on Border Patrol apprehensions and capacity.\n\n### Changes in Prosecution Priorities\n- DOJ directives since 2017 led to prioritization of immigration-related prosecutions.\n- USAOs adjusted thresholds for accepting prosecution referrals based on directives.\n\n## Coordination Among Agencies\n- USAOs communicated changes in prosecution guidelines to local DHS partners.\n- Border Patrol developed phased plans for referring apprehended adults for prosecution.\n\n### Stakeholder Collaboration\n- Federal judiciary established task forces to address increased immigration-related prosecutions.\n- Courts adjusted operations to accommodate higher case volumes, including additional dockets and courtroom resources.\n\n## Resource Allocation and Strain\n- Increased immigration-related prosecutions strained resources across DOJ, DHS, and federal judiciary.\n- USAO officials reported that high immigration caseloads affected their ability to handle other types of cases.\n\n### USMS and Judicial Security\n- USMS reassigned deputies to meet judicial security needs due to increased prosecutions.\n- Detention space became strained, leading to transportation of defendants to other facilities.\n\n## Data on Immigration-Related Prosecutions\n- DOJ data indicated a significant increase in immigration-related prosecutions from fiscal years 2014 to 2018.\n- Improper entry cases comprised the majority of immigration-related prosecutions.\n\n### Trends in Specific Offenses\n- Improper entry cases more than doubled from fiscal year 2017 to 2018.\n- Illegal reentry cases showed a smaller increase compared to improper entry cases.\n\n## Nationality of Defendants\n- Majority of defendants for improper entry and illegal reentry were Mexican nationals, with an increase in other nationalities in fiscal year 2018.\n- Alien smuggling cases predominantly involved U.S. nationals.\n\n## Conclusion\n- The report outlines the complexities and changes in the federal criminal process for immigration-related prosecutions, highlighting the roles of various agencies, the impact of policy changes, and the challenges faced",
+    "word_count": 378,
+    "doc_word_count": 10963,
+    "compression_ratio": 0.03447961324454985,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18026",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The document outlines the roles and practices of the Department of Homeland Security (DHS), Department of Justice (DOJ), and federal judiciary in the prosecution of immigration-related offenses along the southwest border, highlighting variations in case handling and resource allocation.\n\nDETAILS:\n- Immigration-related offenses are defined based on the Attorney General\u2019s 2017 memorandum, with varying prosecution practices observed across different judicial districts along the southwest border.\n- The DOJ has prioritized immigration-related prosecutions, leading to significant increases in improper entry cases, particularly in districts like Arizona and Texas Southern, where one-day prosecutions became common.\n- Coordination among USAOs, DHS, and federal courts has intensified, resulting in increased referrals and adaptations in court processes to manage higher volumes of immigration-related cases.\n- Resource allocation challenges have emerged, with increased demands on USMS for judicial security and detention space, and federal courts facing strains from the rising caseloads.\n- The report emphasizes the impact of DOJ's directives on prosecutorial discretion, leading to changes in thresholds for accepting cases and the overall increase in immigration-related prosecutions from fiscal years 2017 to 2018.",
+    "word_count": 179,
+    "doc_word_count": 10963,
+    "compression_ratio": 0.01632764754173128,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18043",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "The March 2019 report highlighted significant shortcomings in the U.S. Department of Housing and Urban Development's (HUD) physical inspection process for HUD-assisted properties, emphasizing the need for comprehensive improvements to ensure the health and safety of residents. Key areas identified for enhancement included the need for a thorough review of the inspection process, better tracking of inspection schedules, and improved training and evaluation of inspectors. Concerns were raised about property owners exploiting the inspection scoring system and the quality of inspections conducted by contract inspectors, as well as the lack of consideration for sampling errors in inspection scores, which could lead to inadequate enforcement actions. HUD acknowledged the need for these improvements and indicated plans to implement changes, including a new inspection model aimed at addressing health and safety issues. The report also pointed out deficiencies in HUD's monitoring of lead paint hazards in low-income housing, recommending stronger oversight and accountability measures to protect children from lead exposure. As of November 2019, while HUD had begun taking steps to address these recommendations, further monitoring of their implementation was deemed necessary to ensure that properties remain safe and that children are protected from health risks associated with lead paint.",
+    "word_count": 198,
+    "doc_word_count": 3976,
+    "compression_ratio": 0.049798792756539235,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18043",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- HUD's March 2019 report highlighted the need for improvements in its physical inspection process and oversight of inspectors for HUD-assisted properties.\n- Key areas for improvement include a comprehensive review of the inspection process and better tracking of inspection schedules.\n- REAC has not conducted a comprehensive review of its inspection process since 2001, despite emerging risks.\n- Property owners have exploited the scoring system, prioritizing site repairs over unit repairs and covering up deficiencies.\n- Concerns were raised about property owners hiring current or former REAC inspectors to prepare for inspections.\n- REAC's inspection process changed in 2005, allowing more small businesses to conduct inspections, affecting reliability.\n- Without a comprehensive review, REAC cannot confirm the reliability of its inspections.\n- HUD agreed to conduct a comprehensive review, which was reportedly completed in November 2019.\n- REAC may not identify properties needing more frequent inspections due to not considering sampling errors in inspection scores.\n- Sampling errors were previously calculated but ceased in 2013, limiting enforcement actions against properties.\n- REAC lacks formal mechanisms to assess the effectiveness of its training programs for inspectors.\n- Recommendations were made for improving the selection, training, and performance evaluation of inspectors.\n- HUD is moving towards contracting larger firms for inspections and has begun implementing continuing education requirements for inspectors.\n- REAC did not meet its inspection schedule for about 20% of multifamily properties from 2013 to 2017.\n- REAC has limited data on reasons for inspection delays and does not track progress toward meeting scheduling requirements.\n- REAC's Quality Control group has not fully implemented its policies and procedures for overseeing quality assurance inspectors.\n- Several recommendations were made regarding the physical inspection process and oversight, with HUD generally agreeing.\n- HUD is soliciting comments on a new physical inspection process to better identify health and safety conditions.\n- HUD's June 2018 report identified weaknesses in lead paint hazard compliance monitoring and enforcement.\n- HUD has begun tracking compliance with lead paint regulations but faces limitations in its monitoring efforts.\n- Recommendations were made for HUD to develop procedures for addressing PHA noncompliance with lead paint regulations.\n- HUD's Lead Safe Housing Rule has different inspection standards for public housing and voucher units, potentially putting children at risk.\n- Recommendations were made for HUD to seek authority for stricter lead inspection standards in the voucher program.\n- HUD has made limited progress in measuring and reporting on lead-safety efforts, lacking comprehensive goals and performance measures.\n- Continued monitoring of HUD's",
+    "word_count": 420,
+    "doc_word_count": 3976,
+    "compression_ratio": 0.1056338028169014,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.7,
+      "readability": 0.8,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.7, \"readability\": 0.8}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18043",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## HUD Physical Inspection Process Improvements\n- HUD needs to enhance its physical inspection process and oversight of inspectors to ensure the health and safety of households in HUD-assisted properties.\n- Key areas for improvement include conducting a comprehensive review of the inspection process, tracking inspection schedules, and enhancing inspector training and evaluation.\n\n## REAC Inspection Process Concerns\n- REAC has not conducted a comprehensive review of its inspection process since 2001, leading to potential exploitation of the scoring system by property owners.\n- Issues include property owners prioritizing site repairs over unit repairs and employing inspectors to prepare properties for inspections.\n\n## Sampling Error in Inspections\n- REAC does not consider sampling error in inspection scores, which can lead to misidentification of properties needing enforcement actions.\n- Recommendations include resuming the calculation of sampling errors to improve enforcement decisions.\n\n## Inspector Training and Evaluation\n- REAC lacks formal mechanisms to assess the effectiveness of training for contract inspectors and quality assurance inspectors.\n- Recommendations include developing a process for evaluating training effectiveness and implementing continuing education requirements.\n\n## Inspection Scheduling and Tracking\n- REAC has not consistently met its inspection schedule for multifamily properties, with delays averaging six months.\n- Recommendations include tracking inspection schedules and coordinating with the Office of Multifamily Housing to minimize cancellations.\n\n## Quality Control Group Implementation\n- REAC's Quality Control group has not fully implemented its policies and procedures for overseeing quality assurance inspectors.\n- Recommendations include ensuring the implementation of these policies to improve inspection consistency.\n\n## Lead Paint Compliance Monitoring\n- HUD needs to improve its efforts to monitor and enforce lead paint regulations to protect children in low-income housing.\n- Recommendations include establishing a plan for lead paint compliance monitoring and developing procedures for addressing PHA noncompliance.\n\n## Performance Assessment and Reporting\n- HUD lacks comprehensive performance measures for its lead-reduction efforts and has not complied with statutory reporting requirements.\n- Recommendations include developing performance goals and measures, finalizing evaluation plans, and completing statutory reporting.\n\n## Ongoing Monitoring and Future Actions\n- HUD is undertaking significant changes to the REAC physical inspection program and is working on a new inspection model.\n- Continued monitoring of HUD's actions and implementation of recommendations is necessary to ensure properties are safe and compliant.",
+    "word_count": 379,
+    "doc_word_count": 3976,
+    "compression_ratio": 0.09532193158953722,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18043",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The March 2019 report highlights significant deficiencies in HUD's physical inspection process and oversight of inspectors, emphasizing the need for comprehensive improvements to ensure the health and safety of residents in HUD-assisted properties.\n\nDETAILS:\n- The report identifies areas for improvement, including the need for a comprehensive review of the inspection process, better training and evaluation of inspectors, and the incorporation of sampling error in inspection scores.\n- Concerns were raised about property owners manipulating the inspection scoring system and the quality of inspections conducted by contract inspectors, leading to potential health and safety risks for residents.\n- HUD has begun implementing some recommendations, such as developing continuing education requirements for inspectors and improving tracking of inspection schedules, but many issues remain unaddressed.\n- The report also discusses weaknesses in HUD's lead paint compliance monitoring and enforcement, indicating a lack of accountability for public housing authorities (PHAs) in ensuring lead-safe housing.\n- Ongoing monitoring of HUD's actions is necessary to ensure that improvements are made to protect the health and safety of residents in HUD-assisted housing.",
+    "word_count": 177,
+    "doc_word_count": 3976,
+    "compression_ratio": 0.044517102615694165,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18435",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "In recent years, there has been a growing interest among policymakers, industry stakeholders, and educational institutions in enhancing federal financial support for individuals pursuing non-degree training and postsecondary education programs, which cater primarily to those beyond high school and do not confer degrees upon completion. These programs, including apprenticeships and professional certifications, are increasingly relevant as demand for skilled workers in various fields rises, despite the majority of federal financial aid currently being inaccessible to many individuals in these non-degree tracks. As traditional colleges face declining enrollments, some institutions are exploring innovative strategies to attract adult learners seeking quick reentry into the workforce through short-term programs. Various proposals have emerged, including expanding Pell Grants to cover non-degree programs, reflecting a recognition of the need for skilled labor in the evolving economy. However, concerns persist regarding the effectiveness and quality of some non-degree programs, potential high costs for the federal government, and the risk of perpetuating income inequalities by directing lower-income students toward lower-paying jobs. The report outlines existing federal programs that support non-degree training, highlights gaps in current support structures, and discusses the implications of these educational pathways on workforce development and economic growth, while also noting the challenges in ensuring program quality and the varying effectiveness of financial aid mechanisms.",
+    "word_count": 211,
+    "doc_word_count": 14776,
+    "compression_ratio": 0.014279913373037358,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.7,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.7, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18435",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- Policymakers and stakeholders are advocating for increased federal financial support for non-degree training and education programs.\n- Non-degree programs include apprenticeships, college certificate programs, and professional certifications, targeting individuals beyond high school.\n- There is a growing demand for workers in jobs that require training but not a college degree.\n- Most federal financial aid (over $100 billion annually) is not accessible to many pursuing non-degree programs.\n- Some colleges are exploring innovative strategies to boost enrollment, particularly for short-term programs.\n- Congress is considering options to provide federal support for students in non-degree programs, including proposals to expand Pell Grants.\n- The Department of Education previously allowed Pell Grants for short-term non-degree programs from 2011 to 2017.\n- The College Affordability Act proposed expanding Pell Grant eligibility for non-degree programs.\n- Concerns exist about the effectiveness of non-degree programs in improving employment outcomes compared to high school graduates.\n- Quality assurance and potential high costs of supporting non-degree programs are significant concerns for stakeholders.\n- Non-degree credential holders may face challenges in the job market as employers increasingly prefer degree holders.\n- The report outlines existing federal programs and benefits supporting non-degree training and education.\n- It discusses employer demand for non-degree program graduates and the characteristics of such programs.\n- The report details six federal programs and three tax benefits that provide financial support for non-degree education.\n- The Workforce Innovation and Opportunity Act (WIOA) Title I program is a primary federal workforce development initiative.\n- WIOA aims to improve employment outcomes and support training for in-demand occupations.\n- Federal student aid programs, including Pell Grants and Direct Loans, are available for eligible non-degree programs.\n- Education tax benefits can provide financial relief for eligible taxpayers pursuing non-degree programs.\n- Veterans education programs, such as the Post-9/11 GI Bill, support training and education for veterans in non-degree programs.\n- The Supplemental Nutrition Assistance Program (SNAP) includes Employment & Training (E&T) funding to support education for low-income individuals.\n- The Temporary Assistance for Needy Families (TANF) program can also fund training and education for needy families.\n- The report highlights challenges in assessing the quality and effectiveness of non-degree programs and the varying state regulations governing them.",
+    "word_count": 369,
+    "doc_word_count": 14776,
+    "compression_ratio": 0.024972929074174338,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.7,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.7, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18435",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Federal Support for Non-Degree Programs\n- Increased interest from policymakers and stakeholders in enhancing financial support for non-degree instructional and work-based learning programs.\n- These programs cater to individuals beyond high school and include apprenticeships, college certificate programs, and professional certifications.\n- Demand for skilled workers in non-degree roles is rising, yet most federal financial aid is not accessible to students in these programs.\n\n## Current Federal Programs and Proposals\n- The federal government allocates over $100 billion annually for postsecondary education, but most funds do not support non-degree programs.\n- Recent proposals, including the College Affordability Act, aim to expand Pell Grant eligibility for non-degree programs.\n- The Department of Education has previously experimented with Pell Grants for short-term programs and proposed further expansions in FY2021.\n\n## Concerns and Challenges\n- Stakeholders express concerns about the effectiveness of non-degree programs in improving employment outcomes and earnings.\n- Questions arise regarding the quality assurance of these programs and potential high costs for the federal government.\n- There is a risk of perpetuating income inequality by directing lower-income students towards lower-paying non-degree professions.\n\n## Overview of Non-Degree Programs\n- Non-degree programs vary in length and structure, often provided by educational institutions or employers.\n- They include both instructional and work-based learning components, with a focus on preparing individuals for specific occupations.\n- The landscape of non-degree programs is diverse, with many institutions offering varying types of training.\n\n## Federal Financial Support Mechanisms\n- Key federal programs include the Workforce Innovation and Opportunity Act (WIOA), federal student aid programs, and veterans' educational assistance.\n- WIOA Title I provides funding for training and education, allowing for consumer choice among eligible training providers.\n- Federal student aid programs, including Pell Grants and Direct Loans, support students in non-degree programs under specific conditions.\n\n## Quality Assurance and Program Effectiveness\n- Quality assurance for non-degree programs is governed by state authorization, accreditation, and federal oversight.\n- The effectiveness of non-degree programs is measured through various performance metrics, though data on outcomes is limited.\n- Concerns exist regarding the varying quality and oversight of non-degree programs across states.\n\n## Tax Benefits for Education\n- Education tax benefits, such as the Lifetime Learning Credit and employer-provided educational assistance, partially offset education costs for eligible taxpayers.\n- These benefits may not effectively support low-income individuals due to their structure and eligibility criteria.\n\n## Support for Veterans and Low-Income Families\n- The Post-9",
+    "word_count": 404,
+    "doc_word_count": 14776,
+    "compression_ratio": 0.02734163508391987,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18435",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: Policymakers are increasingly advocating for expanded federal financial support for non-degree training and education programs to meet workforce demands and enhance economic growth.\n\nDETAILS:\n- There is a growing recognition of the demand for skilled workers in non-degree programs such as apprenticeships and vocational training, which do not confer traditional degrees but are essential for many jobs.\n- Current federal financial aid, including Pell Grants, primarily supports degree-seeking students, leaving many individuals pursuing non-degree programs without access to necessary funding.\n- Concerns exist regarding the effectiveness and quality of non-degree programs, with some stakeholders questioning whether they lead to better employment outcomes compared to high school graduates.\n- Various federal programs, including the Workforce Innovation and Opportunity Act (WIOA) and veterans' educational benefits, provide some support for non-degree training, but gaps remain in accessibility and funding.\n- Recent proposals aim to expand eligibility for federal aid to include short-term non-degree programs, reflecting a shift in policy focus to address the evolving needs of the labor market.",
+    "word_count": 167,
+    "doc_word_count": 14776,
+    "compression_ratio": 0.011302111532214401,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18434",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "Congress has long focused on improving broadband internet access in rural areas, investing billions through federal subsidies primarily aimed at enhancing infrastructure. Despite these efforts, over 20 million Americans still lack broadband access as of 2019, with many stakeholders arguing that federal funding has not sufficiently addressed local conditions that hinder demand for broadband in rural communities. Factors such as lower income, older populations, and less educational attainment correlate with reduced broadband adoption rates, which lag behind urban areas by 12-13 percentage points. While federal programs have concentrated on supply-side solutions, experts suggest that increasing demand through education, affordability initiatives, and targeted outreach may be crucial for effective broadband expansion. The uneven geographic and demographic landscape of rural broadband demand complicates private-sector investment decisions, as providers often prioritize areas with higher potential returns. Although some rural markets show promise for broadband investment due to favorable demographics or economic conditions, many remain unattractive to providers without substantial government support. The report highlights the need for Congress to consider demand-side issues and explore options to enhance broadband adoption, such as improving the Lifeline program, promoting digital literacy, and adjusting federal funding mechanisms to incentivize private investment in underserved areas.",
+    "word_count": 197,
+    "doc_word_count": 8361,
+    "compression_ratio": 0.02356177490730774,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.9,
+      "conciseness": 0.8,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.9, \"conciseness\": 0.8, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18434",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- Congress aims to ensure broadband access in rural areas, with significant federal subsidies provided over decades.\n- As of 2019, over 20 million Americans lacked broadband access, particularly in rural regions.\n- Federal spending has not sufficiently addressed local conditions that affect broadband demand in rural areas.\n- Lower demand in rural areas may deter private investment and hinder federal expansion efforts.\n- A 2015 study indicated that 52% of the rural-urban broadband gap was due to lower adoption rates, not infrastructure.\n- Economic and demographic factors, such as lower income and education levels, negatively impact broadband demand in rural areas.\n- Some rural markets are more attractive for broadband investment due to favorable demographics or geography.\n- The report focuses on demand-side issues affecting broadband adoption among rural households and small businesses.\n- Rural households generally value broadband less than urban households, affecting their willingness to pay for service.\n- Many low-income households do not subscribe to broadband even when offered at no cost, indicating a valuation of zero.\n- Small businesses in rural areas are more likely to view broadband as essential but often do not utilize high-bandwidth applications.\n- Federal programs primarily target infrastructure deployment but also include some affordability initiatives for low-income households.\n- The USDA and FCC provide major funding for rural broadband, focusing on supply-side support.\n- The Lifeline program subsidizes broadband for low-income households but has low enrollment rates.\n- Education and outreach efforts have not consistently led to increased broadband adoption in rural areas.\n- The report discusses the role of telemedicine and precision agriculture in potentially increasing broadband demand.\n- Congress may consider various options to enhance broadband adoption and investment in rural areas.\n- Proposed changes to the Lifeline program and other federal initiatives could improve broadband accessibility and affordability.\n- The effectiveness of federal broadband programs is often limited by the lack of incentives for providers to promote adoption.\n- The FCC's speed benchmarks and service quality metrics are debated regarding their impact on rural broadband investment and adoption.",
+    "word_count": 341,
+    "doc_word_count": 8361,
+    "compression_ratio": 0.04078459514412151,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.7,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.7, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18434",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Rural Broadband Access\n- Congress has a long-standing interest in expanding broadband access in rural areas, with billions invested through federal subsidies.\n- As of 2019, over 20 million Americans lacked broadband access, with federal spending often not addressing local demand conditions.\n\n## Demand-Side Issues\n- Lower demand in rural areas, influenced by demographics and economic factors, discourages private-sector investment.\n- A 2015 study indicated that 52% of the rural-urban broadband gap was due to lower adoption rates rather than lack of infrastructure.\n\n## Characteristics of Rural Broadband Demand\n- Rural households generally have lower income, older populations, and lower educational attainment, affecting their demand for broadband.\n- Factors such as perceived value, affordability, and computer literacy contribute to lower broadband adoption rates.\n\n## Federal Programs and Policies\n- Major federal funding sources include USDA's Rural Utilities Service and FCC's Universal Service Fund, focusing on infrastructure deployment but also including some affordability initiatives.\n- Programs like the Lifeline program aim to subsidize broadband for low-income households, but enrollment rates are low.\n\n## Barriers to Adoption\n- Studies show that many rural residents do not subscribe to broadband even when available, often citing price and availability as barriers.\n- Small businesses in rural areas tend to have lower internet usage and are less likely to invest in higher-tier broadband services.\n\n## Implications for Infrastructure Investment\n- Broadband providers are hesitant to invest in rural markets due to perceived high risks and low returns.\n- Federal programs prioritize infrastructure buildout but often do not incentivize adoption or demand stimulation.\n\n## Options for Congressional Action\n- Congress could consider reforms to the Lifeline program to enhance broadband affordability and adoption.\n- Further research on barriers to broadband demand and targeted outreach programs could help increase adoption rates.\n- Adjusting federal program rules to encourage broadband providers to promote adoption could improve market conditions in rural areas.",
+    "word_count": 314,
+    "doc_word_count": 8361,
+    "compression_ratio": 0.03755531634971893,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18434",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: Congress is grappling with the challenge of improving broadband access and adoption in rural areas, where federal investments have not sufficiently addressed local demand factors.\n\nDETAILS:\n- Despite significant federal subsidies for rural broadband infrastructure, over 20 million Americans still lack access, with many rural households showing lower adoption rates compared to urban areas.\n- Factors such as lower income, older populations, and limited computer literacy contribute to reduced demand for broadband services in rural communities, complicating private-sector investment.\n- The report highlights the need for a dual focus on both infrastructure supply and demand-side strategies to enhance broadband adoption, particularly through education and targeted subsidies.\n- Federal programs like the Lifeline initiative aim to improve affordability for low-income households, but enrollment remains low, limiting their effectiveness in stimulating demand.\n- Congress is considering various options to adjust federal broadband policies and programs to better support rural broadband adoption and investment, including potential reforms to existing subsidy structures and outreach efforts.",
+    "word_count": 162,
+    "doc_word_count": 8361,
+    "compression_ratio": 0.0193756727664155,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18483",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "The ongoing debate between Congress and the Trump Administration regarding border security has focused on the enhancement and expansion of barriers along the southwest border, with funding for these constructions becoming a pivotal issue. The lack of comprehensive data on federal investments in border barriers has complicated discussions, stemming from evolving appropriations structures and the historical context of border enforcement dating back to the Treaty of Guadalupe Hidalgo in 1848. The U.S. Border Patrol, established in 1924, has historically managed border security, but significant barrier construction efforts began in the early 1990s, culminating in legislative actions such as the Illegal Immigration Reform and Immigrant Responsibility Act of 1996 and the Secure Fence Act of 2006. Following the establishment of the Department of Homeland Security in 2003, funding for border barriers was consolidated under various appropriations, with the Trump Administration's Executive Order in 2017 calling for immediate construction of a physical wall. Despite Congress approving substantial funding for barrier construction during Trump's tenure, the Administration sought additional resources through various means, including reallocating military funds, raising questions about the operational effectiveness and financial implications of these barriers. The complexities of funding, construction, and the strategic goals of border security continue to shape legislative discussions as Congress evaluates the efficacy and costs associated with expanding border barriers.",
+    "word_count": 215,
+    "doc_word_count": 4775,
+    "compression_ratio": 0.04502617801047121,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18483",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- Congress and the Trump Administration are debating the enhancement and expansion of barriers on the southwest border.\n- The funding and extent of these barriers are central issues in border security discussions.\n- There is a lack of comprehensive data on federal investment in border barriers due to changing appropriations structures.\n- The history of U.S. border enforcement and funding for barriers is contextualized in the report.\n- The Treaty of Guadalupe Hidalgo in 1848 established the U.S.-Mexico boundary.\n- The U.S. Border Patrol was established in 1924 to secure the borders against unauthorized migration.\n- The Immigration Act of 1924 set immigration quotas, excluding Western Hemisphere countries until 1976.\n- The Bracero Program (1942-1964) allowed nearly 5 million Mexican workers to fill labor shortages during WWII.\n- Border barrier construction efforts began in the early 1990s as a deterrent to illegal entry.\n- The Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA) of 1996 mandated additional physical barriers.\n- The establishment of the Department of Homeland Security (DHS) in 2003 shifted border security responsibilities from the Department of Justice to DHS.\n- Comprehensive immigration reform and border security measures were debated in Congress between 2005-2007.\n- The Secure Fence Act of 2006 mandated the construction of border barriers and technology.\n- Funding for border barriers was first specifically designated in the FY2006 DHS Appropriations Act.\n- The Border Security Fencing, Infrastructure, and Technology (BSFIT) appropriation was established in FY2007.\n- The appropriations structure changed in FY2017, complicating funding comparisons.\n- The Trump Administration issued Executive Order 13767 in 2017 to prioritize the construction of a physical wall on the southern border.\n- The Wall Program was established within CBP in FY2017 to manage border wall construction.\n- The Trump Administration requested significant supplemental appropriations for border wall construction in 2017 and subsequent years.\n- The FY2018 appropriations included funding for over 90 miles of physical barrier construction.\n- The Administration declared a national emergency in 2019 to access additional funding for border barriers.\n- Congress has provided $4.47 billion for border barrier planning and construction during the Trump Administration.\n- The report raises questions about projected costs, operational impacts, and the effectiveness of existing barriers.\n- The southern border spans nearly 2,000 miles, with various types of barriers constructed over time.",
+    "word_count": 383,
+    "doc_word_count": 4775,
+    "compression_ratio": 0.08020942408376963,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.7,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.7, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18483",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Border Security and Funding Legislation\n- Congress and the Trump Administration are debating enhancements to barriers on the southwest border, focusing on funding and construction.\n- The debate highlights a lack of comprehensive data on federal investment in border barriers due to evolving appropriations structures.\n\n## Historical Context of U.S.-Mexico Border Enforcement\n- The Treaty of Guadalupe Hidalgo (1848) established the U.S.-Mexico boundary, later demarcated by the Gadsden Purchase (1854).\n- The U.S. Border Patrol was established in 1924, initially with a small force to combat smuggling and unauthorized migration.\n- Immigration policies evolved, including the Bracero Program (1942-1964), which brought in Mexican workers, leading to ongoing unauthorized employment.\n\n## Development of Border Barriers\n- Significant barrier construction efforts began in the early 1990s, with the \"prevention through deterrence\" strategy introduced in 1994.\n- The Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA) of 1996 authorized physical barriers to deter illegal crossings.\n- Post-9/11, border security became a priority under the Department of Homeland Security (DHS), leading to increased funding for barriers.\n\n## Funding for Border Barriers (2007-2016)\n- The Border Security Fencing, Infrastructure, and Technology (BSFIT) appropriation was established in 2007, consolidating funding for border security.\n- Funding peaked in FY2006 and FY2007, but later years saw a tapering off as focus shifted to maintenance rather than new construction.\n\n## Trump Administration's Border Wall Initiative\n- Executive Order 13767 (2017) initiated the construction of a physical wall on the southern border.\n- The appropriations structure changed in FY2017, complicating comparisons to prior funding levels.\n- The Wall Program was established to oversee future wall construction, with significant funding requested and appropriated in subsequent years.\n\n## Recent Funding Developments (2017-Present)\n- The Trump Administration requested billions for border wall construction, with Congress providing varying amounts over several fiscal years.\n- Additional funding sources included reallocations from the Treasury Forfeiture Fund and the Department of Defense.\n- The Administration declared a national emergency to access more funds for border barriers.\n\n## Questions for Congressional Consideration\n- Projected operation and maintenance costs for existing and new barriers.\n- Cost estimates for priority border barrier projects, including land acquisition.\n- Measurable impacts of existing barriers on",
+    "word_count": 364,
+    "doc_word_count": 4775,
+    "compression_ratio": 0.0762303664921466,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18483",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The Trump Administration and Congress are engaged in a contentious debate over the funding and expansion of barriers along the U.S.-Mexico border, highlighting historical funding challenges and evolving legislative frameworks.\n\nDETAILS:\n- The debate centers on the lack of comprehensive data regarding federal investments in border barriers, which have evolved through various appropriations structures since the establishment of the Border Patrol in 1924.\n- Significant legislative actions, such as the Illegal Immigration Reform and Immigrant Responsibility Act of 1996 and the Secure Fence Act of 2006, have shaped the current framework for border barrier construction and funding.\n- The Trump Administration's push for a \"border wall system\" has led to unprecedented funding requests and reprogramming of existing resources, including emergency declarations to secure additional funding.\n- Recent appropriations have allocated billions for border barrier construction, with specific directives on design and location, reflecting a shift in congressional priorities and responses to the Administration's initiatives.\n- Ongoing discussions about the effectiveness and financial implications of border barriers raise critical questions for Congress regarding operational costs, land acquisition, and the overall impact on illegal immigration and smuggling.",
+    "word_count": 186,
+    "doc_word_count": 4775,
+    "compression_ratio": 0.03895287958115183,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18103",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "Before the Chief Financial Officers Act (CFO Act) was enacted in 1990, government agencies were plagued by significant financial mismanagement, resulting in billions of dollars lost to fraud, waste, and inefficiency, as highlighted in various reports that pointed to unreliable financial information and inadequate internal controls. In response, the CFO Act established a framework for financial management reform, mandating the appointment of Chief Financial Officers (CFOs) across federal agencies, enhancing internal controls, and requiring independent audits of financial statements. Over the years, substantial progress has been made in improving financial management practices, with agencies now producing timely audited financial statements and implementing better internal controls, although challenges remain, particularly regarding improper payments and outdated financial systems. The act also aimed to create a more skilled financial management workforce and improve the integration of financial management systems, yet ongoing issues such as inconsistent CFO responsibilities, high turnover rates, and the need for comprehensive government-wide financial management plans persist. Recommendations for further enhancements include standardizing CFO responsibilities, empowering deputy CFOs, and developing performance metrics to assess financial management quality, all aimed at ensuring that federal financial management continues to evolve and meet the needs of taxpayers and stakeholders effectively.",
+    "word_count": 197,
+    "doc_word_count": 8020,
+    "compression_ratio": 0.02456359102244389,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18103",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- Prior to the CFO Act, government agencies lost billions due to fraud, waste, and mismanagement.\n- Financial management issues included unreliable information and inadequate internal controls.\n- The CFO Act was enacted in 1990 to reform financial management across federal agencies.\n- The act established CFO positions in agencies and mandated independent audits of financial statements.\n- It aimed to strengthen internal controls, financial reporting practices, and the financial management workforce.\n- Subsequent reforms have been implemented to improve federal financial management.\n- The OMB has led reform efforts and developed guidance on financial management systems and auditing.\n- CFOs have contributed to improvements in financial management, including resolving audit findings and enhancing financial reporting.\n- The CFO Council coordinates activities related to financial management and internal controls.\n- The Department of the Treasury has developed guidance and tools for federal financial reporting.\n- The Federal Accounting Standards Advisory Board (FASAB) sets accounting standards for federal entities.\n- Agencies have improved the quality and timeliness of their financial reporting since the CFO Act.\n- The CFO Act requires agencies to prepare audited financial statements annually, with a focus on accountability.\n- Financial statement audits have led to improved internal controls and identification of weaknesses.\n- Despite progress, improper payments remain a significant issue, totaling about $151 billion in 2018.\n- Information security weaknesses have been identified, prompting legislative action to enhance security measures.\n- The Federal Financial Management Improvement Act mandates compliance with financial management systems requirements.\n- Agencies have made progress in modernizing financial systems, but challenges remain, including cost overruns and delays.\n- Shared services have led to cost savings, but implementation challenges persist.\n- The federal financial management workforce has been strengthened, but gaps in skills and training remain.\n- Recommendations for enhancing the CFO Act include standardizing CFO responsibilities and improving financial management plans.\n- A comprehensive government-wide financial management plan is needed for strategic direction and accountability.\n- Agencies face challenges in linking performance and cost information for effective decision-making.\n- The CFO Act's goals can be further achieved through enhanced internal controls and performance metrics.\n- Ongoing efforts are required to address long-standing financial management issues and improve transparency.",
+    "word_count": 366,
+    "doc_word_count": 8020,
+    "compression_ratio": 0.0456359102244389,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.7,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.7, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18103",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Financial Management Issues Before the CFO Act\n- Agencies lost billions due to fraud, waste, abuse, and mismanagement.\n- Financial management problems included unreliable information and inadequate reporting practices.\n\n## Enactment of the CFO Act\n- The CFO Act was enacted in 1990 to reform financial management in federal agencies.\n- It established Controller and CFO positions, mandated long-range planning, and required independent audits of financial statements.\n\n## Progress Since the CFO Act\n- Significant improvements in financial management have been made, including the establishment of leadership structures and annual financial management plans.\n- Agency CFOs have contributed to better financial practices, resolving audit findings, and improving financial reporting quality.\n\n## Challenges and Areas for Improvement\n- Despite progress, internal control weaknesses and improper payments remain significant issues.\n- Agencies face challenges in developing integrated financial management systems and ensuring data quality.\n\n## Recommendations for Enhancements\n1. Amend CFO responsibilities for uniformity across agencies.\n2. Establish statutory responsibilities for deputy CFOs to ensure continuity.\n3. Extend the reporting frequency of financial management plans.\n4. Develop performance-based metrics to assess financial management quality.\n5. Require agencies to identify key financial information and assess internal controls.\n\n## Conclusion\n- While the CFO Act has led to substantial improvements, ongoing challenges necessitate further enhancements to strengthen federal financial management.",
+    "word_count": 217,
+    "doc_word_count": 8020,
+    "compression_ratio": 0.027057356608478803,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18103",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The Chief Financial Officers Act (CFO Act) of 1990 significantly improved federal financial management by establishing robust internal controls, financial reporting standards, and a framework for accountability, though challenges remain.\n\nDETAILS:\n- Prior to the CFO Act, federal agencies faced significant financial mismanagement, leading to billions in losses due to fraud and inefficiencies.\n- The CFO Act mandated the creation of CFO positions in federal agencies, improved financial reporting practices, and required independent audits of agency financial statements.\n- Progress has been made in financial management, including the establishment of centralized leadership structures and improved audit outcomes, but issues with improper payments and outdated financial systems persist.\n- Recommendations for further enhancements include standardizing CFO responsibilities, improving workforce planning, and developing comprehensive government-wide financial management plans.\n- Ongoing challenges include the need for better integration of performance and cost information, addressing internal control weaknesses, and ensuring the reliability of financial data across agencies.",
+    "word_count": 154,
+    "doc_word_count": 8020,
+    "compression_ratio": 0.019201995012468828,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18235",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "The Congressional Research Service (CRS) has provided an interim update on federal spending for programs aimed at assisting low-income individuals and families, extending the analysis from previous reports to include data through FY2018, during which the federal government allocated $917.8 billion for such benefits and services, reflecting a 2.2% increase from FY2017. This increase, however, was lower than the economic growth rate of 5.4% and nearly matched the inflation rate of 2.3%. The report highlights the diversity of these programs, which cater primarily to families with working parents and the disabled, and notes that spending trends were significantly influenced by the recession of 2007-2009, leading to automatic increases in entitlement programs. While spending stabilized in FY2011 and FY2012, it has since risen steadily due to healthcare expenditures, particularly from Medicaid, which accounted for a substantial portion of the overall spending. The report categorizes federal spending into eight areas, with healthcare dominating at over half of the total, followed by cash aid and food assistance, while discretionary spending mainly covers housing and education. In FY2018, a significant majority of the funds\u201481%\u2014were allocated to mandatory spending programs, underscoring the reliance on entitlements for low-income assistance, while discretionary funding accounted for a smaller share. The analysis also reveals that a few large programs, such as Medicaid and SNAP, constitute the bulk of spending within their respective categories, highlighting the concentrated nature of federal support for low-income individuals and families.",
+    "word_count": 236,
+    "doc_word_count": 1137,
+    "compression_ratio": 0.2075637642919965,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.8,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.8, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18235",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- CRS produces reports on federal spending for low-income programs and services.\n- The current report updates spending data through FY2018, with $917.8 billion spent on low-income benefits.\n- FY2018 spending increased by 2.2% compared to FY2017, lower than economic growth (5.4%) and inflation (2.3%).\n- Programs focus on diverse populations, primarily families with children and the disabled.\n- Spending increased significantly during FY2008-FY2011 due to recession-related responses.\n- Major low-income assistance programs are entitlements, with spending rising as eligibility increased during the recession.\n- Spending stabilized in FY2011-FY2012 after the expiration of ARRA and recession-related increases.\n- From FY2012 to FY2018, spending grew steadily, mainly due to health care expenditures.\n- Spending is categorized into eight areas: health care, cash aid, food aid, education, housing, social services, employment and training, and energy assistance.\n- Health care accounted for over half of total spending in FY2018, significantly more than cash aid.\n- Health spending increases since FY2014 are largely due to Medicaid expansion under the ACA.\n- Most low-income benefits are funded through mandatory spending, while housing assistance is primarily discretionary.\n- In FY2018, 81% of spending was on mandatory programs, with health care being a significant portion.\n- Medicaid comprised 85% of health care spending, while major cash aid programs included Supplemental Security Income and tax credits.\n- SNAP was the largest food assistance program, also contributing to employment and training expenditures.\n- TANF provided cash assistance and was significant in social services and employment training spending.",
+    "word_count": 248,
+    "doc_word_count": 1137,
+    "compression_ratio": 0.218117854001759,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18235",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Federal Spending on Low-Income Programs\n- The federal government spent $917.8 billion on benefits and services for low-income individuals and families in FY2018, a 2.2% increase from FY2017.\n- Spending trends from FY2008 to FY2018 show significant increases during the recession and stabilization post-2011, with steady growth driven primarily by health care spending.\n\n## Program Diversity and Spending Categories\n- Programs targeting low-income individuals vary widely in purpose, design, and target populations, with major categories including health care, cash aid, food aid, education, housing, social services, employment training, and energy assistance.\n- Health care accounted for over half of total spending in FY2018, with Medicaid being a significant contributor, while discretionary spending primarily funded housing and education.\n\n## Budget Classification of Spending\n- In FY2018, 81% of spending on low-income programs was mandatory, while 15% was discretionary, with the remaining 4% classified as both.\n- Major programs like Medicaid, Supplemental Security Income, and SNAP dominated their respective categories, highlighting the concentration of spending in a few large programs.\n\n## Key Program Insights\n- Medicaid represented 85% of health care spending; Supplemental Security Income and tax credits accounted for 93% of cash aid; and SNAP made up 67% of food aid.\n- TANF, while primarily a cash assistance program, also contributed significantly to social services and employment training expenditures.",
+    "word_count": 219,
+    "doc_word_count": 1137,
+    "compression_ratio": 0.19261213720316622,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-18235",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The Congressional Research Service reports that federal spending on programs for low-income individuals and families reached $917.8 billion in FY2018, reflecting a 2.2% increase from the previous year.\n\nDETAILS:\n- The report updates spending trends for low-income programs through FY2018, highlighting diverse programs that target families with children and the disabled.\n- Spending increased significantly during the recession (FY2008-FY2011) due to automatic entitlements and legislative responses, but stabilized in FY2011 and FY2012 before steadily rising again from FY2012 to FY2018.\n- Health care accounted for over half of the total spending in FY2018, with Medicaid being a major contributor, while other program categories like employment and training saw decreased funding since FY2016.\n- The majority of spending (81%) was on mandatory programs, with discretionary funding primarily allocated to housing and education.\n- Key programs such as Medicaid and SNAP dominate their respective categories, with a few large programs accounting for most of the spending in cash aid, food aid, and education.",
+    "word_count": 162,
+    "doc_word_count": 1137,
+    "compression_ratio": 0.1424802110817942,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-17598",
+    "source_domain": "govreport",
+    "format_type": "dense",
+    "summary": "The document outlines the responsibilities and processes of various bureaus within the Department of the Interior regarding the leasing, permitting, and inspection of mineral extraction activities on federal lands and waters, primarily focusing on oil and gas. The Bureau of Land Management (BLM) oversees onshore activities, managing around 700 million acres of subsurface mineral rights, while the Bureau of Ocean Energy Management and the Bureau of Safety and Environmental Enforcement handle offshore operations. Companies seeking to drill must secure leases through auctions and obtain permits, with BLM and the Bureau of Safety and Environmental Enforcement ensuring compliance with environmental regulations and production verification. The Office of Natural Resources Revenue (ONRR) manages royalty collections, requiring companies to submit monthly reports on production and royalties, which are then reconciled and disbursed to appropriate accounts. The document highlights ONRR's compliance program, which includes audits, compliance reviews, and data mining to verify accurate royalty payments, and discusses the challenges faced in aligning compliance goals with the agency's mission to ensure accurate revenue collection. Recommendations are made for ONRR to establish clearer goals, document case selection processes, and enhance performance measures to improve the effectiveness of its compliance activities. The document concludes with ONRR's acknowledgment of the recommendations and plans for future improvements.",
+    "word_count": 208,
+    "doc_word_count": 11015,
+    "compression_ratio": 0.018883340898774397,
+    "evaluation": {
+      "faithfulness": 0.8,
+      "completeness": 0.7,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.8, \"completeness\": 0.7, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-17598",
+    "source_domain": "govreport",
+    "format_type": "bullets",
+    "summary": "- Several bureaus within the Department of the Interior manage mineral extraction activities on federal lands and waters.\n- The Bureau of Land Management (BLM) oversees onshore oil and gas activities, managing about 700 million acres of subsurface mineral rights.\n- At the end of fiscal year 2016, approximately 41,000 oil and gas leases covered 28.2 million acres across 32 states.\n- The Bureau of Ocean Energy Management handles offshore leasing, while the Bureau of Safety and Environmental Enforcement manages permitting and inspections for offshore activities.\n- The Department of the Interior is responsible for leasing approximately 1.71 billion offshore acres under the Outer Continental Shelf Lands Act.\n- Companies must secure permits from the appropriate bureau before drilling for oil and gas on federal leases.\n- BLM evaluates drilling permit applications to ensure compliance with land use plans and environmental regulations.\n- Companies report production volumes and royalties to the Office of Natural Resources Revenue (ONRR) through monthly reports.\n- ONRR oversees royalty collection, disbursement, and verification, ensuring compliance with federal laws and regulations.\n- Compliance activities include audits, compliance reviews, and data mining to ensure accurate royalty payments.\n- ONRR's compliance program has faced criticism for inadequate management and oversight of royalty collections over the years.\n- The agency has initiated several reforms, including organizational restructuring and the implementation of new compliance management systems.\n- ONRR's compliance goals have shifted over time, focusing more on efficiency rather than accuracy in royalty payments.\n- The agency has not consistently tracked the extent of compliance activities or their effectiveness in ensuring accurate royalty payments.\n- Recommendations for ONRR include establishing an accuracy goal, developing a documented case selection process, and improving performance measures.\n- STRAC member states expressed satisfaction with ONRR's coordination but lack documented case selection processes for compliance activities.\n- ONRR does not currently track the contributions of STRAC members toward its compliance goals, limiting its ability to assess overall effectiveness.\n- The report concludes with seven recommendations aimed at improving ONRR's compliance program and ensuring accurate royalty payments.",
+    "word_count": 341,
+    "doc_word_count": 11015,
+    "compression_ratio": 0.030957784838856105,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-17598",
+    "source_domain": "govreport",
+    "format_type": "hierarchical",
+    "summary": "## Mineral Extraction Activities Oversight\n- The Department of the Interior oversees leasing, permitting, and inspecting mineral extraction on federal lands and waters.\n- The Bureau of Land Management (BLM) manages onshore activities, overseeing approximately 700 million acres and 41,000 oil and gas leases.\n- The Bureau of Ocean Energy Management and the Bureau of Safety and Environmental Enforcement handle offshore activities.\n\n## Leasing Process\n- Auctions are held for companies to secure federal leases for oil and gas drilling.\n- Companies must obtain permits from the appropriate bureau before drilling.\n\n## Compliance and Reporting\n- Companies report production volumes and royalties to the Office of Natural Resources Revenue (ONRR).\n- ONRR verifies royalty payments and compliance through audits, compliance reviews, and data mining.\n\n## Challenges in Compliance Management\n- ONRR's compliance goals have shifted over time, focusing more on efficiency rather than accuracy.\n- The agency lacks documented processes for selecting compliance cases, affecting the assurance of accurate royalty payments.\n\n## Recommendations for Improvement\n1. Establish an accuracy goal for compliance activities.\n2. Develop a documented case selection process.\n3. Create performance measures to assess compliance case selection effectiveness.\n4. Analyze the effectiveness of the risk model used for case selection.\n5. Require STRAC members to document their case selection processes.\n6. Ensure STRAC members align their activities with ONRR's compliance goals in annual work plans.\n7. Track the performance of STRAC members in relation to ONRR's compliance goals.\n\n## Agency Response\n- The Department of the Interior concurred with all recommendations made for improving royalty compliance management.",
+    "word_count": 259,
+    "doc_word_count": 11015,
+    "compression_ratio": 0.02351339083068543,
+    "evaluation": {
+      "faithfulness": 0.9,
+      "completeness": 0.8,
+      "conciseness": 0.9,
+      "readability": 0.9,
+      "raw_response": "{\"faithfulness\": 0.9, \"completeness\": 0.8, \"conciseness\": 0.9, \"readability\": 0.9}"
+    },
+    "generation_model": "gpt-4o-mini"
+  },
+  {
+    "doc_id": "govreport-17598",
+    "source_domain": "govreport",
+    "format_type": "progressive",
+    "summary": "ONE-LINE: The document outlines the responsibilities and processes of the Department of the Interior's various bureaus in managing oil and gas leasing, permitting, and compliance on federal lands and waters, highlighting the need for improved accuracy and accountability in royalty collection.\n\nDETAILS:\n- The Bureau of Land Management (BLM) oversees onshore mineral extraction, managing around 700 million acres, while the Bureau of Ocean Energy Management and the Bureau of Safety and Environmental Enforcement handle offshore activities.\n- Companies must secure leases through auctions and obtain drilling permits, with compliance monitored through inspections and reporting requirements to ensure adherence to environmental regulations and accurate royalty payments.\n- The Office of Natural Resources Revenue (ONRR) is responsible for collecting and verifying royalties, but its current compliance goals may not align with its mission, particularly regarding the accuracy of royalty payments.\n- Recommendations for improvement include establishing an accuracy goal for compliance activities, developing a documented case selection process, and requiring state partners to align their compliance activities with ONRR\u2019s goals.\n- ONRR has initiated organizational changes and new training programs but faces challenges in effectively tracking compliance contributions and ensuring that its risk assessment models are effective in identifying noncompliance.",
+    "word_count": 198,
+    "doc_word_count": 11015,
+    "compression_ratio": 0.017975487970948705,
+    "evaluation": {
+      "faithfulness": 1.0,
+      "completeness": 0.9,
+      "conciseness": 1.0,
+      "readability": 1.0,
+      "raw_response": "{\"faithfulness\": 1.0, \"completeness\": 0.9, \"conciseness\": 1.0, \"readability\": 1.0}"
+    },
+    "generation_model": "gpt-4o-mini"
+  }
+]
