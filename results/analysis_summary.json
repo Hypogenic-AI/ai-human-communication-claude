@@ -1,0 +1,18 @@
+{
+  "H1": {
+    "supported": true,
+    "significant_improvements": 2,
+    "best_format": "progressive"
+  },
+  "H2": {
+    "faithfulness_maintained": "True",
+    "level1_faithfulness": 0.8333333333333334,
+    "level3_faithfulness": 0.9266666666666669
+  },
+  "H3": {
+    "optimal_length": "50",
+    "extreme_short_score": 0.8299999999999998,
+    "optimal_score": 0.8916666666666668
+  },
+  "timestamp": "2025-12-14T21:41:46.155185"
+}

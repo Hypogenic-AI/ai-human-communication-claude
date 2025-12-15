@@ -4,30 +4,27 @@
     "resource_finder": {
       "status": "completed",
       "started_at": "2025-12-14T18:20:13.112010",
-      "completed_at": "2025-12-14T18:31:13.549021",
+      "completed_at": "2025-12-14T20:59:24.168881",
       "success": true,
       "outputs": {
-        "literature_review": "/data/hypogenicai/workspaces/ai-human-communication-claude/literature_review.md",
-        "resources_catalog": "/data/hypogenicai/workspaces/ai-human-communication-claude/resources.md",
-        "papers_dir": "/data/hypogenicai/workspaces/ai-human-communication-claude/papers",
-        "datasets_dir": "/data/hypogenicai/workspaces/ai-human-communication-claude/datasets",
-        "code_dir": "/data/hypogenicai/workspaces/ai-human-communication-claude/code"
+        "skipped": true
       }
     },
     "experiment_runner": {
-      "status": "failed",
-      "started_at": "2025-12-14T18:31:13.549345",
-      "completed_at": "2025-12-14T19:12:25.270083",
-      "success": false,
+      "status": "completed",
+      "started_at": "2025-12-14T20:59:24.169123",
+      "completed_at": "2025-12-14T21:43:58.672878",
+      "success": true,
       "outputs": {
-        "success": false,
-        "return_code": 1,
-        "elapsed_time": 2471.7028770446777,
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 2674.491348028183,
         "log_file": "/data/hypogenicai/workspaces/ai-human-communication-claude/logs/execution_claude.log",
         "transcript_file": "/data/hypogenicai/workspaces/ai-human-communication-claude/logs/execution_claude_transcript.jsonl"
       }
     }
   },
   "current_stage": null,
-  "completed": false
+  "completed": true,
+  "completed_at": "2025-12-14T21:43:58.673221"
 }

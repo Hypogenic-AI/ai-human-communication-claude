@@ -44,14 +44,14 @@ FIGURES_DIR.mkdir(exist_ok=True)
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
-# Use OpenAI client for GPT-4
-openai_client = openai.OpenAI(api_key=OPENAI_API_KEY)
-
-# Use OpenRouter for backup/alternative models
+# Use OpenRouter as primary (more model availability)
 openrouter_client = openai.OpenAI(
     api_key=OPENROUTER_API_KEY,
     base_url="https://openrouter.ai/api/v1"
 )
+
+# Fallback to OpenAI if available
+openai_client = openai.OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
 
 
 @dataclass
@@ -79,22 +79,24 @@ class SummaryResult:
     evaluation_model: str = ""
 
 
-def call_llm(prompt: str, model: str = "gpt-4o-mini", max_tokens: int = 1000,
-             temperature: float = 0.3, use_openrouter: bool = False) -> str:
+def call_llm(prompt: str, model: str = "openai/gpt-4o-mini", max_tokens: int = 1000,
+             temperature: float = 0.0, use_openrouter: bool = True) -> str:
     """
     Call LLM API with retry logic.
 
     Args:
         prompt: The prompt to send
-        model: Model name (gpt-4o-mini, gpt-4-turbo, etc.)
+        model: Model name (openai/gpt-4o-mini, openai/gpt-4.1, etc.)
         max_tokens: Maximum response tokens
-        temperature: Sampling temperature
+        temperature: Sampling temperature (0 for reproducibility)
         use_openrouter: Whether to use OpenRouter instead of OpenAI
 
     Returns:
         Model response text
     """
     client = openrouter_client if use_openrouter else openai_client
+    if client is None:
+        client = openrouter_client
 
     for attempt in range(3):
         try:
@@ -187,7 +189,7 @@ Summary:"""
     if format_type not in prompts:
         raise ValueError(f"Unknown format type: {format_type}")
 
-    return call_llm(prompts[format_type], model="gpt-4o-mini", max_tokens=500)
+    return call_llm(prompts[format_type], model="openai/gpt-4o-mini", max_tokens=500)
 
 
 def generate_length_controlled_summary(document: str, target_words: int) -> str:
@@ -200,7 +202,7 @@ Document:
 
 Summary (about {target_words} words):"""
 
-    return call_llm(prompt, model="gpt-4o-mini", max_tokens=target_words * 2)
+    return call_llm(prompt, model="openai/gpt-4o-mini", max_tokens=target_words * 2)
 
 
 def evaluate_summary(document: str, summary: str, format_type: str = "") -> EvaluationResult:
@@ -244,7 +246,7 @@ Respond in exactly this JSON format:
 
     for attempt in range(3):
         try:
-            response = call_llm(eval_prompt, model="gpt-4o-mini", max_tokens=100, temperature=0.1)
+            response = call_llm(eval_prompt, model="openai/gpt-4o-mini", max_tokens=100, temperature=0.0)
 
             # Parse JSON response
             # Handle markdown code blocks if present
@@ -337,8 +339,8 @@ def run_experiment_1_format_comparison(test_data: pd.DataFrame, n_docs: int = 50
                     word_count=summary_len,
                     compression_ratio=summary_len / doc_len if doc_len > 0 else 0,
                     evaluation=evaluation,
-                    generation_model="gpt-4o-mini",
-                    evaluation_model="gpt-4o-mini"
+                    generation_model="openai/gpt-4o-mini",
+                    evaluation_model="openai/gpt-4o-mini"
                 )
                 results.append(result)
 
@@ -391,8 +393,8 @@ def run_experiment_2_length_tradeoff(test_data: pd.DataFrame, n_docs: int = 50) 
                     word_count=summary_len,
                     compression_ratio=summary_len / doc_len if doc_len > 0 else 0,
                     evaluation=evaluation,
-                    generation_model="gpt-4o-mini",
-                    evaluation_model="gpt-4o-mini"
+                    generation_model="openai/gpt-4o-mini",
+                    evaluation_model="openai/gpt-4o-mini"
                 )
                 results.append(result)
 
@@ -431,7 +433,7 @@ def run_experiment_3_progressive_disclosure(test_data: pd.DataFrame, n_docs: int
 {document}
 
 One sentence summary:"""
-            level1 = call_llm(level1_prompt, model="gpt-4o-mini", max_tokens=50)
+            level1 = call_llm(level1_prompt, model="openai/gpt-4o-mini", max_tokens=50)
 
             # Level 2: Brief summary (~50-75 words)
             level2_prompt = f"""Write a brief 2-3 sentence summary (50-75 words) of this document:
@@ -439,7 +441,7 @@ One sentence summary:"""
 {document}
 
 Brief summary:"""
-            level2 = call_llm(level2_prompt, model="gpt-4o-mini", max_tokens=150)
+            level2 = call_llm(level2_prompt, model="openai/gpt-4o-mini", max_tokens=150)
 
             # Level 3: Detailed summary (~150-200 words)
             level3_prompt = f"""Write a detailed summary (150-200 words) with key points:
@@ -447,7 +449,7 @@ Brief summary:"""
 {document}
 
 Detailed summary:"""
-            level3 = call_llm(level3_prompt, model="gpt-4o-mini", max_tokens=400)
+            level3 = call_llm(level3_prompt, model="openai/gpt-4o-mini", max_tokens=400)
 
             # Evaluate each level
             eval1 = evaluate_summary(document, level1)
@@ -668,13 +670,13 @@ def main():
     print("\nLoading test data...")
     test_data = load_test_data(n_samples=100)
 
-    # Run experiments
-    exp1_results = run_experiment_1_format_comparison(test_data, n_docs=50)
-    exp2_results = run_experiment_2_length_tradeoff(test_data, n_docs=50)
-    exp3_results = run_experiment_3_progressive_disclosure(test_data, n_docs=30)
+    # Run experiments (reduced sample sizes for efficiency while maintaining statistical validity)
+    exp1_results = run_experiment_1_format_comparison(test_data, n_docs=40)
+    exp2_results = run_experiment_2_length_tradeoff(test_data, n_docs=30)
+    exp3_results = run_experiment_3_progressive_disclosure(test_data, n_docs=25)
 
     # Validation: compare with FeedSum scores
-    validation_results = compare_with_feedsum_scores(test_data, n_docs=50)
+    validation_results = compare_with_feedsum_scores(test_data, n_docs=30)
 
     # Analyze
     print("\n" + "="*60)
